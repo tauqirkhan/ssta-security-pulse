@@ -1,12 +1,14 @@
 
 import { cn } from "@/lib/utils";
 import { Award } from "lucide-react";
+import { CSSProperties } from "react";
 
 interface CourseCardProps {
   title: string;
   category: string;
   description?: string;
   className?: string;
+  style?: CSSProperties;
 }
 
 const CourseCard = ({
@@ -14,6 +16,7 @@ const CourseCard = ({
   category,
   description,
   className,
+  style,
 }: CourseCardProps) => {
   return (
     <div
@@ -21,6 +24,7 @@ const CourseCard = ({
         "bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-gray-100",
         className
       )}
+      style={style}
     >
       <div className="flex items-center mb-4">
         <Award className="text-ssta-gold w-6 h-6 mr-2" />

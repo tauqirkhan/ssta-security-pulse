@@ -1,5 +1,6 @@
 
 import { cn } from "@/lib/utils";
+import { CSSProperties } from "react";
 
 interface TeamMemberCardProps {
   name: string;
@@ -7,6 +8,7 @@ interface TeamMemberCardProps {
   imageUrl: string;
   description?: string;
   className?: string;
+  style?: CSSProperties;
 }
 
 const TeamMemberCard = ({
@@ -15,6 +17,7 @@ const TeamMemberCard = ({
   imageUrl,
   description,
   className,
+  style,
 }: TeamMemberCardProps) => {
   return (
     <div 
@@ -22,6 +25,7 @@ const TeamMemberCard = ({
         "bg-white rounded-lg overflow-hidden shadow-lg transition-all duration-300 hover:shadow-2xl",
         className
       )}
+      style={style}
     >
       <div className="h-60 w-full overflow-hidden">
         <img
