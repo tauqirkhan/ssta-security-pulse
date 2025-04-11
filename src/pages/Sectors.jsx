@@ -122,11 +122,9 @@ const Sectors = () => {
           
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-12">
             <div className="lg:col-span-1">
-              <img 
-                src="/lovable-uploads/464b4a6f-ff79-46cd-8256-a3972ca69f96.png" 
-                alt="Security Training" 
-                className="rounded-lg shadow-lg w-full h-full object-cover"
-              />
+              <div className="h-full w-full bg-gradient-to-br from-ssta-navy via-ssta-dark to-ssta-gold/30 rounded-lg shadow-lg overflow-hidden">
+                <div className="absolute inset-0 opacity-20 bg-pattern-grid"></div>
+              </div>
             </div>
             
             <div className="lg:col-span-2 bg-white p-8 rounded-lg shadow-md">
@@ -196,12 +194,10 @@ const Sectors = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
             <div className="bg-white rounded-lg overflow-hidden shadow-lg">
-              <div className="h-64 overflow-hidden">
-                <img 
-                  src="/lovable-uploads/510e5ef7-d9c7-4992-a736-02c3fa3cf828.png" 
-                  alt="Giga-Project Security" 
-                  className="w-full h-full object-cover"
-                />
+              <div className="h-64 overflow-hidden bg-gradient-to-r from-ssta-navy to-ssta-dark">
+                <div className="w-full h-full flex items-center justify-center">
+                  <Building className="text-white/20 w-24 h-24" />
+                </div>
               </div>
               <div className="p-6">
                 <div className="flex items-center mb-4">
@@ -219,12 +215,10 @@ const Sectors = () => {
             </div>
             
             <div className="bg-white rounded-lg overflow-hidden shadow-lg">
-              <div className="h-64 overflow-hidden">
-                <img 
-                  src="/lovable-uploads/464b4a6f-ff79-46cd-8256-a3972ca69f96.png" 
-                  alt="Event Security" 
-                  className="w-full h-full object-cover"
-                />
+              <div className="h-64 overflow-hidden bg-gradient-to-r from-ssta-gold/70 to-ssta-dark">
+                <div className="w-full h-full flex items-center justify-center">
+                  <Calendar className="text-white/20 w-24 h-24" />
+                </div>
               </div>
               <div className="p-6">
                 <div className="flex items-center mb-4">

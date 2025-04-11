@@ -15,11 +15,7 @@ const Home = () => {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center">
         <div className="absolute inset-0 z-0">
-          <img
-            src="/lovable-uploads/ea7e57be-43b7-4db5-af4a-895e925447c8.png"
-            alt="SSTA Hero"
-            className="w-full h-full object-cover"
-          />
+          <div className="w-full h-full bg-gradient-to-r from-ssta-navy to-ssta-dark"></div>
           <div className="absolute inset-0 bg-gradient-to-r from-ssta-dark/90 to-ssta-dark/70"></div>
         </div>
         <div className="container mx-auto px-4 relative z-10">
@@ -71,11 +67,9 @@ const Home = () => {
               </Button>
             </div>
             <div className="relative animate-fade-in-right">
-              <img 
-                src="/lovable-uploads/dd5280dc-15fa-4559-a86b-aee3022ae762.png" 
-                alt="SSTA Training" 
-                className="rounded-lg shadow-lg w-full"
-              />
+              <div className="rounded-lg shadow-lg w-full h-80 bg-gradient-to-br from-ssta-navy via-ssta-dark to-ssta-gold/50 overflow-hidden">
+                <div className="absolute inset-0 opacity-20 bg-pattern-grid"></div>
+              </div>
               <div className="absolute -bottom-6 -left-6 bg-ssta-gold text-ssta-dark p-4 rounded shadow-lg">
                 <p className="text-4xl font-bold">18+</p>
                 <p className="font-medium">Elite Programs</p>
@@ -203,27 +197,27 @@ const Home = () => {
             <TeamMemberCard 
               name="Nawaf Y M Alqahtani" 
               position="CEO (Saudi)" 
-              imageUrl="/lovable-uploads/bb5a7104-ae03-483a-b8c7-f84430f68d6d.png"
+              imageUrl="https://via.placeholder.com/300x400?text=CEO"
               className="animate-fade-in"
             />
             <TeamMemberCard 
               name="Sukh Gill" 
               position="Strategic Director & Founder" 
-              imageUrl="/lovable-uploads/bb5a7104-ae03-483a-b8c7-f84430f68d6d.png"
+              imageUrl="https://via.placeholder.com/300x400?text=Director"
               className="animate-fade-in"
               style={{ animationDelay: "0.2s" }}
             />
             <TeamMemberCard 
               name="Mark Bramwell" 
               position="Director of Training" 
-              imageUrl="/lovable-uploads/bb5a7104-ae03-483a-b8c7-f84430f68d6d.png"
+              imageUrl="https://via.placeholder.com/300x400?text=Training+Director"
               className="animate-fade-in"
               style={{ animationDelay: "0.3s" }}
             />
             <TeamMemberCard 
               name="Samraj Padda" 
               position="Senior Trainer & Quality Lead" 
-              imageUrl="/lovable-uploads/bb5a7104-ae03-483a-b8c7-f84430f68d6d.png"
+              imageUrl="https://via.placeholder.com/300x400?text=Senior+Trainer"
               className="animate-fade-in"
               style={{ animationDelay: "0.4s" }}
             />
