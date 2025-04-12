@@ -16,7 +16,7 @@ const About = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 animate-fade-in">
               About SSTA
             </h1>
-            <p className="text-xl text-gray-200 animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
+            <p className="text-xl text-white font-medium animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
               Building Saudi Arabia's security excellence
             </p>
           </div>

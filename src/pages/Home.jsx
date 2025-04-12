@@ -1,3 +1,4 @@
+
 import React from "react";
 import { ArrowRight, Award, Shield, Users, Building, Calendar, CheckCircle } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -14,7 +15,11 @@ const Home = () => {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center">
         <div className="absolute inset-0 z-0">
-          <div className="w-full h-full bg-gradient-to-r from-ssta-navy to-ssta-dark"></div>
+          <img
+            src="/lovable-uploads/ea7e57be-43b7-4db5-af4a-895e925447c8.png"
+            alt="SSTA Hero"
+            className="w-full h-full object-cover"
+          />
           <div className="absolute inset-0 bg-gradient-to-r from-ssta-dark/90 to-ssta-dark/70"></div>
         </div>
         <div className="container mx-auto px-4 relative z-10">
@@ -22,17 +27,17 @@ const Home = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 animate-fade-in">
               The New Standard in Saudi Security Training
             </h1>
-            <p className="text-xl text-gray-200 mb-8 animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
+            <p className="text-xl text-white mb-8 animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
               World-class certifications. Saudi-first leadership. Built for Vision 2030.
             </p>
-            <p className="text-white/80 mb-8 max-w-2xl animate-fade-in opacity-0" style={{ animationDelay: "0.4s", animationFillMode: "forwards" }}>
+            <p className="text-white mb-8 max-w-2xl animate-fade-in opacity-0" style={{ animationDelay: "0.4s", animationFillMode: "forwards" }}>
               Empowering Saudi's security workforce through elite, internationally accredited training.
             </p>
             <div className="flex flex-wrap gap-4 animate-fade-in opacity-0" style={{ animationDelay: "0.6s", animationFillMode: "forwards" }}>
               <Button asChild className="bg-ssta-gold hover:bg-ssta-gold-light text-ssta-dark font-bold">
                 <Link to="/courses">Explore Courses</Link>
               </Button>
-              <Button asChild variant="outline" className="text-white border-white hover:bg-white/10">
+              <Button asChild variant="outlineWhite" className="border-2 font-medium">
                 <Link to="/about">Learn More</Link>
               </Button>
             </div>
