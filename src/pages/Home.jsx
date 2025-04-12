@@ -70,7 +70,7 @@ const Home = () => {
               <div className="rounded-lg shadow-lg w-full h-80 bg-gradient-to-br from-ssta-navy via-ssta-dark to-ssta-gold/50 overflow-hidden">
                 <div className="absolute inset-0 opacity-20 bg-pattern-grid"></div>
               </div>
-              <div className="absolute -bottom-6 -left-6 bg-ssta-gold text-ssta-dark p-4 rounded shadow-lg">
+              <div className="absolute -bottom-6 -right-6 bg-ssta-gold text-ssta-dark p-4 rounded shadow-lg">
                 <p className="text-4xl font-bold">18+</p>
                 <p className="font-medium">Elite Programs</p>
               </div>
