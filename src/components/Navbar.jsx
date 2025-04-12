@@ -43,7 +43,7 @@ const Navbar = () => {
         </Link>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-6">
           <Link
             to="/"
             className="text-white/90 hover:text-white font-medium transition-colors px-2 py-1"
@@ -80,7 +80,7 @@ const Navbar = () => {
           >
             Contact
           </Link>
-          <Button className="bg-ssta-gold hover:bg-ssta-gold-light text-ssta-dark font-bold transition-colors px-6">
+          <Button className="bg-ssta-gold hover:bg-ssta-gold-light text-ssta-dark font-bold px-5 py-2">
             Partner With Us
           </Button>
         </div>
@@ -144,7 +144,7 @@ const Navbar = () => {
             >
               Contact
             </Link>
-            <Button className="bg-ssta-gold hover:bg-ssta-gold-light text-ssta-dark font-bold transition-colors w-full py-3">
+            <Button className="bg-ssta-gold hover:bg-ssta-gold-light text-ssta-dark font-bold w-full py-3">
               Partner With Us
             </Button>
           </div>

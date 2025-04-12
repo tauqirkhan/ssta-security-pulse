@@ -24,33 +24,33 @@ const About = () => {
       </section>
 
       {/* Our Story */}
-      <section className="py-16">
+      <section className="py-12">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div>
               <SectionTitle
                 title="Our Story"
                 subtitle="Founded on a mission to transform Saudi Arabia's security industry"
                 centered={false}
               />
-              <p className="text-gray-700 mb-6">
-                SSTA was founded in 2023 with a clear purpose: to build the Kingdom's first truly world-class security training academy, led by Saudis and powered by elite international expertise.
+              <p className="text-gray-700 mb-4">
+                SSTA was founded in 2025 with a clear purpose: to build the Kingdom's first truly world-class security training academy, led by Saudis and powered by elite international expertise.
               </p>
-              <p className="text-gray-700 mb-6">
+              <p className="text-gray-700 mb-4">
                 We identified a critical gap in the market. While Saudi Arabia is home to over 200,000 security professionals, less than 20% have formal qualifications or structured training. Most security companies operate as manpower providers rather than centers of excellence.
               </p>
-              <p className="text-gray-700 mb-6">
+              <p className="text-gray-700 mb-4">
                 Our vision is to fundamentally transform this landscape, aligning with Vision 2030's focus on upskilling Saudi nationals and developing a knowledge-based economy.
               </p>
             </div>
             <div className="relative">
               <img
-                src="https://via.placeholder.com/600x400?text=Our+Story"
+                src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
                 alt="SSTA Foundation"
-                className="rounded-lg shadow-lg w-full"
+                className="rounded-lg shadow-lg w-full object-cover h-80"
               />
               <div className="absolute -bottom-6 -right-6 bg-ssta-gold text-ssta-dark p-4 rounded shadow-lg">
-                <p className="text-lg font-bold">Founded 2023</p>
+                <p className="text-lg font-bold">Founded 2025</p>
               </div>
             </div>
           </div>
@@ -58,14 +58,14 @@ const About = () => {
       </section>
 
       {/* Our Mission & Vision */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <SectionTitle
             title="Mission & Vision"
             subtitle="Setting a new standard for Saudi security"
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
             <div className="bg-white p-8 rounded-lg shadow-md">
               <div className="mb-6">
                 <Target className="text-ssta-gold h-12 w-12" />
@@ -96,14 +96,14 @@ const About = () => {
       </section>
 
       {/* What Sets Us Apart */}
-      <section className="py-16">
+      <section className="py-12">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="order-2 lg:order-1">
               <img
-                src="https://via.placeholder.com/600x400?text=Security+Training"
+                src="https://images.unsplash.com/photo-1542744095-291d1f67b221?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
                 alt="Security Training"
-                className="rounded-lg shadow-lg w-full"
+                className="rounded-lg shadow-lg w-full h-80 object-cover"
               />
             </div>
             <div className="order-1 lg:order-2">
@@ -113,7 +113,7 @@ const About = () => {
                 centered={false}
               />
 
-              <div className="space-y-6 mt-8">
+              <div className="space-y-5 mt-6">
                 <div className="flex gap-4">
                   <div className="flex-shrink-0">
                     <CheckCircle className="text-ssta-gold h-6 w-6" />
@@ -168,14 +168,14 @@ const About = () => {
       </section>
 
       {/* Our Approach */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <SectionTitle
             title="Our Approach"
             subtitle="How we develop Saudi security excellence"
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
             <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300">
               <div className="bg-ssta-gold/10 p-3 rounded-full w-16 h-16 flex items-center justify-center mb-4">
                 <Shield className="text-ssta-gold w-8 h-8" />

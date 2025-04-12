@@ -1,4 +1,3 @@
-
 import React from "react";
 import { ArrowRight, Award, Shield, Users, Building, Calendar, CheckCircle } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -60,7 +59,7 @@ const Home = () => {
               <p className="text-gray-700 font-semibold mb-8">
                 We don't supply manpower — we build leaders.
               </p>
-              <Button asChild className="bg-ssta-navy hover:bg-ssta-dark text-white group">
+              <Button asChild className="bg-ssta-navy hover:bg-ssta-dark text-white group inline-flex items-center">
                 <Link to="/about">
                   Learn More <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={16} />
                 </Link>

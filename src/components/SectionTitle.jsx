@@ -10,7 +10,7 @@ const SectionTitle = ({
 }) => {
   return (
     <div className={cn(
-      "mb-10",
+      "mb-8",
       centered && "text-center",
       className
     )}>
