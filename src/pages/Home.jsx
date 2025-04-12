@@ -13,15 +13,7 @@ const Home = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center">
-        <div className="absolute inset-0 z-0">
-          <img
-            src="/lovable-uploads/ea7e57be-43b7-4db5-af4a-895e925447c8.png"
-            alt="SSTA Hero"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-ssta-dark/90 to-ssta-dark/70"></div>
-        </div>
+      <section className="relative h-screen flex items-center bg-gradient-to-r from-ssta-dark to-ssta-navy">
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 animate-fade-in">
@@ -74,9 +66,9 @@ const Home = () => {
               <div className="rounded-lg shadow-lg w-full h-80 bg-gradient-to-br from-ssta-navy via-ssta-dark to-ssta-gold/50 overflow-hidden">
                 <div className="absolute inset-0 opacity-20 bg-pattern-grid"></div>
               </div>
-              <div className="absolute -bottom-6 -right-6 bg-ssta-gold text-ssta-dark p-4 rounded shadow-lg">
-                <p className="text-4xl font-bold">18+</p>
-                <p className="font-medium">Elite Programs</p>
+              <div className="absolute -bottom-6 -right-6 bg-ssta-gold text-ssta-dark p-6 rounded shadow-lg">
+                <p className="font-medium">Established</p>
+                <p className="text-3xl font-bold">2025</p>
               </div>
             </div>
           </div>
@@ -118,7 +110,7 @@ const Home = () => {
               </div>
               <h3 className="text-xl font-bold mb-3 text-ssta-dark">Global Certifications</h3>
               <p className="text-gray-600">
-                18 globally benchmarked certifications across all security sectors.
+                Comprehensive globally benchmarked certifications across all security sectors.
               </p>
             </div>
             
@@ -140,7 +132,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <SectionTitle 
             title="Our Courses & Certifications" 
-            subtitle="We offer 18 certification pathways spanning across multiple security disciplines, all delivered by world-class trainers and validated to international standards."
+            subtitle="We offer comprehensive certification pathways spanning across multiple security disciplines, all delivered by world-class trainers and validated to international standards."
           />
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">

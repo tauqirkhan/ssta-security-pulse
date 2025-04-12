@@ -1,3 +1,5 @@
+
+import React from "react";
 import SectionTitle from "@/components/SectionTitle";
 import { Linkedin } from "lucide-react";
 import CallToAction from "@/components/CallToAction";
@@ -32,15 +34,15 @@ const Leadership = () => {
 
   return (
     <>
-      {/* Hero Section */}
-      <section className="relative pt-32 pb-20 bg-ssta-navy">
+      {/* Hero Section - Updated for better responsiveness */}
+      <section className="relative pt-28 sm:pt-32 pb-16 sm:pb-20 bg-gradient-to-r from-ssta-dark to-ssta-navy">
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 animate-fade-in">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 sm:mb-6 animate-fade-in">
               Leadership Team
             </h1>
-            <p className="text-xl text-white font-medium animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
-              Saudi leadership backed by international security expertise
+            <p className="text-lg sm:text-xl text-white font-medium animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
+              Saudi leadership. International expertise. Unmatched excellence.
             </p>
           </div>
         </div>
