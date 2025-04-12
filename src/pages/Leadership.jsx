@@ -1,163 +1,176 @@
 
 import React from "react";
+import { Award, Shield, Briefcase } from "lucide-react";
 import SectionTitle from "@/components/SectionTitle";
-import { Linkedin } from "lucide-react";
+import TeamMemberCard from "@/components/TeamMemberCard";
 import CallToAction from "@/components/CallToAction";
 
 const Leadership = () => {
-  const leadershipTeam = [
-    {
-      name: "Nawaf Y M Alqahtani",
-      position: "CEO (Saudi)",
-      imageUrl: "/lovable-uploads/bb5a7104-ae03-483a-b8c7-f84430f68d6d.png",
-      bio: "A proud Saudi entrepreneur and the empowered public face of SSTA. Nawaf brings a purpose-driven mission to uplift the Kingdom's security sector and ensure Saudi security guards are trained and recognised to global standards and become the face of our kingdom's superior security forces. His vision is rooted in national service — preparing Saudi personnel for global-scale events like FIFA 2034 and beyond. He leads all regulatory engagement, market access, and Saudisation initiatives."
-    },
-    {
-      name: "Sukh Gill",
-      position: "Strategic Director & Founder",
-      imageUrl: "/lovable-uploads/bb5a7104-ae03-483a-b8c7-f84430f68d6d.png",
-      bio: "The driving visionary behind SSTA, Sukh relocated from London to Riyadh with one purpose — to build Saudi Arabia's most credible and elite security training institution. He leverages deep UK networks, investor alignment, and operational leadership to orchestrate every layer of the company's roadmap while empowering Nawaf as the Kingdom's local anchor."
-    },
-    {
-      name: "Mark Bramwell",
-      position: "Director of Training",
-      imageUrl: "/lovable-uploads/bb5a7104-ae03-483a-b8c7-f84430f68d6d.png",
-      bio: "One of the most elite security minds in the UK. With over 20 years in military intelligence, corporate security, and executive protection, Mark has designed and delivered complex training programmes for some of the world's most high-risk environments. He is currently Head of Hard Services at Sky Studios — one of Europe's most advanced media campuses — and has trained hundreds of high-performance operatives. Fluent in Arabic, Mark fuses Western discipline with local cultural intelligence, making him a strategic asset for the Kingdom's future."
-    },
-    {
-      name: "Samraj Padda",
-      position: "Senior Trainer & Quality Lead",
-      imageUrl: "/lovable-uploads/bb5a7104-ae03-483a-b8c7-f84430f68d6d.png",
-      bio: "A master tactician and frontline operations leader. With 20+ years of elite experience, Samraj worked directly under Mark at Sky Studios and was instrumental in overseeing tactical security operations for high-risk zones and corporate sites. He brings boots-on-the-ground experience to every course, ensuring that trainees are not only certified — but crisis-ready. His leadership in executing live training across medical, crowd control, and VIP security operations ensures SSTA delivers nothing short of excellence."
-    }
-  ];
-
   return (
     <>
-      {/* Hero Section - Updated for better responsiveness */}
-      <section className="relative pt-28 sm:pt-32 pb-16 sm:pb-20 bg-gradient-to-r from-ssta-dark to-ssta-navy">
+      {/* Hero Section */}
+      <section className="relative pt-32 pb-20 bg-gradient-to-r from-ssta-navy to-ssta-dark">
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 sm:mb-6 animate-fade-in">
-              Leadership Team
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 animate-fade-in">
+              Our Leadership Team
             </h1>
-            <p className="text-lg sm:text-xl text-white font-medium animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
+            <p className="text-xl text-white font-bold bg-ssta-navy/50 px-4 py-2 rounded-md inline-block animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
               Saudi leadership. International expertise. Unmatched excellence.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Team Section */}
+      {/* Executive Team */}
       <section className="py-16">
         <div className="container mx-auto px-4">
           <SectionTitle 
-            title="Meet Our Leadership Team" 
-            subtitle="The team behind Saudi Arabia's premier security training academy"
+            title="Executive Leadership" 
+            subtitle="Our leadership team combines Saudi ownership with international security expertise"
           />
           
-          <div className="mt-16">
-            {leadershipTeam.map((leader, index) => (
-              <div 
-                key={index} 
-                className={`flex flex-col lg:flex-row gap-8 mb-20 items-center ${
-                  index % 2 !== 0 ? 'lg:flex-row-reverse' : ''
-                }`}
-              >
-                <div className="lg:w-1/3">
-                  <div className="relative rounded-lg overflow-hidden shadow-xl">
-                    <img 
-                      src={leader.imageUrl} 
-                      alt={leader.name} 
-                      className="w-full aspect-[3/4] object-cover"
-                    />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
+            <TeamMemberCard 
+              name="Nawaf Y M Alqahtani" 
+              position="CEO (Saudi)" 
+              imageUrl="https://placehold.co/400x500/navy/white?text=CEO"
+            />
+            <TeamMemberCard 
+              name="Sukh Gill" 
+              position="Strategic Director & Founder" 
+              imageUrl="https://placehold.co/400x500/navy/white?text=Director"
+            />
+            <TeamMemberCard 
+              name="Mark Bramwell" 
+              position="Director of Training" 
+              imageUrl="https://placehold.co/400x500/navy/white?text=Training+Director"
+            />
+            <TeamMemberCard 
+              name="Samraj Padda" 
+              position="Senior Trainer & Quality Lead" 
+              imageUrl="https://placehold.co/400x500/navy/white?text=Senior+Trainer"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Leadership Vision */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <img 
+                src="https://placehold.co/800x600/navy/white?text=Leadership+Meeting" 
+                alt="SSTA Leadership Meeting" 
+                className="rounded-lg shadow-lg w-full"
+              />
+            </div>
+            <div>
+              <SectionTitle 
+                title="Our Leadership Vision" 
+                subtitle="Setting a new standard for security excellence in Saudi Arabia"
+                centered={false}
+              />
+              
+              <p className="text-gray-700 mb-4">
+                SSTA's leadership team is committed to transforming Saudi Arabia's security industry through elite training and development programs that create a new generation of security professionals.
+              </p>
+              
+              <p className="text-gray-700 mb-6">
+                Our leadership philosophy is built on three core principles:
+              </p>
+              
+              <div className="space-y-6">
+                <div className="flex">
+                  <div className="bg-ssta-gold/10 p-3 rounded-full h-14 w-14 flex items-center justify-center mr-4 flex-shrink-0">
+                    <Shield className="text-ssta-gold" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold mb-2 text-ssta-dark">Saudi-First Approach</h3>
+                    <p className="text-gray-600">
+                      We are 100% Saudi-owned and led, ensuring alignment with the Kingdom's Vision 2030 goals and local cultural contexts.
+                    </p>
                   </div>
                 </div>
                 
-                <div className="lg:w-2/3">
-                  <h3 className="text-3xl font-bold mb-2 text-ssta-dark">{leader.name}</h3>
-                  <p className="text-xl text-ssta-gold font-medium mb-6">{leader.position}</p>
-                  <p className="text-gray-700 text-lg leading-relaxed mb-6">{leader.bio}</p>
-                  <a href="#" className="inline-flex items-center text-ssta-navy hover:text-ssta-gold transition-colors">
-                    <Linkedin className="mr-2" size={20} />
-                    Connect on LinkedIn
-                  </a>
+                <div className="flex">
+                  <div className="bg-ssta-gold/10 p-3 rounded-full h-14 w-14 flex items-center justify-center mr-4 flex-shrink-0">
+                    <Award className="text-ssta-gold" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold mb-2 text-ssta-dark">Global Excellence</h3>
+                    <p className="text-gray-600">
+                      We partner with elite international security experts to bring world-class training standards to the Kingdom.
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="flex">
+                  <div className="bg-ssta-gold/10 p-3 rounded-full h-14 w-14 flex items-center justify-center mr-4 flex-shrink-0">
+                    <Briefcase className="text-ssta-gold" />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold mb-2 text-ssta-dark">Industry Transformation</h3>
+                    <p className="text-gray-600">
+                      We aim to elevate the entire security profession from basic manpower provision to true security expertise.
+                    </p>
+                  </div>
                 </div>
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Team Values */}
-      <section className="py-16 bg-gray-50">
+      {/* Training Leadership */}
+      <section className="py-16">
         <div className="container mx-auto px-4">
           <SectionTitle 
-            title="Our Leadership Values" 
-            subtitle="The principles that guide our leadership team"
+            title="Training Leadership" 
+            subtitle="Our expert trainers bring decades of international security experience"
           />
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-            <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 border-t-4 border-ssta-gold">
-              <h3 className="text-xl font-bold mb-4 text-ssta-dark">Saudi-First Leadership</h3>
-              <p className="text-gray-700">
-                We are committed to empowering Saudi nationals to lead the security industry, ensuring that our training aligns with the Kingdom's cultural values and strategic priorities.
-              </p>
-            </div>
-            
-            <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 border-t-4 border-ssta-gold">
-              <h3 className="text-xl font-bold mb-4 text-ssta-dark">Global Excellence</h3>
-              <p className="text-gray-700">
-                We bring world-class security expertise to the Kingdom, combining international best practices with local knowledge to deliver training that meets the highest global standards.
-              </p>
-            </div>
-            
-            <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 border-t-4 border-ssta-gold">
-              <h3 className="text-xl font-bold mb-4 text-ssta-dark">Vision 2030 Alignment</h3>
-              <p className="text-gray-700">
-                Our leadership team is deeply committed to supporting the Kingdom's Vision 2030 goals, particularly in terms of Saudisation, capability development, and economic diversification.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Leadership Quote */}
-      <section className="py-16 bg-ssta-navy text-white">
-        <div className="container mx-auto px-4 text-center">
-          <blockquote className="text-2xl md:text-3xl italic font-light max-w-4xl mx-auto mb-8">
-            "We don't train guards — we develop professionals. Our mission is to raise the standard, raise the reputation, and raise the next generation of Saudi security leaders."
-          </blockquote>
-          <p className="text-xl font-bold text-ssta-gold">— Nawaf Y M Alqahtani, CEO</p>
-        </div>
-      </section>
-
-      {/* Team Photo */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <div className="relative rounded-lg overflow-hidden shadow-xl">
-            <img 
-              src="/lovable-uploads/bb5a7104-ae03-483a-b8c7-f84430f68d6d.png" 
-              alt="SSTA Leadership Team" 
-              className="w-full h-[400px] object-cover object-center"
+            <TeamMemberCard 
+              name="James Wilson" 
+              position="Counter Terrorism Expert" 
+              imageUrl="https://placehold.co/400x500/navy/white?text=CT+Expert"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-ssta-dark/80 to-transparent/30 flex items-end">
-              <div className="p-8">
-                <h3 className="text-3xl font-bold text-white mb-2">Leadership That Delivers</h3>
-                <p className="text-white/90 max-w-2xl">
-                  Our diverse leadership team combines Saudi vision with international security expertise to create a truly world-class security training academy.
-                </p>
-              </div>
-            </div>
+            <TeamMemberCard 
+              name="Sarah Al-Harbi" 
+              position="Healthcare Security Lead" 
+              imageUrl="https://placehold.co/400x500/navy/white?text=Healthcare+Lead"
+            />
+            <TeamMemberCard 
+              name="Mohammed Khalid" 
+              position="Event Security Specialist" 
+              imageUrl="https://placehold.co/400x500/navy/white?text=Event+Specialist"
+            />
+            <TeamMemberCard 
+              name="David Thomson" 
+              position="Security Risk Assessment Lead" 
+              imageUrl="https://placehold.co/400x500/navy/white?text=Risk+Lead"
+            />
+            <TeamMemberCard 
+              name="Aisha Al-Otaibi" 
+              position="Training Coordinator" 
+              imageUrl="https://placehold.co/400x500/navy/white?text=Training+Coordinator"
+            />
+            <TeamMemberCard 
+              name="Abdullah Al-Ghamdi" 
+              position="VIP Protection Specialist" 
+              imageUrl="https://placehold.co/400x500/navy/white?text=VIP+Protection"
+            />
           </div>
         </div>
       </section>
 
       {/* Call to Action */}
       <CallToAction 
-        title="Work With Our Expert Team"
-        description="Contact us to discuss how our leadership team can help elevate your organization's security capabilities."
-        buttonText="Get in Touch"
+        title="Meet Our Team in Person"
+        description="Contact us to learn more about our leadership team and training philosophy."
+        buttonText="Contact Us"
         buttonLink="/contact"
       />
     </>

@@ -12,14 +12,14 @@ import CallToAction from "@/components/CallToAction";
 const Home = () => {
   return (
     <>
-      {/* Hero Section */}
-      <section className="relative h-screen flex items-center bg-gradient-to-r from-ssta-dark to-ssta-navy">
+      {/* Hero Section - Improved visibility with consistent colors */}
+      <section className="relative h-screen flex items-center bg-gradient-to-r from-ssta-navy to-ssta-dark">
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-3xl">
+          <div className="max-w-3xl bg-ssta-navy/30 p-8 rounded-lg backdrop-blur-sm">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 animate-fade-in">
               The New Standard in Saudi Security Training
             </h1>
-            <p className="text-xl text-white mb-8 animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
+            <p className="text-xl text-white font-medium mb-8 animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
               World-class certifications. Saudi-first leadership. Built for Vision 2030.
             </p>
             <p className="text-white mb-8 max-w-2xl animate-fade-in opacity-0" style={{ animationDelay: "0.4s", animationFillMode: "forwards" }}>
@@ -29,7 +29,7 @@ const Home = () => {
               <Button asChild className="bg-ssta-gold hover:bg-ssta-gold-light text-ssta-dark font-bold">
                 <Link to="/courses">Explore Courses</Link>
               </Button>
-              <Button asChild variant="outlineWhite" className="border-2 font-medium">
+              <Button asChild variant="outline" className="border-2 border-white text-white hover:bg-white/20">
                 <Link to="/about">Learn More</Link>
               </Button>
             </div>

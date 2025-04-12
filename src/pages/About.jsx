@@ -9,14 +9,14 @@ import CallToAction from "@/components/CallToAction";
 const About = () => {
   return (
     <>
-      {/* Hero Section */}
+      {/* Hero Section with improved visibility */}
       <section className="relative pt-32 pb-20 bg-gradient-to-r from-ssta-navy to-ssta-dark">
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 animate-fade-in">
               About SSTA
             </h1>
-            <p className="text-xl text-white font-medium animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
+            <p className="text-xl text-white font-bold bg-ssta-navy/50 px-4 py-2 rounded-md inline-block animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
               Building Saudi Arabia's security excellence
             </p>
           </div>
