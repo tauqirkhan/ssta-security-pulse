@@ -12,17 +12,25 @@ import CallToAction from "@/components/CallToAction";
 const Home = () => {
   return (
     <>
-      {/* Hero Section - Improved visibility with consistent colors */}
-      <section className="relative h-screen flex items-center bg-gradient-to-r from-ssta-navy to-ssta-dark">
+      {/* Hero Section */}
+      <section className="relative h-screen flex items-center">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="/lovable-uploads/ea7e57be-43b7-4db5-af4a-895e925447c8.png"
+            alt="SSTA Hero"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-ssta-dark/90 to-ssta-dark/70"></div>
+        </div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-3xl bg-ssta-navy/30 p-8 rounded-lg backdrop-blur-sm">
+          <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 animate-fade-in">
               The New Standard in Saudi Security Training
             </h1>
             <p className="text-xl text-white font-medium mb-8 animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
               World-class certifications. Saudi-first leadership. Built for Vision 2030.
             </p>
-            <p className="text-white mb-8 max-w-2xl animate-fade-in opacity-0" style={{ animationDelay: "0.4s", animationFillMode: "forwards" }}>
+            <p className="text-white/80 mb-8 max-w-2xl animate-fade-in opacity-0" style={{ animationDelay: "0.4s", animationFillMode: "forwards" }}>
               Empowering Saudi's security workforce through elite, internationally accredited training.
             </p>
             <div className="flex flex-wrap gap-4 animate-fade-in opacity-0" style={{ animationDelay: "0.6s", animationFillMode: "forwards" }}>
@@ -63,9 +71,11 @@ const Home = () => {
               </Button>
             </div>
             <div className="relative animate-fade-in-right">
-              <div className="rounded-lg shadow-lg w-full h-80 bg-gradient-to-br from-ssta-navy via-ssta-dark to-ssta-gold/50 overflow-hidden">
-                <div className="absolute inset-0 opacity-20 bg-pattern-grid"></div>
-              </div>
+              <img 
+                src="/lovable-uploads/dd5280dc-15fa-4559-a86b-aee3022ae762.png" 
+                alt="SSTA Training" 
+                className="rounded-lg shadow-lg w-full"
+              />
               <div className="absolute -bottom-6 -right-6 bg-ssta-gold text-ssta-dark p-6 rounded shadow-lg">
                 <p className="font-medium">Established</p>
                 <p className="text-3xl font-bold">2025</p>
@@ -110,7 +120,7 @@ const Home = () => {
               </div>
               <h3 className="text-xl font-bold mb-3 text-ssta-dark">Global Certifications</h3>
               <p className="text-gray-600">
-                Comprehensive globally benchmarked certifications across all security sectors.
+                18 globally benchmarked certifications across all security sectors.
               </p>
             </div>
             
@@ -132,7 +142,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <SectionTitle 
             title="Our Courses & Certifications" 
-            subtitle="We offer comprehensive certification pathways spanning across multiple security disciplines, all delivered by world-class trainers and validated to international standards."
+            subtitle="We offer 18 certification pathways spanning across multiple security disciplines, all delivered by world-class trainers and validated to international standards."
           />
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
@@ -193,27 +203,27 @@ const Home = () => {
             <TeamMemberCard 
               name="Nawaf Y M Alqahtani" 
               position="CEO (Saudi)" 
-              imageUrl="https://via.placeholder.com/300x400?text=CEO"
+              imageUrl="/lovable-uploads/bb5a7104-ae03-483a-b8c7-f84430f68d6d.png"
               className="animate-fade-in"
             />
             <TeamMemberCard 
               name="Sukh Gill" 
               position="Strategic Director & Founder" 
-              imageUrl="https://via.placeholder.com/300x400?text=Director"
+              imageUrl="/lovable-uploads/bb5a7104-ae03-483a-b8c7-f84430f68d6d.png"
               className="animate-fade-in"
               style={{ animationDelay: "0.2s" }}
             />
             <TeamMemberCard 
               name="Mark Bramwell" 
               position="Director of Training" 
-              imageUrl="https://via.placeholder.com/300x400?text=Training+Director"
+              imageUrl="/lovable-uploads/bb5a7104-ae03-483a-b8c7-f84430f68d6d.png"
               className="animate-fade-in"
               style={{ animationDelay: "0.3s" }}
             />
             <TeamMemberCard 
               name="Samraj Padda" 
               position="Senior Trainer & Quality Lead" 
-              imageUrl="https://via.placeholder.com/300x400?text=Senior+Trainer"
+              imageUrl="/lovable-uploads/bb5a7104-ae03-483a-b8c7-f84430f68d6d.png"
               className="animate-fade-in"
               style={{ animationDelay: "0.4s" }}
             />
