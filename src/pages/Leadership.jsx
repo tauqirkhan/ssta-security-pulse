@@ -11,7 +11,7 @@ const Leadership = () => {
       {/* Hero Section with improved visibility */}
       <section className="relative pt-32 pb-20 bg-gradient-to-r from-ssta-navy to-ssta-dark">
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-3xl mx-auto text-center hero-content-box">
+          <div className="hero-content-box">
             <h1 className="text-4xl md:text-5xl hero-headline animate-fade-in">
               Our Leadership Team
             </h1>

@@ -127,9 +127,7 @@
 .hero-headline {
   @apply text-white font-bold mb-4;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
-  background-color: rgba(0, 0, 0, 0.5);
   padding: 0.75rem 1.5rem;
-  border-radius: 0.5rem;
   display: inline-block;
   border-left: 4px solid var(--ssta-gold);
 }
@@ -137,9 +135,7 @@
 .hero-subtitle {
   @apply text-white font-medium mb-8;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
-  background-color: rgba(10, 51, 94, 0.75);
   padding: 0.75rem 1.5rem;
-  border-radius: 0.5rem;
   display: inline-block;
   border-left: 4px solid var(--ssta-gold);
 }
@@ -174,10 +170,35 @@
   @apply z-10 max-w-3xl mx-auto text-center px-4;
 }
 
-/* Hero content box styling */
+/* Hero content box styling - UPDATED */
 .hero-content-box {
-  @apply bg-black/30 p-6 rounded-lg backdrop-blur-sm border border-white/10;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  @apply bg-gradient-to-b from-black/40 to-black/20 p-6 rounded-lg;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 100%;
+  background: var(--ssta-gold);
+  opacity: 0.8;
+}
+
+.hero-content-box::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, var(--ssta-gold), transparent);
 }
 
 /* Improved Learn More button */
