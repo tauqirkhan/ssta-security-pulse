@@ -15,22 +15,26 @@ const Home = () => {
       {/* Hero Section with improved visibility */}
       <section className="hero-section">
         <div className="hero-content">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl hero-headline animate-fade-in">
-            The New Standard in Saudi Security Training
-          </h1>
-          <p className="hero-subtitle animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
-            World-class certifications. Saudi-first leadership. Built for Vision 2030.
-          </p>
-          <p className="text-white/80 mb-8 max-w-2xl mx-auto animate-fade-in opacity-0" style={{ animationDelay: "0.4s", animationFillMode: "forwards" }}>
-            Empowering Saudi's security workforce through elite, internationally accredited training.
-          </p>
-          <div className="flex flex-wrap gap-4 justify-center animate-fade-in opacity-0" style={{ animationDelay: "0.6s", animationFillMode: "forwards" }}>
-            <Button asChild className="bg-ssta-gold hover:bg-ssta-gold-light text-ssta-dark font-bold">
-              <Link to="/courses">Explore Courses</Link>
-            </Button>
-            <Button asChild variant="outline" className="btn-outline-white">
-              <Link to="/about">Learn More</Link>
-            </Button>
+          <div className="hero-content-box">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl hero-headline animate-fade-in">
+              The New Standard in Saudi Security Training
+            </h1>
+            <p className="hero-subtitle animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
+              World-class certifications. Saudi-first leadership. Built for Vision 2030.
+            </p>
+            <p className="text-white/90 mb-8 max-w-2xl mx-auto animate-fade-in opacity-0" style={{ animationDelay: "0.4s", animationFillMode: "forwards" }}>
+              Empowering Saudi's security workforce through elite, internationally accredited training.
+            </p>
+            <div className="flex flex-wrap gap-4 justify-center animate-fade-in opacity-0" style={{ animationDelay: "0.6s", animationFillMode: "forwards" }}>
+              <Button asChild className="bg-ssta-gold hover:bg-ssta-gold-light text-ssta-dark font-bold">
+                <Link to="/courses">Explore Courses</Link>
+              </Button>
+              <Button asChild variant="learnMore">
+                <Link to="/about" className="flex items-center gap-2">
+                  Learn More <ArrowRight className="transition-transform group-hover:translate-x-1" size={16} />
+                </Link>
+              </Button>
+            </div>
           </div>
         </div>
       </section>

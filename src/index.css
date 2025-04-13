@@ -125,21 +125,23 @@
 
 /* Improved headline visibility for hero sections */
 .hero-headline {
-  @apply text-white font-bold mb-4 shadow-lg;
+  @apply text-white font-bold mb-4;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 0.5rem 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
   display: inline-block;
+  border-left: 4px solid var(--ssta-gold);
 }
 
 .hero-subtitle {
-  @apply text-white font-medium mb-8 shadow-md;
+  @apply text-white font-medium mb-8;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
-  background-color: rgba(10, 51, 94, 0.6);
-  padding: 0.5rem 1rem;
+  background-color: rgba(10, 51, 94, 0.75);
+  padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
   display: inline-block;
+  border-left: 4px solid var(--ssta-gold);
 }
 
 /* Section styling */
@@ -170,4 +172,15 @@
 
 .hero-content {
   @apply z-10 max-w-3xl mx-auto text-center px-4;
+}
+
+/* Hero content box styling */
+.hero-content-box {
+  @apply bg-black/30 p-6 rounded-lg backdrop-blur-sm border border-white/10;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Improved Learn More button */
+.learn-more-btn {
+  @apply bg-white text-ssta-dark hover:bg-ssta-gold transition-colors duration-300 font-bold flex items-center gap-2 border-2 border-transparent hover:border-white;
 }
