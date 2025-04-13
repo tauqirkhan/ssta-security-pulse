@@ -77,7 +77,7 @@ const Contact = () => {
                       Our Location
                     </h3>
                     <p className="text-gray-600">
-                      SSTA Headquarters, Riyadh Business District
+                      YYYY Headquarters, Riyadh Business District
                       <br />
                       Riyadh, Saudi Arabia
                     </p>
@@ -93,9 +93,9 @@ const Contact = () => {
                       Email Us
                     </h3>
                     <p className="text-gray-600">
-                      info@ssta-academy.com
+                      info@ssta-xxxxxxx.com
                       <br />
-                      training@ssta-academy.com
+                      training@ssta-xxxxxxx.com
                     </p>
                   </div>
                 </div>
@@ -165,6 +165,7 @@ const Contact = () => {
                           name="name"
                           value={formData.name}
                           onChange={handleChange}
+                          autocomplete="off"
                           required
                           className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-ssta-gold"
                         />
@@ -218,6 +219,7 @@ const Contact = () => {
                           type="tel"
                           id="phone"
                           name="phone"
+                          autocomplete="off"
                           value={formData.phone}
                           onChange={handleChange}
                           className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-ssta-gold"

@@ -1,7 +1,7 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
-import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -12,20 +12,33 @@ const Footer = () => {
           <div>
             <h2 className="text-2xl font-bold mb-6">SSTA</h2>
             <p className="text-gray-300 mb-4">
-              The Saudi Security Training Academy - setting a new standard in security training and certification across the Kingdom.
+              The Saudi Security Training Academy - setting a new standard in
+              security training and certification across the Kingdom.
             </p>
             <div className="flex space-x-4 mt-6">
-              <a href="#" className="text-white hover:text-ssta-gold transition-colors">
-                <Facebook size={20} />
+              <a
+                href="#"
+                className="text-white hover:text-ssta-gold transition-colors"
+              >
+                <FaFacebook size={20} />
               </a>
-              <a href="#" className="text-white hover:text-ssta-gold transition-colors">
-                <Twitter size={20} />
+              <a
+                href="#"
+                className="text-white hover:text-ssta-gold transition-colors"
+              >
+                <FaTwitter size={20} />
               </a>
-              <a href="#" className="text-white hover:text-ssta-gold transition-colors">
-                <Instagram size={20} />
+              <a
+                href="#"
+                className="text-white hover:text-ssta-gold transition-colors"
+              >
+                <FaInstagram size={20} />
               </a>
-              <a href="#" className="text-white hover:text-ssta-gold transition-colors">
-                <Linkedin size={20} />
+              <a
+                href="#"
+                className="text-white hover:text-ssta-gold transition-colors"
+              >
+                <FaLinkedin size={20} />
               </a>
             </div>
           </div>
@@ -35,32 +48,50 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-6">Quick Links</h3>
             <ul className="space-y-3">
               <li>
-                <Link to="/" className="text-gray-300 hover:text-white transition-colors">
+                <Link
+                  to="/"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-gray-300 hover:text-white transition-colors">
+                <Link
+                  to="/about"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/courses" className="text-gray-300 hover:text-white transition-colors">
+                <Link
+                  to="/courses"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   Courses
                 </Link>
               </li>
               <li>
-                <Link to="/sectors" className="text-gray-300 hover:text-white transition-colors">
+                <Link
+                  to="/sectors"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   Sectors We Serve
                 </Link>
               </li>
               <li>
-                <Link to="/leadership" className="text-gray-300 hover:text-white transition-colors">
+                <Link
+                  to="/leadership"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   Leadership
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-gray-300 hover:text-white transition-colors">
+                <Link
+                  to="/contact"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   Contact
                 </Link>
               </li>
@@ -72,27 +103,42 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-6">Our Courses</h3>
             <ul className="space-y-3">
               <li>
-                <Link to="/courses" className="text-gray-300 hover:text-white transition-colors">
+                <Link
+                  to="/courses"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   Certified Security Personnel
                 </Link>
               </li>
               <li>
-                <Link to="/courses" className="text-gray-300 hover:text-white transition-colors">
+                <Link
+                  to="/courses"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   Crisis Management
                 </Link>
               </li>
               <li>
-                <Link to="/courses" className="text-gray-300 hover:text-white transition-colors">
+                <Link
+                  to="/courses"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   Executive Protection
                 </Link>
               </li>
               <li>
-                <Link to="/courses" className="text-gray-300 hover:text-white transition-colors">
+                <Link
+                  to="/courses"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   Event Security
                 </Link>
               </li>
               <li>
-                <Link to="/courses" className="text-gray-300 hover:text-white transition-colors">
+                <Link
+                  to="/courses"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
                   First Aid & Response
                 </Link>
               </li>
@@ -106,16 +152,17 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin className="mr-3 h-5 w-5 text-ssta-gold flex-shrink-0 mt-1" />
                 <span className="text-gray-300">
-                  123 King Fahd Road, Riyadh Business District, Kingdom of Saudi Arabia
+                  123 King Fahd Road, Riyadh Business District, Kingdom of Saudi
+                  Arabia
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone className="mr-3 h-5 w-5 text-ssta-gold flex-shrink-0" />
-                <span className="text-gray-300">+966 50 123 4567</span>
+                <span className="text-gray-300">+966 xx xx 1234</span>
               </li>
               <li className="flex items-center">
                 <Mail className="mr-3 h-5 w-5 text-ssta-gold flex-shrink-0" />
-                <span className="text-gray-300">info@ssta.com</span>
+                <span className="text-gray-300">info@sxsxtx.com</span>
               </li>
             </ul>
           </div>
@@ -125,13 +172,20 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            &copy; {new Date().getFullYear()} Saudi Security Training Academy. All rights reserved.
+            &copy; {new Date().getFullYear()} Saudi Security Training Academy.
+            All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link to="/privacy-policy" className="text-gray-400 text-sm hover:text-white transition-colors">
+            <Link
+              to="/privacy-policy"
+              className="text-gray-400 text-sm hover:text-white transition-colors"
+            >
               Privacy Policy
             </Link>
-            <Link to="/terms-of-service" className="text-gray-400 text-sm hover:text-white transition-colors">
+            <Link
+              to="/terms-of-service"
+              className="text-gray-400 text-sm hover:text-white transition-colors"
+            >
               Terms of Service
             </Link>
           </div>

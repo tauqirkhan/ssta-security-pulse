@@ -21,37 +21,41 @@ const Home = () => {
     <>
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-[url('/image.png')] px-4">
-        <div className="text-center max-w-3xl mx-auto space-y-6 bg-black/30 p-8 rounded-2xl shadow-lg backdrop-blur-sm">
+        {/* Dark overlay */}
+        <div className="absolute inset-0 bg-black/60 z-0" />
+
+        {/* Content */}
+        <div className="relative z-10 text-center max-w-3xl mx-auto space-y-6 px-6">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white animate-fade-in">
             The New Standard in Saudi Security Training
           </h1>
           <p
-            className="text-lg text-white/90 animate-fade-in"
+            className="text-lg text-white/90 animate-fade-in opacity-0"
             style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}
           >
             World-class certifications. Saudi-first leadership. Built for Vision
             2030.
           </p>
           <p
-            className="text-base text-white/80 animate-fade-in"
+            className="text-base text-white/80 animate-fade-in opacity-0"
             style={{ animationDelay: "0.4s", animationFillMode: "forwards" }}
           >
             Empowering Saudi's security workforce through elite, internationally
             accredited training.
           </p>
           <div
-            className="flex flex-wrap justify-center gap-4 animate-fade-in"
+            className="flex flex-wrap justify-center gap-4 animate-fade-in opacity-0"
             style={{ animationDelay: "0.6s", animationFillMode: "forwards" }}
           >
             <Button
               asChild
-              className="bg-ssta-gold hover:bg-ssta-gold-light text-ssta-dark font-semibold px-6 py-3 rounded-lg transition"
+              className="bg-ssta-gold hover:bg-ssta-gold-light text-ssta-dark font-bold px-6 py-3 rounded-lg"
             >
               <Link to="/courses">Explore Courses</Link>
             </Button>
             <Button
               asChild
-              className="text-white border border-white hover:bg-white hover:text-black font-semibold px-6 py-3 rounded-lg transition group"
+              className="border border-white text-white hover:bg-white hover:text-black font-medium px-6 py-3 rounded-lg transition-colors group"
             >
               <Link to="/about" className="flex items-center gap-2">
                 Learn More
