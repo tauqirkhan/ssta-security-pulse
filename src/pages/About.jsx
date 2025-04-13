@@ -12,10 +12,10 @@ const About = () => {
       <section className="relative pt-32 pb-20 bg-gradient-to-r from-ssta-navy to-ssta-dark">
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 hero-headline animate-fade-in">
+            <h1 className="text-4xl md:text-5xl hero-headline animate-fade-in">
               About SSTA
             </h1>
-            <p className="text-xl text-white font-bold hero-subtitle animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
+            <p className="hero-subtitle animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
               Building Saudi Arabia's security excellence
             </p>
           </div>
@@ -43,11 +43,9 @@ const About = () => {
               </p>
             </div>
             <div className="relative">
-              <img
-                src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
-                alt="SSTA Foundation"
-                className="rounded-lg shadow-lg w-full object-cover h-80"
-              />
+              <div className="rounded-lg shadow-lg w-full h-80 image-placeholder">
+                <p className="image-placeholder-text">SSTA Foundation</p>
+              </div>
               <div className="absolute -bottom-6 -right-6 bg-ssta-gold text-ssta-dark p-4 rounded shadow-lg">
                 <p className="text-lg font-bold">Founded 2025</p>
               </div>
@@ -98,7 +96,7 @@ const About = () => {
       <section className="py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div className="order-2 lg:order-1">
-            <div className="rounded-lg shadow-lg w-full h-80 bg-gray-300 flex items-center justify-center">
+            <div className="rounded-lg shadow-lg w-full h-80 image-placeholder">
               <p className="text-gray-600 text-lg">Security Training Excellence</p>
             </div>
           </div>

@@ -125,11 +125,49 @@
 
 /* Improved headline visibility for hero sections */
 .hero-headline {
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  @apply bg-ssta-dark/70 px-4 py-2 rounded-md inline-block;
+  @apply text-white font-bold mb-4 shadow-lg;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  display: inline-block;
 }
 
 .hero-subtitle {
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  @apply bg-ssta-navy/70 px-4 py-2 rounded-md inline-block;
+  @apply text-white font-medium mb-8 shadow-md;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+  background-color: rgba(10, 51, 94, 0.6);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+}
+
+/* Section styling */
+.section-padding {
+  @apply py-16 px-4;
+}
+
+/* Image placeholders */
+.image-placeholder {
+  @apply bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center rounded-lg shadow-md overflow-hidden;
+}
+
+.image-placeholder-text {
+  @apply text-gray-600 font-medium text-center px-4;
+}
+
+/* Improved container */
+.container {
+  @apply px-4 mx-auto;
+  max-width: 1280px;
+}
+
+/* Fixed hero section */
+.hero-section {
+  @apply relative min-h-screen flex items-center;
+  background: linear-gradient(135deg, var(--ssta-navy), var(--ssta-dark));
+}
+
+.hero-content {
+  @apply z-10 max-w-3xl mx-auto text-center px-4;
 }

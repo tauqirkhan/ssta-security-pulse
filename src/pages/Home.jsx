@@ -1,3 +1,4 @@
+
 import React from "react";
 import { ArrowRight, Award, Shield, Users, Building, Calendar, CheckCircle } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -11,37 +12,32 @@ import CallToAction from "@/components/CallToAction";
 const Home = () => {
   return (
     <>
-      {/* Hero Section */}
-      <section className="relative h-screen flex items-center">
-        <div className="absolute inset-0 z-0">
-          <div className="w-full h-full bg-gradient-to-r from-ssta-navy to-ssta-dark"></div>
-        </div>
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 hero-headline animate-fade-in">
-              The New Standard in Saudi Security Training
-            </h1>
-            <p className="text-xl text-white font-medium mb-8 hero-subtitle animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
-              World-class certifications. Saudi-first leadership. Built for Vision 2030.
-            </p>
-            <p className="text-white/80 mb-8 max-w-2xl animate-fade-in opacity-0" style={{ animationDelay: "0.4s", animationFillMode: "forwards" }}>
-              Empowering Saudi's security workforce through elite, internationally accredited training.
-            </p>
-            <div className="flex flex-wrap gap-4 animate-fade-in opacity-0" style={{ animationDelay: "0.6s", animationFillMode: "forwards" }}>
-              <Button asChild className="bg-ssta-gold hover:bg-ssta-gold-light text-ssta-dark font-bold">
-                <Link to="/courses">Explore Courses</Link>
-              </Button>
-              <Button asChild variant="outline" className="border-2 border-white text-white hover:bg-white/20">
-                <Link to="/about">Learn More</Link>
-              </Button>
-            </div>
+      {/* Hero Section with improved visibility */}
+      <section className="hero-section">
+        <div className="hero-content">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl hero-headline animate-fade-in">
+            The New Standard in Saudi Security Training
+          </h1>
+          <p className="hero-subtitle animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
+            World-class certifications. Saudi-first leadership. Built for Vision 2030.
+          </p>
+          <p className="text-white/80 mb-8 max-w-2xl mx-auto animate-fade-in opacity-0" style={{ animationDelay: "0.4s", animationFillMode: "forwards" }}>
+            Empowering Saudi's security workforce through elite, internationally accredited training.
+          </p>
+          <div className="flex flex-wrap gap-4 justify-center animate-fade-in opacity-0" style={{ animationDelay: "0.6s", animationFillMode: "forwards" }}>
+            <Button asChild className="bg-ssta-gold hover:bg-ssta-gold-light text-ssta-dark font-bold">
+              <Link to="/courses">Explore Courses</Link>
+            </Button>
+            <Button asChild variant="outline" className="btn-outline-white">
+              <Link to="/about">Learn More</Link>
+            </Button>
           </div>
         </div>
       </section>
 
       {/* About Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
+      <section className="section-padding bg-gray-50">
+        <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in-left">
               <SectionTitle 
@@ -65,8 +61,8 @@ const Home = () => {
               </Button>
             </div>
             <div className="relative animate-fade-in-right">
-              <div className="rounded-lg shadow-lg w-full h-80 bg-gray-300 flex items-center justify-center">
-                <p className="text-gray-600 text-lg">Professional Security Training</p>
+              <div className="rounded-lg shadow-lg w-full h-80 image-placeholder">
+                <p className="image-placeholder-text">Professional Security Training</p>
               </div>
               <div className="absolute -bottom-6 -right-6 bg-ssta-gold text-ssta-dark p-6 rounded shadow-lg">
                 <p className="font-medium">Established</p>
@@ -78,8 +74,8 @@ const Home = () => {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
+      <section className="section-padding">
+        <div className="container">
           <SectionTitle 
             title="Why Choose SSTA?" 
             subtitle="Saudi Arabia is home to over 200,000 security guards — yet less than 20% have formal training or certification. The industry is dominated by manpower firms with little focus on development, structure, or standards."
@@ -130,8 +126,8 @@ const Home = () => {
       </section>
 
       {/* Courses Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
+      <section className="section-padding bg-gray-50">
+        <div className="container">
           <SectionTitle 
             title="Our Courses & Certifications" 
             subtitle="We offer 18 certification pathways spanning across multiple security disciplines, all delivered by world-class trainers and validated to international standards."
@@ -184,8 +180,8 @@ const Home = () => {
       </section>
 
       {/* Leadership Team Section */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
+      <section className="section-padding">
+        <div className="container">
           <SectionTitle 
             title="Leadership Team" 
             subtitle="Our team combines Saudi leadership with international security expertise to deliver unmatched training excellence."
@@ -195,27 +191,27 @@ const Home = () => {
             <TeamMemberCard 
               name="Nawaf Y M Alqahtani" 
               position="CEO (Saudi)" 
-              imageUrl="/lovable-uploads/bb5a7104-ae03-483a-b8c7-f84430f68d6d.png"
+              imageUrl="https://placehold.co/400x500/gray/white?text=CEO"
               className="animate-fade-in"
             />
             <TeamMemberCard 
               name="Sukh Gill" 
               position="Strategic Director & Founder" 
-              imageUrl="/lovable-uploads/bb5a7104-ae03-483a-b8c7-f84430f68d6d.png"
+              imageUrl="https://placehold.co/400x500/gray/white?text=Director"
               className="animate-fade-in"
               style={{ animationDelay: "0.2s" }}
             />
             <TeamMemberCard 
               name="Mark Bramwell" 
               position="Director of Training" 
-              imageUrl="/lovable-uploads/bb5a7104-ae03-483a-b8c7-f84430f68d6d.png"
+              imageUrl="https://placehold.co/400x500/gray/white?text=Training+Director"
               className="animate-fade-in"
               style={{ animationDelay: "0.3s" }}
             />
             <TeamMemberCard 
               name="Samraj Padda" 
               position="Senior Trainer & Quality Lead" 
-              imageUrl="/lovable-uploads/bb5a7104-ae03-483a-b8c7-f84430f68d6d.png"
+              imageUrl="https://placehold.co/400x500/gray/white?text=Senior+Trainer"
               className="animate-fade-in"
               style={{ animationDelay: "0.4s" }}
             />
@@ -230,8 +226,8 @@ const Home = () => {
       </section>
 
       {/* Sectors We Serve */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
+      <section className="section-padding bg-gray-50">
+        <div className="container">
           <SectionTitle 
             title="Sectors We Serve" 
             subtitle="Our training programmes are built to elevate security personnel across every major pillar of the Kingdom's development."

@@ -1,2 +1,2 @@
 
-// This file provides type hints for Vite-specific features
+/// <reference types="vite/client" />

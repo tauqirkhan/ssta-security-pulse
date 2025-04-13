@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Building, Calendar, Shield, Award, Users, Clock, CheckCircle } from "lucide-react";
 import SectionTitle from "@/components/SectionTitle";
@@ -7,14 +8,14 @@ import CallToAction from "@/components/CallToAction";
 const Sectors = () => {
   return (
     <>
-      {/* Hero Section */}
+      {/* Hero Section with improved visibility */}
       <section className="relative pt-32 pb-20 bg-gradient-to-r from-ssta-navy to-ssta-dark">
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 hero-headline animate-fade-in">
+            <h1 className="text-4xl md:text-5xl hero-headline animate-fade-in">
               Sectors We Serve
             </h1>
-            <p className="text-xl text-white font-medium hero-subtitle animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
+            <p className="hero-subtitle animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
               Elevating security standards across Saudi Arabia's development pillars
             </p>
           </div>
@@ -109,8 +110,8 @@ const Sectors = () => {
             </div>
             
             <div>
-              <div className="rounded-lg shadow-lg w-full h-80 bg-gray-300 flex items-center justify-center">
-                <p className="text-gray-600 text-lg">Smart City Security Solutions</p>
+              <div className="rounded-lg shadow-lg w-full h-80 image-placeholder">
+                <p className="image-placeholder-text">Smart City Security Solutions</p>
               </div>
             </div>
           </div>
@@ -148,11 +149,9 @@ const Sectors = () => {
                   <span className="text-gray-700">Emergency evacuation procedures</span>
                 </li>
               </ul>
-              <img 
-                src="https://placehold.co/800x400/navy/white?text=Event+Security" 
-                alt="Event Security Training" 
-                className="w-full h-auto rounded-md"
-              />
+              <div className="w-full h-48 image-placeholder rounded-md mb-4">
+                <p className="image-placeholder-text">Event Security</p>
+              </div>
             </div>
             
             <div className="bg-white p-8 rounded-lg shadow-md">
@@ -177,11 +176,9 @@ const Sectors = () => {
                   <span className="text-gray-700">Retail threat assessment</span>
                 </li>
               </ul>
-              <img 
-                src="https://placehold.co/800x400/navy/white?text=Retail+Security" 
-                alt="Retail Security Training" 
-                className="w-full h-auto rounded-md"
-              />
+              <div className="w-full h-48 image-placeholder rounded-md mb-4">
+                <p className="image-placeholder-text">Retail Security</p>
+              </div>
             </div>
           </div>
         </div>

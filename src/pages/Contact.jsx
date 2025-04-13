@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Mail, MapPin, Phone, CheckCircle } from "lucide-react";
 import SectionTitle from "@/components/SectionTitle";
@@ -40,14 +41,14 @@ const Contact = () => {
 
   return (
     <>
-      {/* Hero Section */}
+      {/* Hero Section with improved visibility */}
       <section className="relative pt-32 pb-20 bg-gradient-to-r from-ssta-navy to-ssta-dark">
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 hero-headline animate-fade-in">
+            <h1 className="text-4xl md:text-5xl hero-headline animate-fade-in">
               Contact SSTA
             </h1>
-            <p className="text-xl text-white font-medium hero-subtitle animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
+            <p className="hero-subtitle animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
               Get in touch with our team today
             </p>
           </div>
@@ -107,8 +108,8 @@ const Contact = () => {
               </div>
               
               <div className="mt-10">
-                <div className="rounded-lg shadow-md w-full h-60 bg-gray-300 flex items-center justify-center">
-                  <p className="text-gray-600 text-lg">SSTA Office Location</p>
+                <div className="rounded-lg shadow-md w-full h-60 image-placeholder">
+                  <p className="image-placeholder-text">SSTA Office Location</p>
                 </div>
               </div>
             </div>
@@ -236,8 +237,8 @@ const Contact = () => {
           />
           
           <div className="mt-8 rounded-lg overflow-hidden shadow-md">
-            <div className="w-full h-80 bg-gray-300 flex items-center justify-center">
-              <p className="text-gray-600 text-lg">Location Map</p>
+            <div className="w-full h-80 image-placeholder">
+              <p className="image-placeholder-text">Location Map</p>
             </div>
           </div>
         </div>

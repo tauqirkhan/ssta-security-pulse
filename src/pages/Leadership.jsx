@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Award, Shield, Briefcase } from "lucide-react";
 import SectionTitle from "@/components/SectionTitle";
@@ -7,14 +8,14 @@ import CallToAction from "@/components/CallToAction";
 const Leadership = () => {
   return (
     <>
-      {/* Hero Section */}
+      {/* Hero Section with improved visibility */}
       <section className="relative pt-32 pb-20 bg-gradient-to-r from-ssta-navy to-ssta-dark">
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 hero-headline animate-fade-in">
+            <h1 className="text-4xl md:text-5xl hero-headline animate-fade-in">
               Our Leadership Team
             </h1>
-            <p className="text-xl text-white font-bold hero-subtitle animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
+            <p className="hero-subtitle animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
               Saudi leadership. International expertise. Unmatched excellence.
             </p>
           </div>
@@ -59,8 +60,8 @@ const Leadership = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="rounded-lg shadow-lg w-full h-80 bg-gray-300 flex items-center justify-center">
-                <p className="text-gray-600 text-lg">Leadership Meeting</p>
+              <div className="rounded-lg shadow-lg w-full h-80 image-placeholder">
+                <p className="image-placeholder-text">Leadership Meeting</p>
               </div>
             </div>
             <div>
