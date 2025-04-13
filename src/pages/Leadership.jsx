@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Award, Shield, Briefcase } from "lucide-react";
 import SectionTitle from "@/components/SectionTitle";
@@ -12,10 +11,10 @@ const Leadership = () => {
       <section className="relative pt-32 pb-20 bg-gradient-to-r from-ssta-navy to-ssta-dark">
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 animate-fade-in">
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 hero-headline animate-fade-in">
               Our Leadership Team
             </h1>
-            <p className="text-xl text-white font-bold bg-ssta-navy/50 px-4 py-2 rounded-md inline-block animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
+            <p className="text-xl text-white font-bold hero-subtitle animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
               Saudi leadership. International expertise. Unmatched excellence.
             </p>
           </div>
@@ -34,22 +33,22 @@ const Leadership = () => {
             <TeamMemberCard 
               name="Nawaf Y M Alqahtani" 
               position="CEO (Saudi)" 
-              imageUrl="https://placehold.co/400x500/navy/white?text=CEO"
+              imageUrl="https://placehold.co/400x500/gray/white?text=CEO"
             />
             <TeamMemberCard 
               name="Sukh Gill" 
               position="Strategic Director & Founder" 
-              imageUrl="https://placehold.co/400x500/navy/white?text=Director"
+              imageUrl="https://placehold.co/400x500/gray/white?text=Director"
             />
             <TeamMemberCard 
               name="Mark Bramwell" 
               position="Director of Training" 
-              imageUrl="https://placehold.co/400x500/navy/white?text=Training+Director"
+              imageUrl="https://placehold.co/400x500/gray/white?text=Training+Director"
             />
             <TeamMemberCard 
               name="Samraj Padda" 
               position="Senior Trainer & Quality Lead" 
-              imageUrl="https://placehold.co/400x500/navy/white?text=Senior+Trainer"
+              imageUrl="https://placehold.co/400x500/gray/white?text=Senior+Trainer"
             />
           </div>
         </div>
@@ -60,11 +59,9 @@ const Leadership = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <img 
-                src="https://placehold.co/800x600/navy/white?text=Leadership+Meeting" 
-                alt="SSTA Leadership Meeting" 
-                className="rounded-lg shadow-lg w-full"
-              />
+              <div className="rounded-lg shadow-lg w-full h-80 bg-gray-300 flex items-center justify-center">
+                <p className="text-gray-600 text-lg">Leadership Meeting</p>
+              </div>
             </div>
             <div>
               <SectionTitle 
@@ -135,32 +132,32 @@ const Leadership = () => {
             <TeamMemberCard 
               name="James Wilson" 
               position="Counter Terrorism Expert" 
-              imageUrl="https://placehold.co/400x500/navy/white?text=CT+Expert"
+              imageUrl="https://placehold.co/400x500/gray/white?text=CT+Expert"
             />
             <TeamMemberCard 
               name="Sarah Al-Harbi" 
               position="Healthcare Security Lead" 
-              imageUrl="https://placehold.co/400x500/navy/white?text=Healthcare+Lead"
+              imageUrl="https://placehold.co/400x500/gray/white?text=Healthcare+Lead"
             />
             <TeamMemberCard 
               name="Mohammed Khalid" 
               position="Event Security Specialist" 
-              imageUrl="https://placehold.co/400x500/navy/white?text=Event+Specialist"
+              imageUrl="https://placehold.co/400x500/gray/white?text=Event+Specialist"
             />
             <TeamMemberCard 
               name="David Thomson" 
               position="Security Risk Assessment Lead" 
-              imageUrl="https://placehold.co/400x500/navy/white?text=Risk+Lead"
+              imageUrl="https://placehold.co/400x500/gray/white?text=Risk+Lead"
             />
             <TeamMemberCard 
               name="Aisha Al-Otaibi" 
               position="Training Coordinator" 
-              imageUrl="https://placehold.co/400x500/navy/white?text=Training+Coordinator"
+              imageUrl="https://placehold.co/400x500/gray/white?text=Training+Coordinator"
             />
             <TeamMemberCard 
               name="Abdullah Al-Ghamdi" 
               position="VIP Protection Specialist" 
-              imageUrl="https://placehold.co/400x500/navy/white?text=VIP+Protection"
+              imageUrl="https://placehold.co/400x500/gray/white?text=VIP+Protection"
             />
           </div>
         </div>

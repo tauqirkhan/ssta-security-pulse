@@ -1,4 +1,3 @@
-
 import React from "react";
 import { ArrowRight, Award, Shield, Users, Building, Calendar, CheckCircle } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -15,19 +14,14 @@ const Home = () => {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center">
         <div className="absolute inset-0 z-0">
-          <img
-            src="/lovable-uploads/ea7e57be-43b7-4db5-af4a-895e925447c8.png"
-            alt="SSTA Hero"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-ssta-dark/90 to-ssta-dark/70"></div>
+          <div className="w-full h-full bg-gradient-to-r from-ssta-navy to-ssta-dark"></div>
         </div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 animate-fade-in">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 hero-headline animate-fade-in">
               The New Standard in Saudi Security Training
             </h1>
-            <p className="text-xl text-white font-medium mb-8 animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
+            <p className="text-xl text-white font-medium mb-8 hero-subtitle animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
               World-class certifications. Saudi-first leadership. Built for Vision 2030.
             </p>
             <p className="text-white/80 mb-8 max-w-2xl animate-fade-in opacity-0" style={{ animationDelay: "0.4s", animationFillMode: "forwards" }}>
@@ -71,11 +65,9 @@ const Home = () => {
               </Button>
             </div>
             <div className="relative animate-fade-in-right">
-              <img 
-                src="/lovable-uploads/dd5280dc-15fa-4559-a86b-aee3022ae762.png" 
-                alt="SSTA Training" 
-                className="rounded-lg shadow-lg w-full"
-              />
+              <div className="rounded-lg shadow-lg w-full h-80 bg-gray-300 flex items-center justify-center">
+                <p className="text-gray-600 text-lg">Professional Security Training</p>
+              </div>
               <div className="absolute -bottom-6 -right-6 bg-ssta-gold text-ssta-dark p-6 rounded shadow-lg">
                 <p className="font-medium">Established</p>
                 <p className="text-3xl font-bold">2025</p>

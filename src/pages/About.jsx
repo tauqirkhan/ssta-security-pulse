@@ -1,4 +1,3 @@
-
 import React from "react";
 import { ArrowRight, Award, Shield, CheckCircle, Target, Users } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -13,10 +12,10 @@ const About = () => {
       <section className="relative pt-32 pb-20 bg-gradient-to-r from-ssta-navy to-ssta-dark">
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 animate-fade-in">
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 hero-headline animate-fade-in">
               About SSTA
             </h1>
-            <p className="text-xl text-white font-bold bg-ssta-navy/50 px-4 py-2 rounded-md inline-block animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
+            <p className="text-xl text-white font-bold hero-subtitle animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
               Building Saudi Arabia's security excellence
             </p>
           </div>
@@ -97,69 +96,65 @@ const About = () => {
 
       {/* What Sets Us Apart */}
       <section className="py-12">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            <div className="order-2 lg:order-1">
-              <img
-                src="https://images.unsplash.com/photo-1542744095-291d1f67b221?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
-                alt="Security Training"
-                className="rounded-lg shadow-lg w-full h-80 object-cover"
-              />
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+          <div className="order-2 lg:order-1">
+            <div className="rounded-lg shadow-lg w-full h-80 bg-gray-300 flex items-center justify-center">
+              <p className="text-gray-600 text-lg">Security Training Excellence</p>
             </div>
-            <div className="order-1 lg:order-2">
-              <SectionTitle
-                title="What Sets Us Apart"
-                subtitle="The SSTA difference in security training"
-                centered={false}
-              />
+          </div>
+          <div className="order-1 lg:order-2">
+            <SectionTitle
+              title="What Sets Us Apart"
+              subtitle="The SSTA difference in security training"
+              centered={false}
+            />
 
-              <div className="space-y-5 mt-6">
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0">
-                    <CheckCircle className="text-ssta-gold h-6 w-6" />
-                  </div>
-                  <div>
-                    <h4 className="text-lg font-bold text-ssta-dark mb-2">100% Saudi Ownership</h4>
-                    <p className="text-gray-700">
-                      Unlike foreign-owned competitors, we are fully Saudi-owned with a Saudi CEO, ensuring total alignment with local values and Vision 2030 priorities.
-                    </p>
-                  </div>
+            <div className="space-y-5 mt-6">
+              <div className="flex gap-4">
+                <div className="flex-shrink-0">
+                  <CheckCircle className="text-ssta-gold h-6 w-6" />
                 </div>
-
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0">
-                    <CheckCircle className="text-ssta-gold h-6 w-6" />
-                  </div>
-                  <div>
-                    <h4 className="text-lg font-bold text-ssta-dark mb-2">Elite UK Security Experts</h4>
-                    <p className="text-gray-700">
-                      Our training programs are designed and delivered by former UK military, intelligence, and corporate security leaders with decades of global experience.
-                    </p>
-                  </div>
+                <div>
+                  <h4 className="text-lg font-bold text-ssta-dark mb-2">100% Saudi Ownership</h4>
+                  <p className="text-gray-700">
+                    Unlike foreign-owned competitors, we are fully Saudi-owned with a Saudi CEO, ensuring total alignment with local values and Vision 2030 priorities.
+                  </p>
                 </div>
+              </div>
 
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0">
-                    <CheckCircle className="text-ssta-gold h-6 w-6" />
-                  </div>
-                  <div>
-                    <h4 className="text-lg font-bold text-ssta-dark mb-2">International Certifications</h4>
-                    <p className="text-gray-700">
-                      Our programs are verified and accredited to UK and international standards, providing graduates with globally recognized qualifications.
-                    </p>
-                  </div>
+              <div className="flex gap-4">
+                <div className="flex-shrink-0">
+                  <CheckCircle className="text-ssta-gold h-6 w-6" />
                 </div>
+                <div>
+                  <h4 className="text-lg font-bold text-ssta-dark mb-2">Elite UK Security Experts</h4>
+                  <p className="text-gray-700">
+                    Our training programs are designed and delivered by former UK military, intelligence, and corporate security leaders with decades of global experience.
+                  </p>
+                </div>
+              </div>
 
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0">
-                    <CheckCircle className="text-ssta-gold h-6 w-6" />
-                  </div>
-                  <div>
-                    <h4 className="text-lg font-bold text-ssta-dark mb-2">Sector-Specific Training</h4>
-                    <p className="text-gray-700">
-                      We offer specialized courses for different sectors (mega-projects, events, healthcare, retail) rather than one-size-fits-all programs.
-                    </p>
-                  </div>
+              <div className="flex gap-4">
+                <div className="flex-shrink-0">
+                  <CheckCircle className="text-ssta-gold h-6 w-6" />
+                </div>
+                <div>
+                  <h4 className="text-lg font-bold text-ssta-dark mb-2">International Certifications</h4>
+                  <p className="text-gray-700">
+                    Our programs are verified and accredited to UK and international standards, providing graduates with globally recognized qualifications.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-4">
+                <div className="flex-shrink-0">
+                  <CheckCircle className="text-ssta-gold h-6 w-6" />
+                </div>
+                <div>
+                  <h4 className="text-lg font-bold text-ssta-dark mb-2">Sector-Specific Training</h4>
+                  <p className="text-gray-700">
+                    We offer specialized courses for different sectors (mega-projects, events, healthcare, retail) rather than one-size-fits-all programs.
+                  </p>
                 </div>
               </div>
             </div>

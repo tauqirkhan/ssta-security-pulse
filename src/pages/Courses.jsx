@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Book, Calendar, Clock, User } from "lucide-react";
+import { Book, Calendar, Clock, User, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import SectionTitle from "@/components/SectionTitle";
 import CallToAction from "@/components/CallToAction";
@@ -12,10 +12,10 @@ const Courses = () => {
       <section className="relative pt-32 pb-20 bg-gradient-to-r from-ssta-navy to-ssta-dark">
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 animate-fade-in">
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 hero-headline animate-fade-in">
               Our Courses & Certifications
             </h1>
-            <p className="text-xl text-white font-medium animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
+            <p className="text-xl text-white font-medium hero-subtitle animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
               World-class training for Saudi security professionals
             </p>
           </div>
@@ -36,12 +36,8 @@ const Courses = () => {
                 key={index}
                 className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-all duration-300"
               >
-                <div className="h-48 overflow-hidden">
-                  <img 
-                    src="https://placehold.co/600x400/navy/white?text=Security+Training" 
-                    alt={course.title} 
-                    className="w-full h-full object-cover"
-                  />
+                <div className="h-48 overflow-hidden bg-gray-300 flex items-center justify-center">
+                  <p className="text-gray-600 text-lg">{course.title}</p>
                 </div>
                 <div className="p-6">
                   <span className="inline-block px-3 py-1 text-xs font-semibold bg-ssta-gold/20 text-ssta-dark rounded-full mb-3">

@@ -122,3 +122,14 @@
 .card-hover {
   @apply transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg;
 }
+
+/* Improved headline visibility for hero sections */
+.hero-headline {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  @apply bg-ssta-dark/70 px-4 py-2 rounded-md inline-block;
+}
+
+.hero-subtitle {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  @apply bg-ssta-navy/70 px-4 py-2 rounded-md inline-block;
+}

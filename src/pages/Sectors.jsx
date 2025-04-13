@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Building, Calendar, Shield, Award, Users, Clock, CheckCircle } from "lucide-react";
 import SectionTitle from "@/components/SectionTitle";
@@ -12,10 +11,10 @@ const Sectors = () => {
       <section className="relative pt-32 pb-20 bg-gradient-to-r from-ssta-navy to-ssta-dark">
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 animate-fade-in">
+            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 hero-headline animate-fade-in">
               Sectors We Serve
             </h1>
-            <p className="text-xl text-white font-medium animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
+            <p className="text-xl text-white font-medium hero-subtitle animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
               Elevating security standards across Saudi Arabia's development pillars
             </p>
           </div>
@@ -110,11 +109,9 @@ const Sectors = () => {
             </div>
             
             <div>
-              <img 
-                src="https://placehold.co/800x600/navy/white?text=Smart+City+Security" 
-                alt="Smart City Security" 
-                className="rounded-lg shadow-lg w-full"
-              />
+              <div className="rounded-lg shadow-lg w-full h-80 bg-gray-300 flex items-center justify-center">
+                <p className="text-gray-600 text-lg">Smart City Security Solutions</p>
+              </div>
             </div>
           </div>
         </div>
