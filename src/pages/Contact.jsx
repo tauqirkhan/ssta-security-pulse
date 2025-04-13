@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Mail, MapPin, Phone, CheckCircle } from "lucide-react";
 import SectionTitle from "@/components/SectionTitle";
@@ -26,14 +25,15 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     // Simulate form submission
     setTimeout(() => {
       setIsSubmitting(false);
       setIsSubmitted(true);
       toast({
         title: "Message Sent",
-        description: "Thank you for contacting SSTA. We will get back to you shortly.",
+        description:
+          "Thank you for contacting SSTA. We will get back to you shortly.",
         variant: "default",
       });
     }, 1500);
@@ -42,16 +42,17 @@ const Contact = () => {
   return (
     <>
       {/* Hero Section with improved visibility */}
-      <section className="relative pt-32 pb-20 bg-gradient-to-r from-ssta-navy to-ssta-dark">
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="hero-content-box">
-            <h1 className="text-4xl md:text-5xl hero-headline animate-fade-in">
-              Contact SSTA
-            </h1>
-            <p className="hero-subtitle animate-fade-in opacity-0" style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}>
-              Get in touch with our team today
-            </p>
-          </div>
+      <section className="relative pt-32 pb-20 bg-gradient-to-r from-ssta-navy to-ssta-dark text-white">
+        <div className="container mx-auto px-4 text-center">
+          <h1 className="text-4xl md:text-5xl font-bold animate-fade-in">
+            Contact SSTA
+          </h1>
+          <p
+            className="mt-4 text-lg md:text-xl text-white/90 animate-fade-in opacity-0"
+            style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}
+          >
+            Get in touch with our team today
+          </p>
         </div>
       </section>
 
@@ -60,71 +61,83 @@ const Contact = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div>
-              <SectionTitle 
-                title="Get in Touch" 
+              <SectionTitle
+                title="Get in Touch"
                 subtitle="Have questions about our training programs? Contact us today."
                 centered={false}
               />
-              
+
               <div className="mt-8 space-y-6">
                 <div className="flex items-start">
                   <div className="bg-ssta-gold/10 p-3 rounded-full flex-shrink-0 mr-4">
                     <MapPin className="text-ssta-gold" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-bold mb-1 text-ssta-dark">Our Location</h3>
+                    <h3 className="text-lg font-bold mb-1 text-ssta-dark">
+                      Our Location
+                    </h3>
                     <p className="text-gray-600">
-                      SSTA Headquarters, Riyadh Business District<br />
+                      SSTA Headquarters, Riyadh Business District
+                      <br />
                       Riyadh, Saudi Arabia
                     </p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="bg-ssta-gold/10 p-3 rounded-full flex-shrink-0 mr-4">
                     <Mail className="text-ssta-gold" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-bold mb-1 text-ssta-dark">Email Us</h3>
+                    <h3 className="text-lg font-bold mb-1 text-ssta-dark">
+                      Email Us
+                    </h3>
                     <p className="text-gray-600">
-                      info@ssta-academy.com<br />
+                      info@ssta-academy.com
+                      <br />
                       training@ssta-academy.com
                     </p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start">
                   <div className="bg-ssta-gold/10 p-3 rounded-full flex-shrink-0 mr-4">
                     <Phone className="text-ssta-gold" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-bold mb-1 text-ssta-dark">Call Us</h3>
+                    <h3 className="text-lg font-bold mb-1 text-ssta-dark">
+                      Call Us
+                    </h3>
                     <p className="text-gray-600">
-                      +966 12 345 6789<br />
+                      +966 12 345 6789
+                      <br />
                       +966 12 345 6780
                     </p>
                   </div>
                 </div>
               </div>
-              
+
               <div className="mt-10">
                 <div className="rounded-lg shadow-md w-full h-60 image-placeholder">
                   <p className="image-placeholder-text">SSTA Office Location</p>
                 </div>
               </div>
             </div>
-            
+
             <div className="bg-white p-8 rounded-lg shadow-lg">
               {isSubmitted ? (
                 <div className="flex flex-col items-center justify-center h-full text-center py-12">
                   <div className="bg-green-100 p-3 rounded-full mb-6">
                     <CheckCircle className="text-green-600 w-12 h-12" />
                   </div>
-                  <h3 className="text-2xl font-bold mb-4 text-ssta-dark">Message Received!</h3>
+                  <h3 className="text-2xl font-bold mb-4 text-ssta-dark">
+                    Message Received!
+                  </h3>
                   <p className="text-gray-700 mb-6">
-                    Thank you for contacting SSTA. Our team will review your inquiry and get back to you shortly.
+                    Thank you for contacting SSTA. Our team will review your
+                    inquiry and get back to you shortly.
                   </p>
-                  <Button 
+                  <Button
                     onClick={() => setIsSubmitted(false)}
                     className="bg-ssta-navy hover:bg-ssta-dark text-white"
                   >
@@ -133,12 +146,17 @@ const Contact = () => {
                 </div>
               ) : (
                 <form onSubmit={handleSubmit}>
-                  <h3 className="text-2xl font-bold mb-6 text-ssta-dark">Send Us a Message</h3>
-                  
+                  <h3 className="text-2xl font-bold mb-6 text-ssta-dark">
+                    Send Us a Message
+                  </h3>
+
                   <div className="space-y-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div>
-                        <label htmlFor="name" className="block text-gray-700 font-medium mb-2">
+                        <label
+                          htmlFor="name"
+                          className="block text-gray-700 font-medium mb-2"
+                        >
                           Your Name *
                         </label>
                         <input
@@ -151,9 +169,12 @@ const Contact = () => {
                           className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-ssta-gold"
                         />
                       </div>
-                      
+
                       <div>
-                        <label htmlFor="organization" className="block text-gray-700 font-medium mb-2">
+                        <label
+                          htmlFor="organization"
+                          className="block text-gray-700 font-medium mb-2"
+                        >
                           Organization
                         </label>
                         <input
@@ -166,10 +187,13 @@ const Contact = () => {
                         />
                       </div>
                     </div>
-                    
+
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div>
-                        <label htmlFor="email" className="block text-gray-700 font-medium mb-2">
+                        <label
+                          htmlFor="email"
+                          className="block text-gray-700 font-medium mb-2"
+                        >
                           Email Address *
                         </label>
                         <input
@@ -182,9 +206,12 @@ const Contact = () => {
                           className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-ssta-gold"
                         />
                       </div>
-                      
+
                       <div>
-                        <label htmlFor="phone" className="block text-gray-700 font-medium mb-2">
+                        <label
+                          htmlFor="phone"
+                          className="block text-gray-700 font-medium mb-2"
+                        >
                           Phone Number
                         </label>
                         <input
@@ -197,9 +224,12 @@ const Contact = () => {
                         />
                       </div>
                     </div>
-                    
+
                     <div>
-                      <label htmlFor="message" className="block text-gray-700 font-medium mb-2">
+                      <label
+                        htmlFor="message"
+                        className="block text-gray-700 font-medium mb-2"
+                      >
                         Your Message *
                       </label>
                       <textarea
@@ -212,7 +242,7 @@ const Contact = () => {
                         className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-ssta-gold"
                       ></textarea>
                     </div>
-                    
+
                     <Button
                       type="submit"
                       disabled={isSubmitting}
@@ -227,15 +257,15 @@ const Contact = () => {
           </div>
         </div>
       </section>
-      
+
       {/* Map Section */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
-          <SectionTitle 
-            title="Visit Us" 
+          <SectionTitle
+            title="Visit Us"
             subtitle="Our training academy is conveniently located in Riyadh's business district"
           />
-          
+
           <div className="mt-8 rounded-lg overflow-hidden shadow-md">
             <div className="w-full h-80 image-placeholder">
               <p className="image-placeholder-text">Location Map</p>
