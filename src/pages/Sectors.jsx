@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Building, Calendar, Shield, Award, Users, Clock } from "lucide-react";
+import { Building, Calendar, Shield, Award, Users, Clock, CheckCircle } from "lucide-react";
 import SectionTitle from "@/components/SectionTitle";
 import SectorCard from "@/components/SectorCard";
 import CallToAction from "@/components/CallToAction";
