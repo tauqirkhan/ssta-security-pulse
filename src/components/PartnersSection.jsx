@@ -15,9 +15,10 @@ const PartnersSection = () => {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="flex justify-center">
               <img
-                src="/lovable-uploads/1a1f6ede-b345-4ad9-8139-2767fd2719ca.png"
+                src="/lovable-uploads/18a7c13b-6d77-46fb-b194-9b3a9d227737.png"
                 alt="Impact Partners Logo"
                 className="w-64 h-auto"
+                draggable="none"
               />
             </div>
             

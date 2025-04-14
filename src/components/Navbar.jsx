@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
@@ -38,9 +37,10 @@ const Navbar = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         <Link to="/" className="flex items-center gap-2">
           <img 
-            src="/lovable-uploads/d3107b5b-6d08-4119-b9e1-5fb5211fab05.png" 
+            src="/lovable-uploads/1cd1b3bc-674d-4502-900e-31103631017c.png" 
             alt="SSTA Logo" 
             className="h-14 w-auto" 
+            draggable="none"
           />
         </Link>
 
