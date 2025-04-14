@@ -262,36 +262,36 @@ const Home = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mt-12">
             <TeamMemberCard
-              name="Nawaf Y M Alqahtani"
-              position="CEO (Saudi)"
-              imageUrl="https://via.placeholder.com/300x400?text=CEO"
+              name="Sukh Gill"
+              position="CEO"
+              imageUrl="/leadership/sukh.jpg"
               className="animate-fade-in"
             />
             <TeamMemberCard
-              name="Sukh Gill"
-              position="Strategic Director & Founder"
-              imageUrl="https://via.placeholder.com/300x400?text=Director"
+              name="Nawaf Y M Alqahtani"
+              position="Sales Director"
+              imageUrl="/leadership/nawaf.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.2s" }}
             />
             <TeamMemberCard
               name="Mark Bramwell"
               position="Director of Training"
-              imageUrl="https://via.placeholder.com/300x400?text=Training+Director"
+              imageUrl="/leadership/mark.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.3s" }}
             />
             <TeamMemberCard
               name="Samraj Padda"
               position="Senior Trainer & Quality Lead"
-              imageUrl="https://via.placeholder.com/300x400?text=Senior+Trainer"
+              imageUrl="/leadership/samraj.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.4s" }}
             />
             <TeamMemberCard
               name="Tauqir Khan"
               position="Marketing Executive"
-              imageUrl="https://via.placeholder.com/300x400?text=Marketing+Executive"
+              imageUrl="/leadership/tauqir.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.5s" }}
             />

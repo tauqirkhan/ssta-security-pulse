@@ -29,8 +29,8 @@ const Courses = () => {
       </section>
 
       {/* Courses Accordion */}
-      <section className="py-12 md:py-16">
-        <div className="container mx-auto px-4">
+      <section className="py-12 sm:py-14 md:py-16">
+        <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionTitle
             title="Security Training Programs"
             subtitle="SSTA offers comprehensive certification pathways across multiple security disciplines"
@@ -48,7 +48,7 @@ const Courses = () => {
                       {category.courses.map((course, courseIndex) => (
                         <div
                           key={courseIndex}
-                          className="bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all p-3 md:p-4"
+                          className="bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all p-3 sm:p-4"
                         >
                           <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
                             <div>

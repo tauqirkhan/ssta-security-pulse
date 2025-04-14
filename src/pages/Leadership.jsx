@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Award, Shield, Briefcase } from "lucide-react";
 import SectionTitle from "@/components/SectionTitle";
@@ -32,29 +31,29 @@ const Leadership = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-12">
             <TeamMemberCard
-              name="Nawaf Y M Alqahtani"
-              position="CEO (Saudi)"
-              imageUrl="https://placehold.co/400x500/gray/white?text=CEO"
+              name="Sukh Gill"
+              position="CEO"
+              imageUrl="/leadership/sukh.jpg"
             />
             <TeamMemberCard
-              name="Sukh Gill"
-              position="Strategic Director & Founder"
-              imageUrl="https://placehold.co/400x500/gray/white?text=Director"
+              name="Nawaf Y M Alqahtani "
+              position="Sales Director"
+              imageUrl="/leadership/nawaf.jpg"
             />
             <TeamMemberCard
               name="Mark Bramwell"
               position="Director of Training"
-              imageUrl="https://placehold.co/400x500/gray/white?text=Training+Director"
+              imageUrl="/leadership/mark.jpg"
             />
             <TeamMemberCard
               name="Samraj Padda"
               position="Senior Trainer & Quality Lead"
-              imageUrl="https://placehold.co/400x500/gray/white?text=Senior+Trainer"
+              imageUrl="/leadership/samraj.jpg"
             />
             <TeamMemberCard
               name="Tauqir Khan"
               position="Marketing Executive"
-              imageUrl="https://placehold.co/400x500/gray/white?text=Marketing+Executive"
+              imageUrl="/leadership/tauqir.jpg"
             />
           </div>
         </div>
