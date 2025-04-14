@@ -1,28 +1,37 @@
+
 import React from "react";
-import { Book, Calendar, Clock, User, CheckCircle } from "lucide-react";
+import { Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import SectionTitle from "@/components/SectionTitle";
 import CallToAction from "@/components/CallToAction";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 const Courses = () => {
   return (
     <>
       {/* Hero Section with improved visibility */}
-      <section className="relative pt-32 pb-20 bg-gradient-to-r from-ssta-navy to-ssta-dark text-white">
+      <section className="relative pt-32 pb-20 bg-gradient-to-r from-ssta-navy to-ssta-dark">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold animate-fade-in">
-            Our Courses & Certifications
-          </h1>
-          <p
-            className="mt-4 text-lg md:text-xl text-white/90 animate-fade-in opacity-0"
-            style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}
-          >
-            World-class training for Saudi security professionals
-          </p>
+          <div className="hero-content-box inline-block mx-auto max-w-3xl p-6 text-white">
+            <h1 className="text-4xl md:text-5xl font-bold mb-2 animate-fade-in">
+              Our Courses & Certifications
+            </h1>
+            <p
+              className="mt-2 text-lg md:text-xl text-white/90 animate-fade-in opacity-0"
+              style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}
+            >
+              World-class training for Saudi security professionals
+            </p>
+          </div>
         </div>
       </section>
 
-      {/* Courses Grid */}
+      {/* Courses Accordion */}
       <section className="py-16">
         <div className="container mx-auto px-4">
           <SectionTitle
@@ -30,45 +39,44 @@ const Courses = () => {
             subtitle="SSTA offers comprehensive certification pathways across multiple security disciplines"
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-            {courses.map((course, index) => (
-              <div
-                key={index}
-                className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition-all duration-300"
-              >
-                <div className="h-48 overflow-hidden image-placeholder flex items-center justify-center">
-                  <p className="image-placeholder-text">{course.title}</p>
-                </div>
-                <div className="p-6">
-                  <span className="inline-block px-3 py-1 text-xs font-semibold bg-ssta-gold/20 text-ssta-dark rounded-full mb-3">
-                    {course.category}
-                  </span>
-                  <h3 className="text-xl font-bold mb-3 text-ssta-dark">
-                    {course.title}
-                  </h3>
-                  <p className="text-gray-600 mb-4">{course.description}</p>
-
-                  <div className="flex flex-wrap gap-4 text-sm text-gray-500 mb-5">
-                    <div className="flex items-center">
-                      <Clock size={16} className="mr-1" />
-                      <span>{course.duration}</span>
+          <div className="mt-12 max-w-4xl mx-auto">
+            <Accordion type="single" collapsible className="w-full">
+              {coursesByCategory.map((category, index) => (
+                <AccordionItem key={index} value={`item-${index}`}>
+                  <AccordionTrigger className="text-xl font-bold text-ssta-dark hover:text-ssta-navy">
+                    {category.name}
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    <div className="grid gap-4 pt-4">
+                      {category.courses.map((course, courseIndex) => (
+                        <div
+                          key={courseIndex}
+                          className="bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all p-4"
+                        >
+                          <div className="flex justify-between items-start flex-wrap gap-2">
+                            <div>
+                              <h3 className="font-semibold text-lg text-ssta-dark">
+                                {course.title}
+                              </h3>
+                              <div className="flex items-center text-sm text-gray-600 mt-2">
+                                <Clock size={16} className="mr-1" />
+                                <span>{course.duration}</span>
+                              </div>
+                            </div>
+                            <Button
+                              size="sm"
+                              className="bg-ssta-navy hover:bg-ssta-dark text-white"
+                            >
+                              Details
+                            </Button>
+                          </div>
+                        </div>
+                      ))}
                     </div>
-                    <div className="flex items-center">
-                      <Calendar size={16} className="mr-1" />
-                      <span>{course.level}</span>
-                    </div>
-                    <div className="flex items-center">
-                      <User size={16} className="mr-1" />
-                      <span>Max: {course.maxStudents}</span>
-                    </div>
-                  </div>
-
-                  <Button className="w-full bg-ssta-navy hover:bg-ssta-dark">
-                    View Course Details
-                  </Button>
-                </div>
-              </div>
-            ))}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
           </div>
         </div>
       </section>
@@ -84,61 +92,217 @@ const Courses = () => {
   );
 };
 
-// Course data
-const courses = [
+// Processed course data grouped by category
+const coursesByCategory = [
   {
-    title: "Certified Security Personnel (CSP)",
-    category: "Security Training",
-    description:
-      "Foundational certification for all security professionals covering essentials in surveillance, communication and conflict management.",
-    duration: "2 Weeks",
-    level: "Foundation",
-    maxStudents: 20,
+    name: "Security",
+    courses: [
+      {
+        title: "Security Officer",
+        duration: "6 days",
+      },
+      {
+        title: "Retail Security Officer - Add On",
+        duration: "2 days",
+      },
+      {
+        title: "Logistics Security Officer - Add On",
+        duration: "2 days",
+      },
+      {
+        title: "Cash and Valuables in Transit Security Officer",
+        duration: "3 days",
+      },
+      {
+        title: "Close Protection Officer",
+        duration: "18 days",
+      },
+    ],
   },
   {
-    title: "Crisis Management Specialist",
-    category: "Security Training",
-    description:
-      "Advanced training for security professionals in emergency response, crisis communication and incident command.",
-    duration: "1 Week",
-    level: "Advanced",
-    maxStudents: 16,
+    name: "Specialist Security Training",
+    courses: [
+      {
+        title: "Foundations of Security and Risk Management",
+        duration: "5 days",
+      },
+      {
+        title: "Security Risk Assessment",
+        duration: "3 days",
+      },
+      {
+        title: "Business Continuity (ISO 22301)",
+        duration: "5 days",
+      },
+      {
+        title: "Training, Scenario Testing & Live Exercising",
+        duration: "1-3 days",
+      },
+      {
+        title: "Corporate Risk and Crisis Management",
+        duration: "5 days",
+      },
+      {
+        title: "Security Survey & Audits",
+        duration: "5 days",
+      },
+    ],
   },
   {
-    title: "First Aid & First Responder",
-    category: "Security Training",
-    description:
-      "Essential medical response training for security personnel covering emergency first aid and basic life support.",
-    duration: "4 Days",
-    level: "Foundation",
-    maxStudents: 15,
+    name: "First Aid",
+    courses: [
+      {
+        title: "Level 3 Emergency First Aid at Work",
+        duration: "1 day",
+      },
+      {
+        title: "Level 3 First Aid at Work",
+        duration: "3 days",
+      },
+      {
+        title: "Level 3 Award in Paediatric First Aid",
+        duration: "1 day",
+      },
+      {
+        title: "First Response Emergency Care (FREC) Level 3",
+        duration: "5 days",
+      },
+      {
+        title: "Oxygen Therapy",
+        duration: "0.5 day",
+      },
+      {
+        title: "Management of Anaphylaxis",
+        duration: "0.5 day",
+      },
+      {
+        title: "Automated External Defibrillator",
+        duration: "0.5 day",
+      },
+    ],
   },
   {
-    title: "Executive Protection Specialist",
-    category: "VIP Protection",
-    description:
-      "Elite training for professionals responsible for the security of high-profile individuals and executives.",
-    duration: "3 Weeks",
-    level: "Advanced",
-    maxStudents: 12,
+    name: "Control Room Operations",
+    courses: [
+      {
+        title: "Control Room Operator",
+        duration: "4 days",
+      },
+      {
+        title: "CCTV Operator",
+        duration: "3 days",
+      },
+      {
+        title: "Incident Control Officer",
+        duration: "2 days",
+      },
+    ],
   },
   {
-    title: "Event Security Manager",
-    category: "Event Security",
-    description:
-      "Comprehensive training for professionals managing security operations at large-scale events and venues.",
-    duration: "2 Weeks",
-    level: "Intermediate",
-    maxStudents: 18,
+    name: "Spectator & Event Safety",
+    courses: [
+      {
+        title: "Level 2 Certificate in Spectator Safety",
+        duration: "5 days",
+      },
+      {
+        title: "Level 3 Certificate in Spectator Safety Supervision",
+        duration: "5 days",
+      },
+      {
+        title: "Level 3 Extended Certificate in Spectator Safety Supervision",
+        duration: "5 days",
+      },
+      {
+        title: "Level 4 Diploma in Spectator Safety Management",
+        duration: "5 days",
+      },
+      {
+        title: "Understanding Safety at Stadia Workshops",
+        duration: "1 day",
+      },
+    ],
   },
   {
-    title: "Security Risk Assessor",
-    category: "Consultancy & Leadership",
-    description:
-      "Advanced certification for security professionals looking to specialize in threat assessment and mitigation strategies.",
-    duration: "1 Week",
-    level: "Advanced",
-    maxStudents: 14,
+    name: "Leadership & Management",
+    courses: [
+      {
+        title: "Security Manager",
+        duration: "5 days",
+      },
+      {
+        title: "Team Leader",
+        duration: "3 days",
+      },
+      {
+        title: "Level 2 Leadership & Team Skills",
+        duration: "3 days",
+      },
+    ],
+  },
+  {
+    name: "Supervisor & First Line Manager",
+    courses: [
+      {
+        title: "Level 3 First Line Management & Leadership",
+        duration: "4 days",
+      },
+      {
+        title: "Junior Manager",
+        duration: "5 days",
+      },
+      {
+        title: "Level 4 Management & Leadership",
+        duration: "5 days",
+      },
+    ],
+  },
+  {
+    name: "Middle, Operational & Departmental Manager",
+    courses: [
+      {
+        title: "Level 5 Operational Management & Leadership",
+        duration: "5 days",
+      },
+      {
+        title: "Level 2 Award in Customer Service",
+        duration: "2 days",
+      },
+    ],
+  },
+  {
+    name: "Customer Service",
+    courses: [
+      {
+        title: "Introduction to Corporate Intelligence",
+        duration: "2 days",
+      },
+    ],
+  },
+  {
+    name: "Intelligence",
+    courses: [
+      {
+        title: "Basic Intelligence",
+        duration: "6 days",
+      },
+      {
+        title: "Introduction to Corporate Counter Intelligence",
+        duration: "2 days",
+      },
+      {
+        title: "Advanced Intelligence",
+        duration: "6 days",
+      },
+      {
+        title: "Basic Analysis Training",
+        duration: "5 days",
+      },
+      {
+        title: "Advanced Analysis Training",
+        duration: "5 days",
+      },
+    ],
   },
 ];
 
