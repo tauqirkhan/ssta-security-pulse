@@ -152,17 +152,16 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin className="mr-3 h-5 w-5 text-ssta-gold flex-shrink-0 mt-1" />
                 <span className="text-gray-300">
-                  123 King Fahd Road, Riyadh Business District, Kingdom of Saudi
-                  Arabia
+                  Riyadh, Kingdom of Saudi Arabia
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone className="mr-3 h-5 w-5 text-ssta-gold flex-shrink-0" />
-                <span className="text-gray-300">+966 xx xx 1234</span>
+                <span className="text-gray-300">+966 50 575 3717</span>
               </li>
               <li className="flex items-center">
                 <Mail className="mr-3 h-5 w-5 text-ssta-gold flex-shrink-0" />
-                <span className="text-gray-300">info@sxsxtx.com</span>
+                <span className="text-gray-300">sstaacademy@gmail.com</span>
               </li>
             </ul>
           </div>

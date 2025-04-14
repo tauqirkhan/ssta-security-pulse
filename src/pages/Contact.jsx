@@ -76,11 +76,7 @@ const Contact = () => {
                     <h3 className="text-lg font-bold mb-1 text-ssta-dark">
                       Our Location
                     </h3>
-                    <p className="text-gray-600">
-                      YYYY Headquarters, Riyadh Business District
-                      <br />
-                      Riyadh, Saudi Arabia
-                    </p>
+                    <p className="text-gray-600"> Riyadh, Saudi Arabia</p>
                   </div>
                 </div>
 
@@ -92,11 +88,7 @@ const Contact = () => {
                     <h3 className="text-lg font-bold mb-1 text-ssta-dark">
                       Email Us
                     </h3>
-                    <p className="text-gray-600">
-                      info@ssta-xxxxxxx.com
-                      <br />
-                      training@ssta-xxxxxxx.com
-                    </p>
+                    <p className="text-gray-600">sstaacademy@gmail.com</p>
                   </div>
                 </div>
 
@@ -108,11 +100,7 @@ const Contact = () => {
                     <h3 className="text-lg font-bold mb-1 text-ssta-dark">
                       Call Us
                     </h3>
-                    <p className="text-gray-600">
-                      +966 12 345 6789
-                      <br />
-                      +966 12 345 6780
-                    </p>
+                    <p className="text-gray-600">+966 50 575 3717</p>
                   </div>
                 </div>
               </div>
