@@ -37,9 +37,11 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         <Link to="/" className="flex items-center gap-2">
-          <span className="text-3xl font-bold tracking-tight text-white">
-            <span>SSTA</span>
-          </span>
+          <img 
+            src="/lovable-uploads/d3107b5b-6d08-4119-b9e1-5fb5211fab05.png" 
+            alt="SSTA Logo" 
+            className="h-14 w-auto" 
+          />
         </Link>
 
         {/* Desktop Menu */}

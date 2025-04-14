@@ -1,3 +1,4 @@
+
 import React from "react";
 import {
   ArrowRight,
@@ -256,7 +257,7 @@ const Home = () => {
             subtitle="Our team combines Saudi leadership with international security expertise to deliver unmatched training excellence."
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mt-12">
             <TeamMemberCard
               name="Nawaf Y M Alqahtani"
               position="CEO (Saudi)"
@@ -283,6 +284,13 @@ const Home = () => {
               imageUrl="https://via.placeholder.com/300x400?text=Senior+Trainer"
               className="animate-fade-in"
               style={{ animationDelay: "0.4s" }}
+            />
+            <TeamMemberCard
+              name="Tauqir Khan"
+              position="Marketing Executive"
+              imageUrl="https://via.placeholder.com/300x400?text=Marketing+Executive"
+              className="animate-fade-in"
+              style={{ animationDelay: "0.5s" }}
             />
           </div>
 
