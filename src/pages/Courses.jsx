@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -15,19 +14,17 @@ const Courses = () => {
   return (
     <>
       {/* Hero Section with improved visibility */}
-      <section className="relative pt-32 pb-20 bg-gradient-to-r from-ssta-navy to-ssta-dark">
+      <section className="relative pt-32 pb-20 bg-gradient-to-r from-ssta-navy to-ssta-dark text-white">
         <div className="container mx-auto px-4 text-center">
-          <div className="hero-content-box inline-block mx-auto max-w-3xl p-6 text-white">
-            <h1 className="text-4xl md:text-5xl font-bold mb-2 animate-fade-in">
-              Our Courses & Certifications
-            </h1>
-            <p
-              className="mt-2 text-lg md:text-xl text-white/90 animate-fade-in opacity-0"
-              style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}
-            >
-              World-class training for Saudi security professionals
-            </p>
-          </div>
+          <h1 className="text-4xl md:text-5xl font-bold animate-fade-in">
+            Our Courses & Certifications
+          </h1>
+          <p
+            className="mt-4 text-lg md:text-xl text-white/90 animate-fade-in opacity-0"
+            style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}
+          >
+            World-class training for Saudi security professionals
+          </p>
         </div>
       </section>
 
@@ -59,7 +56,10 @@ const Courses = () => {
                                 {course.title}
                               </h3>
                               <div className="flex items-center text-xs md:text-sm text-gray-600 mt-1 md:mt-2">
-                                <Clock size={14} className="mr-1 flex-shrink-0" />
+                                <Clock
+                                  size={14}
+                                  className="mr-1 flex-shrink-0"
+                                />
                                 <span>{course.duration}</span>
                               </div>
                             </div>
