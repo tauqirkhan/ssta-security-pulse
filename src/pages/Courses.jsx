@@ -32,40 +32,40 @@ const Courses = () => {
       </section>
 
       {/* Courses Accordion */}
-      <section className="py-16">
+      <section className="py-12 md:py-16">
         <div className="container mx-auto px-4">
           <SectionTitle
             title="Security Training Programs"
             subtitle="SSTA offers comprehensive certification pathways across multiple security disciplines"
           />
 
-          <div className="mt-12 max-w-4xl mx-auto">
+          <div className="mt-8 md:mt-12 max-w-4xl mx-auto">
             <Accordion type="single" collapsible className="w-full">
               {coursesByCategory.map((category, index) => (
                 <AccordionItem key={index} value={`item-${index}`}>
-                  <AccordionTrigger className="text-xl font-bold text-ssta-dark hover:text-ssta-navy">
+                  <AccordionTrigger className="text-lg md:text-xl font-bold text-ssta-dark hover:text-ssta-navy">
                     {category.name}
                   </AccordionTrigger>
                   <AccordionContent>
-                    <div className="grid gap-4 pt-4">
+                    <div className="grid gap-3 pt-4">
                       {category.courses.map((course, courseIndex) => (
                         <div
                           key={courseIndex}
-                          className="bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all p-4"
+                          className="bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all p-3 md:p-4"
                         >
-                          <div className="flex justify-between items-start flex-wrap gap-2">
+                          <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
                             <div>
-                              <h3 className="font-semibold text-lg text-ssta-dark">
+                              <h3 className="font-semibold text-base md:text-lg text-ssta-dark">
                                 {course.title}
                               </h3>
-                              <div className="flex items-center text-sm text-gray-600 mt-2">
-                                <Clock size={16} className="mr-1" />
+                              <div className="flex items-center text-xs md:text-sm text-gray-600 mt-1 md:mt-2">
+                                <Clock size={14} className="mr-1 flex-shrink-0" />
                                 <span>{course.duration}</span>
                               </div>
                             </div>
                             <Button
                               size="sm"
-                              className="bg-ssta-navy hover:bg-ssta-dark text-white"
+                              className="self-start sm:self-auto mt-2 sm:mt-0 bg-ssta-navy hover:bg-ssta-dark text-white text-xs md:text-sm py-1 px-3 h-auto"
                             >
                               Details
                             </Button>
