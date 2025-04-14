@@ -1,4 +1,3 @@
-
 import React from "react";
 import { cn } from "@/lib/utils";
 
@@ -11,7 +10,7 @@ const TeamMemberCard = ({
   style,
 }) => {
   return (
-    <div 
+    <div
       className={cn(
         "bg-white rounded-lg overflow-hidden shadow-lg transition-all duration-300 hover:shadow-2xl",
         className
@@ -22,6 +21,7 @@ const TeamMemberCard = ({
         <img
           src={imageUrl}
           alt={name}
+          draggable="none"
           className="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105"
         />
       </div>

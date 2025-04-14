@@ -36,10 +36,10 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         <Link to="/" className="flex items-center gap-2">
-          <img 
-            src="/lovable-uploads/1cd1b3bc-674d-4502-900e-31103631017c.png" 
-            alt="SSTA Logo" 
-            className="h-14 w-auto" 
+          <img
+            src="/whiteLogoOfSSTA.png"
+            alt="SSTA Logo"
+            className="h-14 w-auto"
             draggable="none"
           />
         </Link>
@@ -82,7 +82,10 @@ const Navbar = () => {
           >
             Contact
           </Link>
-          <Button asChild className="bg-ssta-gold hover:bg-ssta-gold-light text-ssta-dark font-bold px-5 py-2 ml-2">
+          <Button
+            asChild
+            className="bg-ssta-gold hover:bg-ssta-gold-light text-ssta-dark font-bold px-5 py-2 ml-2"
+          >
             <Link to="/contact">Partner With Us</Link>
           </Button>
         </div>
@@ -146,7 +149,10 @@ const Navbar = () => {
             >
               Contact
             </Link>
-            <Button asChild className="bg-ssta-gold hover:bg-ssta-gold-light text-ssta-dark font-bold w-full py-3 mt-2">
+            <Button
+              asChild
+              className="bg-ssta-gold hover:bg-ssta-gold-light text-ssta-dark font-bold w-full py-3 mt-2"
+            >
               <Link to="/contact">Partner With Us</Link>
             </Button>
           </div>
