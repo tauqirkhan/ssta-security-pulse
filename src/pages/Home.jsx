@@ -1,4 +1,3 @@
-
 import React from "react";
 import {
   ArrowRight,
@@ -16,6 +15,7 @@ import CourseCard from "@/components/CourseCard";
 import TeamMemberCard from "@/components/TeamMemberCard";
 import SectorCard from "@/components/SectorCard";
 import CallToAction from "@/components/CallToAction";
+import PartnersSection from "@/components/PartnersSection";
 
 const Home = () => {
   return (
@@ -191,6 +191,9 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Partners Section */}
+      <PartnersSection />
 
       {/* Courses Section */}
       <section className="py-16 bg-gray-50">
