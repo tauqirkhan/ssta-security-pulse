@@ -37,7 +37,7 @@ const Navbar = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         <Link to="/" className="flex items-center gap-2">
           <img
-            src="/whiteLogoOfSSTA.png"
+            src="/logo.png"
             alt="SSTA Logo"
             className="h-14 w-auto"
             draggable="none"

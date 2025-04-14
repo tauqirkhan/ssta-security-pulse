@@ -112,7 +112,7 @@ const Home = () => {
                 <div className="absolute inset-0 opacity-20 bg-pattern-grid"></div>
               </div>
               <div className="absolute -bottom-6 -left-6 bg-ssta-gold text-ssta-dark p-4 rounded shadow-lg">
-                <p className="text-4xl font-bold">18+</p>
+                <p className="text-4xl font-bold">40+</p>
                 <p className="font-medium">Elite Programs</p>
               </div>
             </div>
@@ -168,7 +168,7 @@ const Home = () => {
                 Global Certifications
               </h3>
               <p className="text-gray-600">
-                18 globally benchmarked certifications across all security
+                40 globally benchmarked certifications across all security
                 sectors.
               </p>
             </div>
@@ -200,7 +200,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <SectionTitle
             title="Our Courses & Certifications"
-            subtitle="We offer 18 certification pathways spanning across multiple security disciplines, all delivered by world-class trainers and validated to international standards."
+            subtitle="We offer 40 certification pathways spanning across multiple security disciplines, all delivered by world-class trainers and validated to international standards."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
