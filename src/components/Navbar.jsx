@@ -39,7 +39,7 @@ const Navbar = () => {
           <img
             src="/logo.png"
             alt="SSTA Logo"
-            className="h-14 w-auto"
+            className="h-auto w-[120px] sm:w-[140px] md:w-[160px] lg:w-[180px]"
             draggable="none"
           />
         </Link>
