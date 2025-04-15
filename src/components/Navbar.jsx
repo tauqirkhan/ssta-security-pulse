@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
@@ -39,7 +40,7 @@ const Navbar = () => {
           <img
             src="/logo.png"
             alt="SSTA Logo"
-            className="h-auto w-[120px] sm:w-[140px] md:w-[160px] lg:w-[180px]"
+            className="h-10 w-auto object-contain transition-all duration-300 ease-in-out hover:opacity-80"
             draggable="none"
           />
         </Link>
