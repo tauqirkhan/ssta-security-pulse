@@ -40,7 +40,7 @@ const Navbar = () => {
           <img
             src="/logo.png"
             alt="SSTA Logo"
-            className="h-10 w-auto object-contain transition-all duration-300 ease-in-out hover:opacity-80"
+            className="h-12 w-auto max-w-[200px] object-contain transition-all duration-300 ease-in-out hover:opacity-80 sm:h-14 md:h-16"
             draggable="none"
           />
         </Link>
