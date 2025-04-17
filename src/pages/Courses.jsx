@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import SectionTitle from "@/components/SectionTitle";
@@ -11,6 +11,17 @@ import {
 } from "@/components/ui/accordion";
 
 const Courses = () => {
+  // Handle hash navigation when page loads
+  useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const element = document.querySelector(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, []);
+
   return (
     <>
       {/* Hero Section with improved visibility */}
@@ -39,7 +50,11 @@ const Courses = () => {
           <div className="mt-8 md:mt-12 max-w-4xl mx-auto">
             <Accordion type="single" collapsible className="w-full">
               {coursesByCategory.map((category, index) => (
-                <AccordionItem key={index} value={`item-${index}`}>
+                <AccordionItem 
+                  key={index} 
+                  value={`item-${index}`}
+                  id={category.courses[0]?.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}
+                >
                   <AccordionTrigger className="text-lg md:text-xl font-bold text-ssta-dark hover:text-ssta-navy">
                     {category.name}
                   </AccordionTrigger>
