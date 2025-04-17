@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { Clock } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import SectionTitle from "@/components/SectionTitle";
 import CallToAction from "@/components/CallToAction";
 import {
@@ -78,12 +77,6 @@ const Courses = () => {
                                 <span>{course.duration}</span>
                               </div>
                             </div>
-                            <Button
-                              size="sm"
-                              className="self-start sm:self-auto mt-2 sm:mt-0 bg-ssta-navy hover:bg-ssta-dark text-white text-xs md:text-sm py-1 px-3 h-auto"
-                            >
-                              Details
-                            </Button>
                           </div>
                         </div>
                       ))}
