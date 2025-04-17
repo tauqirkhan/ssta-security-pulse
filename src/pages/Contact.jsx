@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Mail, MapPin, Phone, CheckCircle } from "lucide-react";
 import SectionTitle from "@/components/SectionTitle";
@@ -256,9 +257,27 @@ const Contact = () => {
             subtitle="Our training academy is conveniently located in Riyadh's business district"
           />
 
-          <div className="mt-8 rounded-lg overflow-hidden shadow-md">
-            <div className="w-full h-80 image-placeholder">
-              <p className="image-placeholder-text">Location Map</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+            {/* SSTA Office Location */}
+            <div className="bg-white rounded-lg shadow-md p-6">
+              <h3 className="text-xl font-bold text-ssta-dark mb-4">SSTA Office Location</h3>
+              <div className="prose text-gray-600">
+                <p className="mb-2">Saudi Skills Training Academy</p>
+                <p className="mb-2">Business District</p>
+                <p className="mb-2">Riyadh, Saudi Arabia</p>
+                <p>Working Hours: Sunday - Thursday, 9:00 AM - 5:00 PM</p>
+              </div>
+            </div>
+
+            {/* Location Map */}
+            <div className="bg-white rounded-lg shadow-md p-6 h-full">
+              <h3 className="text-xl font-bold text-ssta-dark mb-4">Location Map</h3>
+              <div className="bg-gray-100 rounded-lg h-[300px] flex items-center justify-center">
+                <div className="text-center text-gray-500">
+                  <MapPin className="w-8 h-8 mx-auto mb-2" />
+                  <p>Interactive map coming soon</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
