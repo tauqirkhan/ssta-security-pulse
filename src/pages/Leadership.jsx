@@ -138,49 +138,6 @@ const Leadership = () => {
         </div>
       </section>
 
-      {/* Training Leadership */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <SectionTitle
-            title="Training Leadership"
-            subtitle="Our expert trainers bring decades of international security experience"
-          />
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
-            <TeamMemberCard
-              name="James Wilson"
-              position="Counter Terrorism Expert"
-              imageUrl="https://placehold.co/400x500/gray/white?text=CT+Expert"
-            />
-            <TeamMemberCard
-              name="Sarah Al-Harbi"
-              position="Healthcare Security Lead"
-              imageUrl="https://placehold.co/400x500/gray/white?text=Healthcare+Lead"
-            />
-            <TeamMemberCard
-              name="Mohammed Khalid"
-              position="Event Security Specialist"
-              imageUrl="https://placehold.co/400x500/gray/white?text=Event+Specialist"
-            />
-            <TeamMemberCard
-              name="David Thomson"
-              position="Security Risk Assessment Lead"
-              imageUrl="https://placehold.co/400x500/gray/white?text=Risk+Lead"
-            />
-            <TeamMemberCard
-              name="Aisha Al-Otaibi"
-              position="Training Coordinator"
-              imageUrl="https://placehold.co/400x500/gray/white?text=Training+Coordinator"
-            />
-            <TeamMemberCard
-              name="Abdullah Al-Ghamdi"
-              position="VIP Protection Specialist"
-              imageUrl="https://placehold.co/400x500/gray/white?text=VIP+Protection"
-            />
-          </div>
-        </div>
-      </section>
-
       {/* Call to Action */}
       <CallToAction
         title="Meet Our Team in Person"

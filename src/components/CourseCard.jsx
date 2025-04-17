@@ -3,6 +3,7 @@ import React from "react";
 import { cn } from "@/lib/utils";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const CourseCard = ({ title, category, description, className, style }) => {
   return (
@@ -28,8 +29,10 @@ const CourseCard = ({ title, category, description, className, style }) => {
       <div className="p-6">
         <h3 className="text-xl font-bold mb-3 text-ssta-dark">{title}</h3>
         {description && <p className="text-gray-600 mb-4">{description}</p>}
-        <Button variant="ghost" className="p-0 h-auto text-ssta-navy hover:text-ssta-gold group">
-          Learn More <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+        <Button asChild variant="ghost" className="p-0 h-auto text-ssta-navy hover:text-ssta-gold group">
+          <Link to="/courses">
+            Learn More <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+          </Link>
         </Button>
       </div>
     </div>
