@@ -5,8 +5,7 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
-const CourseCard = ({ title, category, description, className, style }) => {
-  // Convert title to a URL-friendly format for the section ID
+const CourseCard = ({ title, category, description, imageUrl, className, style }) => {
   const sectionId = title.toLowerCase().replace(/[^a-z0-9]+/g, '-');
 
   return (
@@ -17,12 +16,22 @@ const CourseCard = ({ title, category, description, className, style }) => {
       )}
       style={style}
     >
-      <div className="h-48 bg-gradient-to-br from-ssta-navy/80 to-ssta-gold/50 relative">
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center">
-            <span className="text-white text-4xl font-bold">S</span>
+      <div className="h-48 relative overflow-hidden">
+        {imageUrl ? (
+          <img 
+            src={imageUrl} 
+            alt={title} 
+            className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+          />
+        ) : (
+          <div className="h-full bg-gradient-to-br from-ssta-navy/80 to-ssta-gold/50 relative">
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="w-16 h-16 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center">
+                <span className="text-white text-4xl font-bold">S</span>
+              </div>
+            </div>
           </div>
-        </div>
+        )}
         <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
           <span className="inline-block px-3 py-1 bg-ssta-gold/90 text-ssta-dark text-xs font-semibold rounded">
             {category}
