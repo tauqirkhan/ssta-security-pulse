@@ -207,41 +207,41 @@ const Home = () => {
             <CourseCard
               title="Certified Security Personnel (CSP)"
               category="Security Training"
-              imageUrl="/lovable-uploads/18a7c13b-6d77-46fb-b194-9b3a9d227737.png"
+              imageUrl="/courses/csp.jpg"
               className="animate-fade-in"
             />
             <CourseCard
               title="Crisis Management Specialist"
               category="Security Training"
-              imageUrl="/lovable-uploads/1a1f6ede-b345-4ad9-8139-2767fd2719ca.png"
+              imageUrl="/courses/cms.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.2s" }}
             />
             <CourseCard
               title="First Aid & First Responder"
               category="Security Training"
-              imageUrl="/lovable-uploads/1cd1b3bc-674d-4502-900e-31103631017c.png"
+              imageUrl="/courses/far.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.3s" }}
             />
             <CourseCard
               title="Executive Protection Specialist"
               category="VIP Protection"
-              imageUrl="/lovable-uploads/464b4a6f-ff79-46cd-8256-a3972ca69f96.png"
+              imageUrl="/courses/eps.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.4s" }}
             />
             <CourseCard
               title="Event Security Manager"
               category="Event Security"
-              imageUrl="/lovable-uploads/510e5ef7-d9c7-4992-a736-02c3fa3cf828.png"
+              imageUrl="/courses/esm.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.5s" }}
             />
             <CourseCard
               title="Security Risk Assessor"
               category="Consultancy & Leadership"
-              imageUrl="/lovable-uploads/bb5a7104-ae03-483a-b8c7-f84430f68d6d.png"
+              imageUrl="/courses/sra.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.6s" }}
             />
