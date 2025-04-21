@@ -1,15 +1,21 @@
-
 import React from "react";
 import { cn } from "@/lib/utils";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
-const CourseCard = ({ title, category, description, imageUrl, className, style }) => {
-  const sectionId = title.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+const CourseCard = ({
+  title,
+  category,
+  description,
+  imageUrl,
+  className,
+  style,
+}) => {
+  const sectionId = title.toLowerCase().replace(/[^a-z0-9]+/g, "-");
 
   return (
-    <div 
+    <div
       className={cn(
         "bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300",
         className
@@ -18,10 +24,11 @@ const CourseCard = ({ title, category, description, imageUrl, className, style }
     >
       <div className="h-48 relative overflow-hidden">
         {imageUrl ? (
-          <img 
-            src={imageUrl} 
-            alt={title} 
-            className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+          <img
+            src={imageUrl}
+            alt={title}
+            className="w-full h-full object-cover
+             transition-transform duration-300 hover:scale-105"
           />
         ) : (
           <div className="h-full bg-gradient-to-br from-ssta-navy/80 to-ssta-gold/50 relative">
@@ -41,9 +48,14 @@ const CourseCard = ({ title, category, description, imageUrl, className, style }
       <div className="p-6">
         <h3 className="text-xl font-bold mb-3 text-ssta-dark">{title}</h3>
         {description && <p className="text-gray-600 mb-4">{description}</p>}
-        <Button asChild variant="ghost" className="p-0 h-auto text-ssta-navy hover:text-ssta-gold group">
+        <Button
+          asChild
+          variant="ghost"
+          className="p-0 h-auto text-ssta-navy hover:text-ssta-gold group"
+        >
           <Link to={`/courses#${sectionId}`}>
-            Learn More <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+            Learn More{" "}
+            <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
           </Link>
         </Button>
       </div>
@@ -52,4 +64,3 @@ const CourseCard = ({ title, category, description, imageUrl, className, style }
 };
 
 export default CourseCard;
-
