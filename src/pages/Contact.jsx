@@ -22,13 +22,19 @@ const Contact = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = async (e) => {
+    e.preventDefault(); // Prevent page refresh
     setIsSubmitting(true);
 
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
+    try {
+      await fetch("https://formspree.io/f/meogjkal", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
       setIsSubmitted(true);
       toast({
         title: "Message Sent",
@@ -36,7 +42,15 @@ const Contact = () => {
           "Thank you for contacting SSTA. We will get back to you shortly.",
         variant: "default",
       });
-    }, 1500);
+    } catch (error) {
+      toast({
+        title: "Something went wrong",
+        description: "Unable to send message. Please try again later.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
