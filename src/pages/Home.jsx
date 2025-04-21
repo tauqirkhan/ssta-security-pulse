@@ -108,7 +108,12 @@ const Home = () => {
               </Button>
             </div>
             <div className="relative animate-fade-in-right">
-              <div className="rounded-lg shadow-lg w-full h-80 bg-gradient-to-br from-ssta-navy via-ssta-dark to-ssta-gold/50 overflow-hidden">
+              <div className="rounded-lg shadow-lg w-full h-80 overflow-hidden relative bg-white">
+                <img
+                  src="/section_images/eliteCourses.png"
+                  alt="Elite Courses"
+                  className="w-full h-full object-contain transition-transform duration-300 hover:scale-105"
+                />
                 <div className="absolute inset-0 opacity-20 bg-pattern-grid"></div>
               </div>
               <div className="absolute -bottom-6 -left-6 bg-ssta-gold text-ssta-dark p-4 rounded shadow-lg">
@@ -272,6 +277,7 @@ const Home = () => {
               position="CEO"
               imageUrl="/leadership/sukh.jpg"
               className="animate-fade-in"
+              bio={`A seasoned entrepreneur and visionary leader, Sukh Gill brings a wealth of experience to SSTA as CEO. Having previously founded innovative ventures such as Instacharge, Priceless, and Looping AI, he brings a strong track record in technology, strategic growth, and business leadership. At SSTA, Sukh leads with a forward-thinking approach, driving the academy’s mission to deliver world-class security training solutions across Saudi Arabia and beyond.`}
             />
             <TeamMemberCard
               name="Nawaf Y M Alqahtani"
@@ -279,6 +285,7 @@ const Home = () => {
               imageUrl="/leadership/nawaf.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.2s" }}
+              bio={`With a strong background in sales, marketing, and business development, Nawaf Alqahtani brings strategic insight and leadership to SSTA’s growth initiatives. As Sales Director, he leads client acquisition efforts, drives partnerships, and ensures our training solutions reach the right audiences across the Kingdom. Nawaf's experience and dedication play a key role in expanding SSTA’s impact in the security training sector.`}
             />
             <TeamMemberCard
               name="Mark Bramwell"
@@ -286,6 +293,14 @@ const Home = () => {
               imageUrl="/leadership/mark.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.3s" }}
+              bio={`Mark Bramwell is one of the UK’s most accomplished security professionals, with over 25 years of experience in military intelligence, diplomatic security, and enterprise training. A former British Army Intelligence Officer, he served in key global regions including Iraq, Syria, and Cyprus, advising senior leaders on crisis strategy and physical security. Fluent in Arabic, Mark brings a rare cross-cultural edge to leadership and training.
+
+                    In the private sector, he led Operational Security at Mitie, overseeing critical infrastructure risk assessments and developing nationwide security protocols. As a certified training architect, he has designed national “Train-the-Trainer” programs for over 3,000 personnel, covering areas such as intelligence, executive protection, crisis response, and immersive simulations.
+
+                    At SSTA, Mark leads the development and execution of the Kingdom’s national training standards, ensuring every course meets international benchmarks while building a strong, Saudi-first security workforce.
+
+                    Mark doesn’t just teach—he builds systems that empower those who lead.
+                  `}
             />
             <TeamMemberCard
               name="Samraj Padda"
@@ -293,6 +308,12 @@ const Home = () => {
               imageUrl="/leadership/samraj.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.4s" }}
+              bio={`With over 20 years of frontline experience, Samraj Padda is a seasoned tactical operations expert known for leading high-stakes protection teams across the UK. From securing royalty and executives to managing live operations at Sky Studios, his leadership blends real-time precision with deep operational insight.
+
+                  At SSTA, Samraj drives hands-on training and quality assurance across all certification programs. He leads live drills, high-pressure simulations, and trains Saudi instructors to perform with confidence under stress. A long-time collaborator with Mark Bramwell, he ensures every course delivers not just theory — but field-ready performance.
+
+                  Samraj prepares teams for moments where failure is not an option.
+              `}
             />
             <TeamMemberCard
               name="Tauqir Khan"
@@ -300,6 +321,7 @@ const Home = () => {
               imageUrl="/leadership/tauqir.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.5s" }}
+              bio={`Blending a unique combination of technical expertise and marketing acumen, Tauqir Khan brings over four years of coding experience alongside a solid background in sales and marketing. As Marketing Executive at SSTA, he leverages his analytical mindset and creative strategy to enhance brand visibility, drive engagement, and support the academy’s growth objectives in the security training industry.`}
             />
           </div>
 

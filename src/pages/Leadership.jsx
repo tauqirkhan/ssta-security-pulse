@@ -34,26 +34,43 @@ const Leadership = () => {
               name="Sukh Gill"
               position="CEO"
               imageUrl="/leadership/sukh.jpg"
+              bio={`A seasoned entrepreneur and visionary leader, Sukh Gill brings a wealth of experience to SSTA as CEO. Having previously founded innovative ventures such as Instacharge, Priceless, and Looping AI, he brings a strong track record in technology, strategic growth, and business leadership. At SSTA, Sukh leads with a forward-thinking approach, driving the academy’s mission to deliver world-class security training solutions across Saudi Arabia and beyond.`}
             />
             <TeamMemberCard
               name="Nawaf Y M Alqahtani "
               position="Sales Director"
               imageUrl="/leadership/nawaf.jpg"
+              bio={`With a strong background in sales, marketing, and business development, Nawaf Alqahtani brings strategic insight and leadership to SSTA’s growth initiatives. As Sales Director, he leads client acquisition efforts, drives partnerships, and ensures our training solutions reach the right audiences across the Kingdom. Nawaf's experience and dedication play a key role in expanding SSTA’s impact in the security training sector.`}
             />
             <TeamMemberCard
               name="Mark Bramwell"
               position="Director of Training"
               imageUrl="/leadership/mark.jpg"
+              bio={`Mark Bramwell is one of the UK’s most accomplished security professionals, with over 25 years of experience in military intelligence, diplomatic security, and enterprise training. A former British Army Intelligence Officer, he served in key global regions including Iraq, Syria, and Cyprus, advising senior leaders on crisis strategy and physical security. Fluent in Arabic, Mark brings a rare cross-cultural edge to leadership and training.
+
+                In the private sector, he led Operational Security at Mitie, overseeing critical infrastructure risk assessments and developing nationwide security protocols. As a certified training architect, he has designed national “Train-the-Trainer” programs for over 3,000 personnel, covering areas such as intelligence, executive protection, crisis response, and immersive simulations.
+
+                At SSTA, Mark leads the development and execution of the Kingdom’s national training standards, ensuring every course meets international benchmarks while building a strong, Saudi-first security workforce.
+
+                Mark doesn’t just teach—he builds systems that empower those who lead.
+              `}
             />
             <TeamMemberCard
               name="Samraj Padda"
               position="Senior Trainer & Quality Lead"
               imageUrl="/leadership/samraj.jpg"
+              bio={`With over 20 years of frontline experience, Samraj Padda is a seasoned tactical operations expert known for leading high-stakes protection teams across the UK. From securing royalty and executives to managing live operations at Sky Studios, his leadership blends real-time precision with deep operational insight.
+
+                At SSTA, Samraj drives hands-on training and quality assurance across all certification programs. He leads live drills, high-pressure simulations, and trains Saudi instructors to perform with confidence under stress. A long-time collaborator with Mark Bramwell, he ensures every course delivers not just theory — but field-ready performance.
+
+                Samraj prepares teams for moments where failure is not an option.
+            `}
             />
             <TeamMemberCard
               name="Tauqir Khan"
               position="Marketing Executive"
               imageUrl="/leadership/tauqir.jpg"
+              bio={`Blending a unique combination of technical expertise and marketing acumen, Tauqir Khan brings over four years of coding experience alongside a solid background in sales and marketing. As Marketing Executive at SSTA, he leverages his analytical mindset and creative strategy to enhance brand visibility, drive engagement, and support the academy’s growth objectives in the security training industry.`}
             />
           </div>
         </div>
