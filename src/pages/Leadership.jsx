@@ -81,8 +81,12 @@ const Leadership = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="rounded-lg shadow-lg w-full h-80 image-placeholder">
-                <p className="image-placeholder-text">Leadership Meeting</p>
+              <div className="rounded-lg shadow-lg w-full h-80 overflow-hidden">
+                <img
+                  src="/section_images/leadershipVision.jpg"
+                  alt="Leadership Meeting"
+                  className="w-full h-full object-cover object-center"
+                />
               </div>
             </div>
             <div>

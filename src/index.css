@@ -63,7 +63,8 @@
   cursor: default;
 }
 
-a, button, 
+a,
+button,
 [role="button"],
 input[type="submit"],
 input[type="button"],
@@ -110,16 +111,17 @@ button:hover,
   user-select: none;
 }
 
-input, textarea {
+input,
+textarea {
   user-select: text;
 }
 
 /* Custom colors */
 :root {
-  --ssta-navy: #0A335E;
-  --ssta-dark: #001E3D;
-  --ssta-gold: #E9B94E;
-  --ssta-gold-light: #F8D98B;
+  --ssta-navy: #0a335e;
+  --ssta-dark: #001e3d;
+  --ssta-gold: #e9b94e;
+  --ssta-gold-light: #f8d98b;
 }
 
 /* Animation classes */
@@ -236,7 +238,7 @@ input, textarea {
 }
 
 .hero-content-box::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -247,7 +249,7 @@ input, textarea {
 }
 
 .hero-content-box::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -259,4 +261,13 @@ input, textarea {
 /* Improved Learn More button */
 .learn-more-btn {
   @apply bg-white text-ssta-dark hover:bg-ssta-gold transition-colors duration-300 font-bold flex items-center gap-2 border-2 border-transparent hover:border-white;
+}
+
+img {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }

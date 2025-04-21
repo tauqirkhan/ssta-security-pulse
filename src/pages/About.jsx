@@ -59,9 +59,14 @@ const About = () => {
               </p>
             </div>
             <div className="relative">
-              <div className="rounded-lg shadow-lg w-full h-80 image-placeholder">
-                <p className="image-placeholder-text">SSTA Foundation</p>
+              <div className="rounded-lg shadow-lg w-full h-80 overflow-hidden">
+                <img
+                  src="/logo.png"
+                  alt="SSTA Foundation"
+                  className="w-full h-full object-contain object-center"
+                />
               </div>
+
               <div className="absolute -bottom-6 -right-6 bg-ssta-gold text-ssta-dark p-4 rounded shadow-lg">
                 <p className="text-lg font-bold">Founded 2025</p>
               </div>
@@ -127,10 +132,12 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="order-2 lg:order-1">
-              <div className="rounded-lg shadow-lg w-full h-80 image-placeholder">
-                <p className="text-gray-600 text-lg">
-                  Security Training Excellence
-                </p>
+              <div className="rounded-lg shadow-lg w-full h-80 overflow-hidden">
+                <img
+                  src="/section_images/securityExcellence.jpg"
+                  alt="Security Training Excellence"
+                  className="w-full h-full object-cover object-center"
+                />
               </div>
             </div>
             <div className="order-1 lg:order-2">

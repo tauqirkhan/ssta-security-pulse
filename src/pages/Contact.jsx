@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Mail, MapPin, Phone, CheckCircle } from "lucide-react";
 import SectionTitle from "@/components/SectionTitle";
@@ -89,7 +88,7 @@ const Contact = () => {
                     <h3 className="text-lg font-bold mb-1 text-ssta-dark">
                       Email Us
                     </h3>
-                    <p className="text-gray-600">sstaacademy@gmail.com</p>
+                    <p className="text-gray-600">enquiry.ssta@gmail.com</p>
                   </div>
                 </div>
 
@@ -107,8 +106,12 @@ const Contact = () => {
               </div>
 
               <div className="mt-10">
-                <div className="rounded-lg shadow-md w-full h-60 image-placeholder">
-                  <p className="image-placeholder-text">SSTA Office Location</p>
+                <div className="rounded-lg shadow-md w-full h-60 overflow-hidden">
+                  <img
+                    src="/section_images/office.jpg"
+                    alt="SSTA Office Location"
+                    className="w-full h-full object-cover object-center"
+                  />
                 </div>
               </div>
             </div>
@@ -260,7 +263,9 @@ const Contact = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
             {/* SSTA Office Location */}
             <div className="bg-white rounded-lg shadow-md p-6">
-              <h3 className="text-xl font-bold text-ssta-dark mb-4">SSTA Office Location</h3>
+              <h3 className="text-xl font-bold text-ssta-dark mb-4">
+                SSTA Office Location
+              </h3>
               <div className="prose text-gray-600">
                 <p className="mb-2">Saudi Skills Training Academy</p>
                 <p className="mb-2">Business District</p>
@@ -271,15 +276,17 @@ const Contact = () => {
 
             {/* Location Map */}
             <div className="bg-white rounded-lg shadow-md p-6 h-full">
-              <h3 className="text-xl font-bold text-ssta-dark mb-4">Location Map</h3>
+              <h3 className="text-xl font-bold text-ssta-dark mb-4">
+                Location Map
+              </h3>
               <div className="w-full h-[300px]">
-                <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.291244581539!2d46.7134375!3d24.7135831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2sRiyadh%2C%20Saudi%20Arabia!5e0!3m2!1sen!2sus!4v1709901234567!5m2!1sen!2sus" 
-                  width="100%" 
-                  height="100%" 
-                  style={{border:0}} 
-                  allowFullScreen="" 
-                  loading="lazy" 
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.291244581539!2d46.7134375!3d24.7135831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2sRiyadh%2C%20Saudi%20Arabia!5e0!3m2!1sen!2sus!4v1709901234567!5m2!1sen!2sus"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                  loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
               </div>

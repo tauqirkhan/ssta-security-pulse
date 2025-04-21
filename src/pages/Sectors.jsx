@@ -145,10 +145,12 @@ const Sectors = () => {
             </div>
 
             <div>
-              <div className="rounded-lg shadow-lg w-full h-80 image-placeholder">
-                <p className="image-placeholder-text">
-                  Smart City Security Solutions
-                </p>
+              <div className="rounded-lg shadow-lg w-full h-80 overflow-hidden">
+                <img
+                  src="/section_images/gpsc.jpg"
+                  alt="Smart City Security Solutions"
+                  className="w-full h-full object-contain object-center"
+                />
               </div>
             </div>
           </div>
@@ -205,8 +207,12 @@ const Sectors = () => {
                   </span>
                 </li>
               </ul>
-              <div className="w-full h-48 image-placeholder rounded-md mb-4">
-                <p className="image-placeholder-text">Event Security</p>
+              <div className="w-full h-48 rounded-md mb-4 overflow-hidden">
+                <img
+                  src="/section_images/eventSecurity.png"
+                  alt="Event Security"
+                  className="w-full h-full object-cover object-top"
+                />
               </div>
             </div>
 
@@ -250,8 +256,12 @@ const Sectors = () => {
                   </span>
                 </li>
               </ul>
-              <div className="w-full h-48 image-placeholder rounded-md mb-4">
-                <p className="image-placeholder-text">Retail Security</p>
+              <div className="w-full h-48 rounded-md mb-4 overflow-hidden">
+                <img
+                  src="/section_images/commercial.png"
+                  alt="Retail Security"
+                  className="w-full h-full object-cover object-center"
+                />
               </div>
             </div>
           </div>
