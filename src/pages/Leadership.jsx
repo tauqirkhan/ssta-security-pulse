@@ -31,16 +31,16 @@ const Leadership = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-12">
             <TeamMemberCard
-              name="Sukh Gill"
+              name="Nawaf Y M Alqahtani "
               position="CEO"
-              imageUrl="/leadership/sukh.jpg"
-              bio={`A seasoned entrepreneur and visionary leader, Sukh Gill brings a wealth of experience to SSTA as CEO. Having previously founded innovative ventures such as Instacharge, Priceless, and Looping AI, he brings a strong track record in technology, strategic growth, and business leadership. At SSTA, Sukh leads with a forward-thinking approach, driving the academy’s mission to deliver world-class security training solutions across Saudi Arabia and beyond.`}
+              imageUrl="/leadership/nawaf.jpg"
+              bio={`A Saudi national with a strong background in sales, marketing, and business development, he now leads the overall direction and operations of the academy. His leadership focuses on expanding SSTA’s reach and impact in the security training sector, ensuring the delivery of high-quality programs that support the Kingdom’s evolving needs. Nawaf is committed to developing local talent and strengthening security capabilities across Saudi Arabia.`}
             />
             <TeamMemberCard
-              name="Nawaf Y M Alqahtani "
-              position="Sales Director"
-              imageUrl="/leadership/nawaf.jpg"
-              bio={`With a strong background in sales, marketing, and business development, Nawaf Alqahtani brings strategic insight and leadership to SSTA’s growth initiatives. As Sales Director, he leads client acquisition efforts, drives partnerships, and ensures our training solutions reach the right audiences across the Kingdom. Nawaf's experience and dedication play a key role in expanding SSTA’s impact in the security training sector.`}
+              name="Sukh Gill"
+              position="Strategic Director & Founder"
+              imageUrl="/leadership/sukh.jpg"
+              bio={` With a background in launching successful ventures like Instacharge, Priceless, and Looping AI, he brings extensive experience in business strategy and technology. At SSTA, Sukh focuses on shaping the academy’s long-term strategy and expanding its impact, ensuring the delivery of high-quality security training solutions across Saudi Arabia.`}
             />
             <TeamMemberCard
               name="Mark Bramwell"
