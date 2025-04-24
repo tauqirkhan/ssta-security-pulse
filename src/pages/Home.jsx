@@ -276,27 +276,82 @@ const Home = () => {
               name="Nawaf Y M Alqahtani "
               position="CEO"
               imageUrl="/leadership/nawaf.jpg"
-              bio={`A Saudi national with a strong background in sales, marketing, and business development, he now leads the overall direction and operations of the academy. His leadership focuses on expanding SSTA’s reach and impact in the security training sector, ensuring the delivery of high-quality programs that support the Kingdom’s evolving needs. Nawaf is committed to developing local talent and strengthening security capabilities across Saudi Arabia.`}
+              bio={`Nawaf Alqahtani is a Saudi visionary committed to transforming the Kingdom’s private security sector into a symbol of national pride, discipline, and global excellence. Recognising the critical gaps in training, standards, and professional development across the industry, Nawaf has dedicated himself to embedding a new benchmark through the Saudi Security Training Academy (SSTA).
+
+With a background in sales, marketing, and business development, Nawaf brings a deep understanding of how to drive growth, build partnerships, and mobilise the Kingdom’s leading security firms towards a unified goal — elevating every security professional to meet the demands of a rapidly changing Saudi Arabia.
+
+His leadership at SSTA is more than operational; it is personal. In an era where giga-projects, mega-events, and global attention place unprecedented pressure on frontline security, Nawaf champions the belief that true national security begins with those on the ground. Under his guidance, SSTA works alongside the Kingdom’s top security firms to establish a nationally recognised standard — one that aligns with Vision 2030 and aspires to set regulatory frameworks for the future.
+
+Nawaf leads with a clear mission: to ensure that every guard, every team, and every organisation reflects the Kingdom’s strength, readiness, and commitment to excellence on the world stage.`}
             />
             <TeamMemberCard
               name="Sukh Gill"
-              position="Strategic Director & Founder"
+              position="Founder & Strategic Director"
               imageUrl="/leadership/sukh.jpg"
-              bio={` With a background in launching successful ventures like Instacharge, Priceless, and Looping AI, he brings extensive experience in business strategy and technology. At SSTA, Sukh focuses on shaping the academy’s long-term strategy and expanding its impact, ensuring the delivery of high-quality security training solutions across Saudi Arabia.`}
+              bio={` Sukh Gill is a globally-minded strategist and entrepreneur who has dedicated his expertise to supporting Saudi Arabia’s Vision 2030. With a background in launching innovative ventures across digital marketing, technology, and business consultancy, Sukh has evolved into a leader known for designing transformative frameworks that empower nations, industries, and people.
+
+Born and raised in the UK, Sukh now lives in Riyadh, having fully committed himself to the Kingdom’s future. Inspired by Saudi Arabia’s rapid transformation and recognising critical gaps in workforce development, he founded the Saudi Security Training Academy (SSTA) to redefine security standards, and Shifa Future Health to lead a consortium of UK-trained doctors focused on advancing healthcare through upskilling Saudi talent.
+
+Renowned for his ability to merge global expertise with national priorities, Sukh specialises in building purpose-driven ecosystems that drive sustainable growth across security, healthcare, and beyond. His work focuses on empowering Saudi talent, embedding international best practices, and ensuring every project aligns with the Kingdom’s long-term vision of excellence and sovereignty.
+
+With a deep commitment to Saudi Arabia’s transformation, Sukh Gill represents a new class of leadership — blending entrepreneurial agility, cross-sector expertise, and an unwavering belief in the Kingdom’s potential to set global benchmarks across critical industries.`}
             />
             <TeamMemberCard
               name="Mark Bramwell"
-              position="Director of Training"
+              position="Director of Training & Principle Consultant"
               imageUrl="/leadership/mark.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.3s" }}
-              bio={`Mark Bramwell is one of the UK’s most accomplished security professionals, with over 25 years of experience in military intelligence, diplomatic security, and enterprise training. A former British Army Intelligence Officer, he served in key global regions including Iraq, Syria, and Cyprus, advising senior leaders on crisis strategy and physical security. Fluent in Arabic, Mark brings a rare cross-cultural edge to leadership and training.
+              bio={`Mark Bramwell is highly accomplished and credentialed security professional, with over 25 years of experience across military intelligence, diplomatic security, national risk assurance, and enterprise-level training systems.
 
-                    In the private sector, he led Operational Security at Mitie, overseeing critical infrastructure risk assessments and developing nationwide security protocols. As a certified training architect, he has designed national “Train-the-Trainer” programs for over 3,000 personnel, covering areas such as intelligence, executive protection, crisis response, and immersive simulations.
+A former British Army Intelligence Officer, Mark served in sensitive global theatres including Iraq, Syria, and Afghanistan, where he advised senior Military and Government officials on Crisis Strategy, Intelligence Operations, and Physical Security Infrastructure. He held the role of Assistant Defence Attaché in Damascus, where he managed high-pressure emergency operations, and provided strategic MI analysis that shaped UK Government policy. Mark is speaks conversational Arabic, giving him rare operational edge in cross-cultural command, mentoring, and trust-building.
 
-                    At SSTA, Mark leads the development and execution of the Kingdom’s national training standards, ensuring every course meets international benchmarks while building a strong, Saudi-first security workforce.
+Following his military career, Mark transitioned into private sector leadership as Head of Operational Security at Mitie, the UK’s largest Security and FM providers. In this role, he has led physical risk assessments for critical infrastructure across the UK, developed nationwide SOP protocols, and advised multi-sector clients on regulatory compliance, threat mitigation, and business continuity.
 
-                    Mark doesn’t just teach—he builds systems that empower those who lead.
+Mark is also a certified enterprise training designer, having built and deployed national “Train-the-Trainer” ecosystems for over 3,000 personnel. His civilian and military training programs have covered:
+
+• Combat & HUMINT
+
+• VIP and Executive protection
+
+• Crisis response and evacuation drills
+
+• Risk auditing and predictive analysis
+
+• Simulation design and immersive scenario leadership
+
+
+He holds UK and International certifications in the field:
+
+• Level 6 (BA Hons) – Certified Security Management Professional
+• M.ISMI – Member of the International Security Management Institute
+• MSyI – Member of the UK Security Institute
+• M.ISRM – Member of the Institute of Strategic Risk Management
+
+Training Qualifications
+
+• Level 3 - Education & Training - Training qualification for the adult education and skills sector
+• NUCO - First Aid Instructor
+• NUCO - Health & Safety Instructor
+• Defence Train The Trainer
+• Defence Systems Approach to Training (DSAT) - Manager
+• DSAT - Training Needs Analysis
+• Defence Training Supervisor
+• Defence Training Manager
+
+
+As SSTA’s Director of Training, Mark is responsible for:
+
+• Designing and validating the 40-course certification framework
+
+• Overseeing simulation-based assessments across national academies
+
+• Training SAFE’s elite Saudi cohort to become sector-specific master instructors
+
+• Ensuring all certification aligns with global benchmarks while empowering a Saudi-first workforce
+
+Mark does not teach guards. He builds sovereign systems to certify those who lead them.
+
                   `}
             />
             <TeamMemberCard
