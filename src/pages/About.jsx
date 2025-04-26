@@ -41,21 +41,24 @@ const About = () => {
                 centered={false}
               />
               <p className="text-gray-700 mb-4">
-                SSTA was founded in 2025 with a clear purpose: to build the
-                Kingdom's first truly world-class security training academy, led
-                by Saudis and powered by elite international expertise.
-              </p>
+                {" "}
+                SSTA was established to create the Kingdom’s first truly
+                world-class security training academy — led by Saudis and
+                strengthened by leading international expertise.{" "}
+              </p>{" "}
               <p className="text-gray-700 mb-4">
-                We identified a critical gap in the market. While Saudi Arabia
-                is home to over 200,000 security professionals, less than 20%
-                have formal qualifications or structured training. Most security
-                companies operate as manpower providers rather than centers of
-                excellence.
-              </p>
+                {" "}
+                We recognized a major gap in the market. Although Saudi Arabia
+                has over 200,000 security professionals, fewer than 20% have
+                received formal qualifications or structured training. Most
+                security companies focus on manpower rather than building
+                centers of excellence.{" "}
+              </p>{" "}
               <p className="text-gray-700 mb-4">
-                Our vision is to fundamentally transform this landscape,
-                aligning with Vision 2030's focus on upskilling Saudi nationals
-                and developing a knowledge-based economy.
+                {" "}
+                Our mission is to transform this landscape, supporting Vision
+                2030 by upskilling Saudi nationals and contributing to the
+                development of a knowledge-based economy.{" "}
               </p>
             </div>
             <div className="relative">
@@ -154,12 +157,14 @@ const About = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-bold text-ssta-dark mb-2">
-                      100% Saudi Ownership
-                    </h4>
+                      {" "}
+                      Saudi-Led and Locally Driven{" "}
+                    </h4>{" "}
                     <p className="text-gray-700">
-                      Unlike foreign-owned competitors, we are fully Saudi-owned
-                      with a Saudi CEO, ensuring total alignment with local
-                      values and Vision 2030 priorities.
+                      {" "}
+                      Unlike many foreign-owned competitors, we are proudly
+                      Saudi-led with a local CEO, ensuring strong alignment with
+                      Saudi values and Vision 2030 priorities.{" "}
                     </p>
                   </div>
                 </div>

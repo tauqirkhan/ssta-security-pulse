@@ -281,10 +281,7 @@ const Contact = () => {
                 SSTA Office Location
               </h3>
               <div className="prose text-gray-600">
-                <p className="mb-2">Saudi Skills Training Academy</p>
-                <p className="mb-2">Business District</p>
-                <p className="mb-2">Riyadh, Saudi Arabia</p>
-                <p>Working Hours: Sunday - Thursday, 9:00 AM - 5:00 PM</p>
+                <p className="mb-2">Riyadh, Kingdom of Saudi Arabia</p>
               </div>
             </div>
 

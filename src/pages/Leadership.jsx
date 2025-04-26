@@ -46,9 +46,9 @@ const Leadership = () => {
               name="Sukh Gill"
               position="Founder & Strategic Director"
               imageUrl="/leadership/sukh.jpg"
-              bio={` Sukh Gill is a globally-minded strategist and entrepreneur who has dedicated his expertise to supporting Saudi Arabia’s Vision 2030. With a background in launching innovative ventures across digital marketing, technology, and business consultancy, Sukh has evolved into a leader known for designing transformative frameworks that empower nations, industries, and people.
+              bio={`Sukh Gill is a globally-minded strategist and entrepreneur who has dedicated his expertise to supporting Saudi Arabia’s Vision 2030. With a background in launching innovative ventures across digital marketing, technology, and business consultancy, Sukh has evolved into a leader known for designing transformative frameworks that empower nations, industries, and people.
             
-            Born and raised in the UK, Sukh now lives in Riyadh, having fully committed himself to the Kingdom’s future. Inspired by Saudi Arabia’s rapid transformation and recognising critical gaps in workforce development, he founded the Saudi Security Training Academy (SSTA) to redefine security standards, and Shifa Future Health to lead a consortium of UK-trained doctors focused on advancing healthcare through upskilling Saudi talent.
+            Born and raised in the UK, Sukh now lives in Riyadh, having fully committed himself to the Kingdom’s future. Inspired by Saudi Arabia’s rapid transformation and recognising critical gaps in workforce development, he founded the Saudi Security Training Academy (SSTA) to redefine security standards and Shifa Future Health to lead a consortium of UK-trained doctors focused on advancing healthcare through upskilling Saudi talent.
             
             Renowned for his ability to merge global expertise with national priorities, Sukh specialises in building purpose-driven ecosystems that drive sustainable growth across security, healthcare, and beyond. His work focuses on empowering Saudi talent, embedding international best practices, and ensuring every project aligns with the Kingdom’s long-term vision of excellence and sovereignty.
             
@@ -60,11 +60,11 @@ const Leadership = () => {
               imageUrl="/leadership/mark.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.3s" }}
-              bio={`Mark Bramwell is highly accomplished and credentialed security professional, with over 25 years of experience across military intelligence, diplomatic security, national risk assurance, and enterprise-level training systems.
+              bio={`Mark Bramwell is a highly accomplished and credentialed security professional, with over 25 years of experience across military intelligence, diplomatic security, national risk assurance, and enterprise-level training systems.
             
-            A former British Army Intelligence Officer, Mark served in sensitive global theatres including Iraq, Syria, and Afghanistan, where he advised senior Military and Government officials on Crisis Strategy, Intelligence Operations, and Physical Security Infrastructure. He held the role of Assistant Defence Attaché in Damascus, where he managed high-pressure emergency operations, and provided strategic MI analysis that shaped UK Government policy. Mark is speaks conversational Arabic, giving him rare operational edge in cross-cultural command, mentoring, and trust-building.
+            A former British Army Intelligence Officer, Mark served in sensitive global theatres including Iraq, Syria, and Afghanistan, where he advised senior Military and Government officials on Crisis Strategy, Intelligence Operations, and Physical Security Infrastructure. He held the role of Assistant Defence Attaché in Damascus, where he managed high-pressure emergency operations, and provided strategic MI analysis that shaped UK Government policy. Mark speaks conversational Arabic, giving him rare operational edge in cross-cultural command, mentoring, and trust-building.
             
-            Following his military career, Mark transitioned into private sector leadership as Head of Operational Security at Mitie, the UK’s largest Security and FM providers. In this role, he has led physical risk assessments for critical infrastructure across the UK, developed nationwide SOP protocols, and advised multi-sector clients on regulatory compliance, threat mitigation, and business continuity.
+            Following his military career, Mark transitioned into leadership in the private sector leadership as Head of Operational Security at Mitie, the UK’s largest Security and FM provider. In this role, he has led physical risk assessments for critical infrastructure across the UK, developed nationwide SOP protocols, and advised multi-sector clients on regulatory compliance, threat mitigation, and business continuity.
             
             Mark is also a certified enterprise training designer, having built and deployed national “Train-the-Trainer” ecosystems for over 3,000 personnel. His civilian and military training programs have covered:
             
