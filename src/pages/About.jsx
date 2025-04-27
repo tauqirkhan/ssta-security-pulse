@@ -137,7 +137,7 @@ const About = () => {
             <div className="order-2 lg:order-1">
               <div className="rounded-lg shadow-lg w-full h-80 overflow-hidden">
                 <img
-                  src="/section_images/securityExcellence.jpg"
+                  src="/section_images/securityExcellence.png"
                   alt="Security Training Excellence"
                   className="w-full h-full object-cover object-center"
                 />

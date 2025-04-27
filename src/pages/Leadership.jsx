@@ -140,7 +140,7 @@ const Leadership = () => {
             <div>
               <div className="rounded-lg shadow-lg w-full h-80 overflow-hidden">
                 <img
-                  src="/section_images/leadershipVision.jpg"
+                  src="/section_images/leadershipVision.png"
                   alt="Leadership Meeting"
                   className="w-full h-full object-cover object-center"
                 />
