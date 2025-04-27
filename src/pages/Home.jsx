@@ -21,7 +21,7 @@ const Home = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center bg-fill bg-center bg-[url('/home.png')] px-4">
+      <section className="relative min-h-screen flex items-center justify-center bg-cover bg-center bg-[url('/home.jpg')] px-4">
         {/* Dark overlay */}
         <div className="absolute inset-0 bg-black/75 z-0" />
 
