@@ -16,7 +16,7 @@ const Courses = () => {
     if (hash) {
       const element = document.querySelector(hash);
       if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
+        element.scrollIntoView({ behavior: "smooth" });
       }
     }
   }, []);
@@ -49,10 +49,12 @@ const Courses = () => {
           <div className="mt-8 md:mt-12 max-w-4xl mx-auto">
             <Accordion type="single" collapsible className="w-full">
               {coursesByCategory.map((category, index) => (
-                <AccordionItem 
-                  key={index} 
+                <AccordionItem
+                  key={index}
                   value={`item-${index}`}
-                  id={category.courses[0]?.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}
+                  id={category.courses[0]?.title
+                    .toLowerCase()
+                    .replace(/[^a-z0-9]+/g, "-")}
                 >
                   <AccordionTrigger className="text-lg md:text-xl font-bold text-ssta-dark hover:text-ssta-navy">
                     {category.name}
@@ -107,23 +109,23 @@ const coursesByCategory = [
     courses: [
       {
         title: "Security Officer",
-        duration: "6 days",
+        duration: "12 days",
       },
       {
         title: "Retail Security Officer - Add On",
-        duration: "2 days",
+        duration: "4 days",
       },
       {
         title: "Logistics Security Officer - Add On",
-        duration: "2 days",
+        duration: "4 days",
       },
       {
         title: "Cash and Valuables in Transit Security Officer",
-        duration: "3 days",
+        duration: "6 days",
       },
       {
         title: "Close Protection Officer",
-        duration: "18 days",
+        duration: "36 days",
       },
     ],
   },
@@ -132,27 +134,27 @@ const coursesByCategory = [
     courses: [
       {
         title: "Foundations of Security and Risk Management",
-        duration: "5 days",
+        duration: "10 days",
       },
       {
         title: "Security Risk Assessment",
-        duration: "3 days",
+        duration: "6 days",
       },
       {
         title: "Business Continuity (ISO 22301)",
-        duration: "5 days",
+        duration: "10 days",
       },
       {
         title: "Training, Scenario Testing & Live Exercising",
-        duration: "1-3 days",
+        duration: "2-6 days",
       },
       {
         title: "Corporate Risk and Crisis Management",
-        duration: "5 days",
+        duration: "10 days",
       },
       {
         title: "Security Survey & Audits",
-        duration: "5 days",
+        duration: "10 days",
       },
     ],
   },
@@ -161,31 +163,31 @@ const coursesByCategory = [
     courses: [
       {
         title: "Level 3 Emergency First Aid at Work",
-        duration: "1 day",
+        duration: "2 days",
       },
       {
         title: "Level 3 First Aid at Work",
-        duration: "3 days",
+        duration: "6 days",
       },
       {
         title: "Level 3 Award in Paediatric First Aid",
-        duration: "1 day",
+        duration: "2 days",
       },
       {
         title: "First Response Emergency Care (FREC) Level 3",
-        duration: "5 days",
+        duration: "10 days",
       },
       {
         title: "Oxygen Therapy",
-        duration: "0.5 day",
+        duration: "1 day",
       },
       {
         title: "Management of Anaphylaxis",
-        duration: "0.5 day",
+        duration: "1 day",
       },
       {
         title: "Automated External Defibrillator",
-        duration: "0.5 day",
+        duration: "1 day",
       },
     ],
   },
@@ -194,15 +196,15 @@ const coursesByCategory = [
     courses: [
       {
         title: "Control Room Operator",
-        duration: "4 days",
+        duration: "8 days",
       },
       {
         title: "CCTV Operator",
-        duration: "3 days",
+        duration: "6 days",
       },
       {
         title: "Incident Control Officer",
-        duration: "2 days",
+        duration: "4 days",
       },
     ],
   },
@@ -211,23 +213,23 @@ const coursesByCategory = [
     courses: [
       {
         title: "Level 2 Certificate in Spectator Safety",
-        duration: "5 days",
+        duration: "10 days",
       },
       {
         title: "Level 3 Certificate in Spectator Safety Supervision",
-        duration: "5 days",
+        duration: "10 days",
       },
       {
         title: "Level 3 Extended Certificate in Spectator Safety Supervision",
-        duration: "5 days",
+        duration: "10 days",
       },
       {
         title: "Level 4 Diploma in Spectator Safety Management",
-        duration: "5 days",
+        duration: "10 days",
       },
       {
         title: "Understanding Safety at Stadia Workshops",
-        duration: "1 day",
+        duration: "2 days",
       },
     ],
   },
@@ -236,15 +238,15 @@ const coursesByCategory = [
     courses: [
       {
         title: "Security Manager",
-        duration: "5 days",
+        duration: "10 days",
       },
       {
         title: "Team Leader",
-        duration: "3 days",
+        duration: "6 days",
       },
       {
         title: "Level 2 Leadership & Team Skills",
-        duration: "3 days",
+        duration: "6 days",
       },
     ],
   },
@@ -253,15 +255,15 @@ const coursesByCategory = [
     courses: [
       {
         title: "Level 3 First Line Management & Leadership",
-        duration: "4 days",
+        duration: "8 days",
       },
       {
         title: "Junior Manager",
-        duration: "5 days",
+        duration: "10 days",
       },
       {
         title: "Level 4 Management & Leadership",
-        duration: "5 days",
+        duration: "10 days",
       },
     ],
   },
@@ -270,11 +272,11 @@ const coursesByCategory = [
     courses: [
       {
         title: "Level 5 Operational Management & Leadership",
-        duration: "5 days",
+        duration: "10 days",
       },
       {
         title: "Level 2 Award in Customer Service",
-        duration: "2 days",
+        duration: "4 days",
       },
     ],
   },
@@ -283,7 +285,7 @@ const coursesByCategory = [
     courses: [
       {
         title: "Introduction to Corporate Intelligence",
-        duration: "2 days",
+        duration: "4 days",
       },
     ],
   },
@@ -292,23 +294,23 @@ const coursesByCategory = [
     courses: [
       {
         title: "Basic Intelligence",
-        duration: "6 days",
+        duration: "12 days",
       },
       {
         title: "Introduction to Corporate Counter Intelligence",
-        duration: "2 days",
+        duration: "4 days",
       },
       {
         title: "Advanced Intelligence",
-        duration: "6 days",
+        duration: "12 days",
       },
       {
         title: "Basic Analysis Training",
-        duration: "5 days",
+        duration: "10 days",
       },
       {
         title: "Advanced Analysis Training",
-        duration: "5 days",
+        duration: "10 days",
       },
     ],
   },
