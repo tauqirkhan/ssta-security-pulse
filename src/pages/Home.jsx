@@ -280,7 +280,7 @@ const Home = () => {
             <TeamMemberCard
               name="Major General R. Maeed Alshehri "
               position="CEO"
-              imageUrl="/leadership/major.png"
+              imageUrl="/leadership/major.jpg"
               bio={`Major General R. Maeed Alshehri is a highly respected figure in Saudi Arabia's defense sector, bringing over 35 years of distinguished military service. Throughout his career, he has held pivotal leadership roles, notably serving as Deputy Commandant at King Khalid Military Academy, where he played a crucial role in shaping the next generation of military officers.
 
 His extensive experience encompasses strategic planning, information security, and organizational leadership. Major General Alshehri's commitment to excellence and innovation has significantly contributed to the modernization and professionalization of Saudi Arabia's armed forces.
