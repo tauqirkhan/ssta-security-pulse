@@ -31,16 +31,25 @@ const Leadership = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-12">
             <TeamMemberCard
-              name="Nawaf Y M Alqahtani "
+              name="Major General R. Maeed Alshehri "
               position="CEO"
+              imageUrl="/leadership/major.png"
+              bio={`Major General R. Maeed Alshehri is a highly respected figure in Saudi Arabia's defense sector, bringing over 35 years of distinguished military service. Throughout his career, he has held pivotal leadership roles, notably serving as Deputy Commandant at King Khalid Military Academy, where he played a crucial role in shaping the next generation of military officers.
+            
+            His extensive experience encompasses strategic planning, information security, and organizational leadership. Major General Alshehri's commitment to excellence and innovation has significantly contributed to the modernization and professionalization of Saudi Arabia's armed forces.
+            
+            As the Chief Executive Officer of the Saudi Security Training Academy (SSTA), Major General Alshehri leverages his vast expertise to advance the Kingdom's security training initiatives. Under his leadership, SSTA is dedicated to enhancing the capabilities of security professionals, aligning with Saudi Arabia's Vision 2030 objectives to strengthen national security and promote technological self-reliance.
+            `}
+            />
+            <TeamMemberCard
+              name="Nawaf Y M Alqahtani "
+              position="Senior Partnership Manager"
               imageUrl="/leadership/nawaf.jpg"
-              bio={`Nawaf Alqahtani is a Saudi visionary committed to transforming the Kingdom’s private security sector into a symbol of national pride, discipline, and global excellence. Recognising the critical gaps in training, standards, and professional development across the industry, Nawaf has dedicated himself to embedding a new benchmark through the Saudi Security Training Academy (SSTA).
+              bio={`Nawaf Alqahtani serves as the Senior Partnership Manager at the Saudi Security Training Academy (SSTA), where he plays a pivotal role in advancing the Kingdom's private security sector. With a strong background in sales, marketing, and business development, Nawaf excels at forging strategic alliances and driving collaborative initiatives that elevate industry standards.
             
-            With a background in sales, marketing, and business development, Nawaf brings a deep understanding of how to drive growth, build partnerships, and mobilise the Kingdom’s leading security firms towards a unified goal — elevating every security professional to meet the demands of a rapidly changing Saudi Arabia.
+            Recognizing the critical gaps in training, standards, and professional development across the industry, Nawaf is dedicated to embedding new benchmarks that align with Saudi Arabia's Vision 2030 objectives. His expertise enables him to identify and address these gaps effectively, ensuring that the security workforce is well-prepared to meet the demands of a rapidly changing environment.
             
-            His leadership at SSTA is more than operational; it is personal. In an era where giga-projects, mega-events, and global attention place unprecedented pressure on frontline security, Nawaf champions the belief that true national security begins with those on the ground. Under his guidance, SSTA works alongside the Kingdom’s top security firms to establish a nationally recognised standard — one that aligns with Vision 2030 and aspires to set regulatory frameworks for the future.
-            
-            Nawaf leads with a clear mission: to ensure that every guard, every team, and every organisation reflects the Kingdom’s strength, readiness, and commitment to excellence on the world stage.`}
+            Nawaf's approach is both strategic and personal. In an era where giga-projects, mega-events, and global attention place unprecedented pressure on frontline security, he champions the belief that true national security begins with those on the ground. Through his leadership at SSTA, Nawaf continues to shape the future of Saudi Arabia’s private security sector, ensuring that every guard, every team, and every organization reflects the Kingdom’s strength, readiness, and commitment to excellence on the world stage.`}
             />
             <TeamMemberCard
               name="Sukh Gill"
