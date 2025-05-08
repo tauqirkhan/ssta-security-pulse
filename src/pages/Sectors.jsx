@@ -1,3 +1,4 @@
+
 import React from "react";
 import {
   Building,
@@ -11,22 +12,26 @@ import {
 import SectionTitle from "@/components/SectionTitle";
 import SectorCard from "@/components/SectorCard";
 import CallToAction from "@/components/CallToAction";
+import { useLanguage } from "@/contexts/LanguageContext";
+import { translations } from "@/translations/translations";
 
 const Sectors = () => {
+  const { language } = useLanguage();
+  const t = translations.sectors[language];
+
   return (
     <>
       {/* Hero Section with improved visibility */}
       <section className="relative pt-32 pb-20 bg-gradient-to-r from-ssta-navy to-ssta-dark text-white">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold animate-fade-in">
-            Sectors We Serve
+            {t.hero.title}
           </h1>
           <p
             className="mt-4 text-lg md:text-xl text-white/90 animate-fade-in opacity-0"
             style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}
           >
-            Elevating security standards across Saudi Arabia's development
-            pillars
+            {t.hero.subtitle}
           </p>
         </div>
       </section>
@@ -35,43 +40,43 @@ const Sectors = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <SectionTitle
-            title="Security Solutions for Every Sector"
-            subtitle="Our training programs are tailored to address the unique security needs of different industries and sectors across the Kingdom."
+            title={t.overview.title}
+            subtitle={t.overview.subtitle}
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
             <SectorCard
-              title="Giga-Projects & Smart Cities"
+              title={t.sectors.gigaProjects}
               description="Specialized security training for Saudi Arabia's mega projects including NEOM, The Line, Qiddiya, and Diriyah Gate."
               icon={<Building size={32} />}
             />
 
             <SectorCard
-              title="Event & Entertainment"
+              title={t.sectors.entertainment}
               description="Security management and crowd control for Riyadh Season, FIFA 2034, concerts, and festivals."
               icon={<Calendar size={32} />}
             />
 
             <SectorCard
-              title="Healthcare & Medical"
+              title={t.sectors.healthcare}
               description="Custom security solutions for public & private hospitals, PHCs, and emergency response teams."
               icon={<Award size={32} />}
             />
 
             <SectorCard
-              title="Commercial & Retail"
+              title={t.sectors.commercial}
               description="Advanced security training for shopping malls, commercial towers, and business parks."
               icon={<Building size={32} />}
             />
 
             <SectorCard
-              title="Aviation & Transport"
+              title={t.sectors.aviation}
               description="Specialized security programs for airports, metros, and logistics terminals."
               icon={<Clock size={32} />}
             />
 
             <SectorCard
-              title="Government Entities"
+              title={t.sectors.government}
               description="Security support for MOI, PIF-backed projects, and Vision 2030 bodies."
               icon={<Shield size={32} />}
             />
@@ -85,22 +90,17 @@ const Sectors = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <SectionTitle
-                title="Giga-Projects & Smart Cities"
-                subtitle="Security solutions tailored for Saudi Arabia's ambitious urban development initiatives"
+                title={t.featuredSector.title}
+                subtitle={t.featuredSector.subtitle}
                 centered={false}
               />
 
               <p className="text-gray-700 mb-4">
-                Saudi Arabia's giga-projects represent the most ambitious urban
-                development initiatives in the world. From NEOM to The Line,
-                these projects demand world-class security infrastructure and
-                personnel.
+                {t.featuredSector.paragraph1}
               </p>
 
               <p className="text-gray-700 mb-4">
-                SSTA delivers specialized training programs that address the
-                unique security challenges of these cutting-edge environments,
-                including:
+                {t.featuredSector.paragraph2}
               </p>
 
               <ul className="space-y-3 mb-6">
@@ -161,8 +161,8 @@ const Sectors = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <SectionTitle
-            title="Sector-Specific Training Programs"
-            subtitle="Specialized training modules tailored to each sector's unique security challenges"
+            title={t.trainingPrograms.title}
+            subtitle={t.trainingPrograms.subtitle}
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
@@ -171,12 +171,10 @@ const Sectors = () => {
                 <Calendar className="text-ssta-gold h-12 w-12" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-ssta-dark">
-                Event Security Management
+                {t.trainingPrograms.eventSecurity.title}
               </h3>
               <p className="text-gray-700 mb-4">
-                Comprehensive training for managing security at large-scale
-                events, including Riyadh Season, sporting events, and
-                entertainment venues.
+                {t.trainingPrograms.eventSecurity.description}
               </p>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-start">
@@ -221,11 +219,10 @@ const Sectors = () => {
                 <Building className="text-ssta-gold h-12 w-12" />
               </div>
               <h3 className="text-xl font-bold mb-4 text-ssta-dark">
-                Commercial & Retail Security
+                {t.trainingPrograms.commercialSecurity.title}
               </h3>
               <p className="text-gray-700 mb-4">
-                Specialized training for security personnel working in shopping
-                malls, commercial towers, and retail environments.
+                {t.trainingPrograms.commercialSecurity.description}
               </p>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-start">
@@ -270,9 +267,9 @@ const Sectors = () => {
 
       {/* Call to Action */}
       <CallToAction
-        title="Need Sector-Specific Security Training?"
-        description="Contact us to discuss custom training programs designed for your industry's unique requirements."
-        buttonText="Get in Touch"
+        title={t.cta.title}
+        description={t.cta.description}
+        buttonText={t.cta.buttonText}
         buttonLink="/contact"
       />
     </>

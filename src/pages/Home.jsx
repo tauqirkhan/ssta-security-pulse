@@ -15,9 +15,13 @@ import CourseCard from "@/components/CourseCard";
 import TeamMemberCard from "@/components/TeamMemberCard";
 import SectorCard from "@/components/SectorCard";
 import CallToAction from "@/components/CallToAction";
-// import PartnersSection from "@/components/PartnersSection";
+import { useLanguage } from "@/contexts/LanguageContext";
+import { translations } from "@/translations/translations";
 
 const Home = () => {
+  const { language } = useLanguage();
+  const t = translations.home[language];
+
   return (
     <>
       {/* Hero Section */}
@@ -28,21 +32,19 @@ const Home = () => {
         {/* Content */}
         <div className="relative z-10 text-center max-w-3xl mx-auto space-y-6 px-6">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white animate-fade-in">
-            The New Standard in Saudi Security Training
+            {t.hero.title}
           </h1>
           <p
             className="text-lg text-white/90 animate-fade-in opacity-0"
             style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}
           >
-            World-class certifications. Saudi-first leadership. Built for Vision
-            2030.
+            {t.hero.subtitle}
           </p>
           <p
             className="text-base text-white/80 animate-fade-in opacity-0"
             style={{ animationDelay: "0.4s", animationFillMode: "forwards" }}
           >
-            Empowering Saudi's security workforce through elite, internationally
-            accredited training.
+            {t.hero.description}
           </p>
           <div
             className="flex flex-wrap justify-center gap-4 animate-fade-in opacity-0"
@@ -52,14 +54,14 @@ const Home = () => {
               asChild
               className="bg-ssta-gold hover:bg-ssta-gold-light text-ssta-dark font-bold px-6 py-3 rounded-lg"
             >
-              <Link to="/courses">Explore Courses</Link>
+              <Link to="/courses">{t.hero.exploreCourses}</Link>
             </Button>
             <Button
               asChild
               className="border border-white text-white hover:bg-white hover:text-black font-medium px-6 py-3 rounded-lg transition-colors group"
             >
               <Link to="/about" className="flex items-center gap-2">
-                Learn More
+                {t.hero.learnMore}
                 <ArrowRight
                   className="transition-transform group-hover:translate-x-1"
                   size={16}
@@ -76,33 +78,25 @@ const Home = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in-left">
               <SectionTitle
-                title="About SSTA"
-                subtitle="The Saudi Security Training Academy (SSTA) is not just a training provider — we are Saudi Arabia's new benchmark for security excellence."
+                title={t.about.title}
+                subtitle={t.about.subtitle}
                 centered={false}
               />
               <p className="text-gray-700 mb-6">
-                {" "}
-                Saudi-led, strategically structured, and globally aligned, SSTA
-                delivers the Kingdom's most advanced, internationally recognised
-                training and certification programmes for the private security
-                sector.{" "}
-              </p>{" "}
+                {t.about.paragraph1}
+              </p>
               <p className="text-gray-700 mb-6">
-                {" "}
-                Led by a local Saudi CEO and backed by elite British security
-                consultants with decades of global experience, we combine local
-                legitimacy with international firepower.{" "}
-              </p>{" "}
+                {t.about.paragraph2}
+              </p>
               <p className="text-gray-700 font-semibold mb-8">
-                {" "}
-                We don't supply manpower — we build leaders.{" "}
+                {t.about.paragraph3}
               </p>
               <Button
                 asChild
                 className="bg-ssta-navy hover:bg-ssta-dark text-white group"
               >
                 <Link to="/about">
-                  Learn More{" "}
+                  {t.about.learnMore}{" "}
                   <ArrowRight
                     className="ml-2 group-hover:translate-x-1 transition-transform"
                     size={16}
@@ -121,7 +115,7 @@ const Home = () => {
               </div>
               <div className="absolute -bottom-6 -left-6 bg-ssta-gold text-ssta-dark p-4 rounded shadow-lg">
                 <p className="text-4xl font-bold">40+</p>
-                <p className="font-medium">Elite Programs</p>
+                <p className="font-medium">{t.about.programs}</p>
               </div>
             </div>
           </div>
@@ -132,8 +126,8 @@ const Home = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <SectionTitle
-            title="Why Choose SSTA?"
-            subtitle="Saudi Arabia is home to over 200,000 security guards — yet less than 20% have formal training or certification. The industry is dominated by manpower firms with little focus on development, structure, or standards."
+            title={t.whyChoose.title}
+            subtitle={t.whyChoose.subtitle}
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
@@ -142,13 +136,10 @@ const Home = () => {
                 <Shield className="text-ssta-gold w-8 h-8" />
               </div>
               <h3 className="text-xl font-bold mb-3 text-ssta-dark">
-                {" "}
-                Saudi-Led Excellence{" "}
-              </h3>{" "}
+                {t.whyChoose.saudiLed.title}
+              </h3>
               <p className="text-gray-600">
-                {" "}
-                Strategic local leadership with a strong focus on Vision 2030
-                alignment.{" "}
+                {t.whyChoose.saudiLed.description}
               </p>
             </div>
 
@@ -160,10 +151,10 @@ const Home = () => {
                 <Award className="text-ssta-gold w-8 h-8" />
               </div>
               <h3 className="text-xl font-bold mb-3 text-ssta-dark">
-                UK-Accredited Trainers
+                {t.whyChoose.ukAccredited.title}
               </h3>
               <p className="text-gray-600">
-                Elite consultants leading all training design and delivery.
+                {t.whyChoose.ukAccredited.description}
               </p>
             </div>
 
@@ -175,11 +166,10 @@ const Home = () => {
                 <CheckCircle className="text-ssta-gold w-8 h-8" />
               </div>
               <h3 className="text-xl font-bold mb-3 text-ssta-dark">
-                Global Certifications
+                {t.whyChoose.globalCert.title}
               </h3>
               <p className="text-gray-600">
-                40 globally benchmarked certifications across all security
-                sectors.
+                {t.whyChoose.globalCert.description}
               </p>
             </div>
 
@@ -191,26 +181,22 @@ const Home = () => {
                 <Users className="text-ssta-gold w-8 h-8" />
               </div>
               <h3 className="text-xl font-bold mb-3 text-ssta-dark">
-                Vision 2030 Aligned
+                {t.whyChoose.vision2030.title}
               </h3>
               <p className="text-gray-600">
-                Focused on Saudisation, localisation, and national security
-                development.
+                {t.whyChoose.vision2030.description}
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Partners Section */}
-      {/* <PartnersSection /> */}
-
       {/* Courses Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <SectionTitle
-            title="Our Courses & Certifications"
-            subtitle="We offer 40 certification pathways spanning across multiple security disciplines, all delivered by world-class trainers and validated to international standards."
+            title={t.courses.title}
+            subtitle={t.courses.subtitle}
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
@@ -262,7 +248,7 @@ const Home = () => {
               asChild
               className="bg-ssta-navy hover:bg-ssta-dark text-white"
             >
-              <Link to="/courses">View All Courses</Link>
+              <Link to="/courses">{t.courses.viewAll}</Link>
             </Button>
           </div>
         </div>
@@ -272,8 +258,8 @@ const Home = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <SectionTitle
-            title="Leadership Team"
-            subtitle="Our team combines Saudi leadership with international security expertise to deliver unmatched training excellence."
+            title={t.leadership.title}
+            subtitle={t.leadership.subtitle}
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mt-12">
@@ -296,19 +282,19 @@ As the Chief Executive Officer of the Saudi Security Training Academy (SSTA), Ma
 
 Recognizing the critical gaps in training, standards, and professional development across the industry, Nawaf is dedicated to embedding new benchmarks that align with Saudi Arabia's Vision 2030 objectives. His expertise enables him to identify and address these gaps effectively, ensuring that the security workforce is well-prepared to meet the demands of a rapidly changing environment.
 
-Nawaf's approach is both strategic and personal. In an era where giga-projects, mega-events, and global attention place unprecedented pressure on frontline security, he champions the belief that true national security begins with those on the ground. Through his leadership at SSTA, Nawaf continues to shape the future of Saudi Arabia’s private security sector, ensuring that every guard, every team, and every organization reflects the Kingdom’s strength, readiness, and commitment to excellence on the world stage.`}
+Nawaf's approach is both strategic and personal. In an era where giga-projects, mega-events, and global attention place unprecedented pressure on frontline security, he champions the belief that true national security begins with those on the ground. Through his leadership at SSTA, Nawaf continues to shape the future of Saudi Arabia's private security sector, ensuring that every guard, every team, and every organization reflects the Kingdom's strength, readiness, and commitment to excellence on the world stage.`}
             />
             <TeamMemberCard
               name="Sukh Gill"
               position="Founder & Strategic Director"
               imageUrl="/leadership/sukh.jpg"
-              bio={`Sukh Gill is a globally-minded strategist and entrepreneur who has dedicated his expertise to supporting Saudi Arabia’s Vision 2030. With a background in launching innovative ventures across digital marketing, technology, and business consultancy, Sukh has evolved into a leader known for designing transformative frameworks that empower nations, industries, and people.
+              bio={`Sukh Gill is a globally-minded strategist and entrepreneur who has dedicated his expertise to supporting Saudi Arabia's Vision 2030. With a background in launching innovative ventures across digital marketing, technology, and business consultancy, Sukh has evolved into a leader known for designing transformative frameworks that empower nations, industries, and people.
                         
-                        Born and raised in the UK, Sukh now lives in Riyadh, having fully committed himself to the Kingdom’s future. Inspired by Saudi Arabia’s rapid transformation and recognising critical gaps in workforce development, he founded the Saudi Security Training Academy (SSTA) to redefine security standards and Shifa Future Health to lead a consortium of UK-trained doctors focused on advancing healthcare through upskilling Saudi talent.
+                        Born and raised in the UK, Sukh now lives in Riyadh, having fully committed himself to the Kingdom's future. Inspired by Saudi Arabia's rapid transformation and recognising critical gaps in workforce development, he founded the Saudi Security Training Academy (SSTA) to redefine security standards and Shifa Future Health to lead a consortium of UK-trained doctors focused on advancing healthcare through upskilling Saudi talent.
                         
-                        Renowned for his ability to merge global expertise with national priorities, Sukh specialises in building purpose-driven ecosystems that drive sustainable growth across security, healthcare, and beyond. His work focuses on empowering Saudi talent, embedding international best practices, and ensuring every project aligns with the Kingdom’s long-term vision of excellence and sovereignty.
+                        Renowned for his ability to merge global expertise with national priorities, Sukh specialises in building purpose-driven ecosystems that drive sustainable growth across security, healthcare, and beyond. His work focuses on empowering Saudi talent, embedding international best practices, and ensuring every project aligns with the Kingdom's long-term vision of excellence and sovereignty.
                         
-                        With a deep commitment to Saudi Arabia’s transformation, Sukh Gill represents a new class of leadership — blending entrepreneurial agility, cross-sector expertise, and an unwavering belief in the Kingdom’s potential to set global benchmarks across critical industries.`}
+                        With a deep commitment to Saudi Arabia's transformation, Sukh Gill represents a new class of leadership — blending entrepreneurial agility, cross-sector expertise, and an unwavering belief in the Kingdom's potential to set global benchmarks across critical industries.`}
             />
             <TeamMemberCard
               name="Mark Bramwell"
@@ -320,9 +306,9 @@ Nawaf's approach is both strategic and personal. In an era where giga-projects, 
                         
                         A former British Army Intelligence Officer, Mark served in sensitive global theatres including Iraq, Syria, and Afghanistan, where he advised senior Military and Government officials on Crisis Strategy, Intelligence Operations, and Physical Security Infrastructure. He held the role of Assistant Defence Attaché in Damascus, where he managed high-pressure emergency operations, and provided strategic MI analysis that shaped UK Government policy. Mark speaks conversational Arabic, giving him rare operational edge in cross-cultural command, mentoring, and trust-building.
                         
-                        Following his military career, Mark transitioned into leadership in the private sector leadership as Head of Operational Security at Mitie, the UK’s largest Security and FM provider. In this role, he has led physical risk assessments for critical infrastructure across the UK, developed nationwide SOP protocols, and advised multi-sector clients on regulatory compliance, threat mitigation, and business continuity.
+                        Following his military career, Mark transitioned into leadership in the private sector leadership as Head of Operational Security at Mitie, the UK's largest Security and FM provider. In this role, he has led physical risk assessments for critical infrastructure across the UK, developed nationwide SOP protocols, and advised multi-sector clients on regulatory compliance, threat mitigation, and business continuity.
                         
-                        Mark is also a certified enterprise training designer, having built and deployed national “Train-the-Trainer” ecosystems for over 3,000 personnel. His civilian and military training programs have covered:
+                        Mark is also a certified enterprise training designer, having built and deployed national "Train-the-Trainer" ecosystems for over 3,000 personnel. His civilian and military training programs have covered:
                         
                         • Combat & HUMINT
                         
@@ -348,19 +334,20 @@ Nawaf's approach is both strategic and personal. In an era where giga-projects, 
                         • NUCO - First Aid Instructor
                         • NUCO - Health & Safety Instructor
                         • Defence Train The Trainer
+                        
                         • Defence Systems Approach to Training (DSAT) - Manager
                         • DSAT - Training Needs Analysis
                         • Defence Training Supervisor
                         • Defence Training Manager
                         
                         
-                        As SSTA’s Director of Training, Mark is responsible for:
+                        As SSTA's Director of Training, Mark is responsible for:
                         
                         • Designing and validating the 40-course certification framework
                         
                         • Overseeing simulation-based assessments across national academies
                         
-                        • Training SAFE’s elite Saudi cohort to become sector-specific master instructors
+                        • Training SAFE's elite Saudi cohort to become sector-specific master instructors
                         
                         • Ensuring all certification aligns with global benchmarks while empowering a Saudi-first workforce
                         
@@ -383,7 +370,7 @@ Nawaf's approach is both strategic and personal. In an era where giga-projects, 
               name="Tauqir Khan"
               position="Marketing Executive"
               imageUrl="/leadership/tauqir.jpg"
-              bio={`Blending a unique combination of technical expertise and marketing acumen, Tauqir Khan brings over four years of coding experience alongside a solid background in sales and marketing. As Marketing Executive at SSTA, he leverages his analytical mindset and creative strategy to enhance brand visibility, drive engagement, and support the academy’s growth objectives in the security training industry.`}
+              bio={`Blending a unique combination of technical expertise and marketing acumen, Tauqir Khan brings over four years of coding experience alongside a solid background in sales and marketing. As Marketing Executive at SSTA, he leverages his analytical mindset and creative strategy to enhance brand visibility, drive engagement, and support the academy's growth objectives in the security training industry.`}
             />
           </div>
 
@@ -392,7 +379,7 @@ Nawaf's approach is both strategic and personal. In an era where giga-projects, 
               asChild
               className="bg-ssta-navy hover:bg-ssta-dark text-white"
             >
-              <Link to="/leadership">Meet The Full Team</Link>
+              <Link to="/leadership">{t.leadership.meetTeam}</Link>
             </Button>
           </div>
         </div>
@@ -402,47 +389,47 @@ Nawaf's approach is both strategic and personal. In an era where giga-projects, 
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <SectionTitle
-            title="Sectors We Serve"
-            subtitle="Our training programmes are built to elevate security personnel across every major pillar of the Kingdom's development."
+            title={t.sectors.title}
+            subtitle={t.sectors.subtitle}
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
             <SectorCard
-              title="Giga-Projects & Smart Cities"
+              title={t.sectors.gigaProjects}
               description="NEOM, The Line, Qiddiya, Diriyah Gate"
               icon={<Building size={32} />}
               className="animate-fade-in"
             />
             <SectorCard
-              title="Event & Entertainment"
+              title={t.sectors.entertainment}
               description="Riyadh Season, FIFA 2034, concerts, festivals"
               icon={<Calendar size={32} />}
               className="animate-fade-in"
               style={{ animationDelay: "0.2s" }}
             />
             <SectorCard
-              title="Healthcare & Medical"
+              title={t.sectors.healthcare}
               description="Public & private hospitals, PHCs, emergency response"
               icon={<Award size={32} />}
               className="animate-fade-in"
               style={{ animationDelay: "0.3s" }}
             />
             <SectorCard
-              title="Commercial & Retail"
+              title={t.sectors.commercial}
               description="Shopping malls, towers, business parks"
               icon={<Building size={32} />}
               className="animate-fade-in"
               style={{ animationDelay: "0.4s" }}
             />
             <SectorCard
-              title="Aviation & Transport"
+              title={t.sectors.aviation}
               description="Airports, metros, logistics terminals"
               icon={<Building size={32} />}
               className="animate-fade-in"
               style={{ animationDelay: "0.5s" }}
             />
             <SectorCard
-              title="Government Entities"
+              title={t.sectors.government}
               description="MOI, PIF-backed projects, Vision 2030 bodies"
               icon={<Shield size={32} />}
               className="animate-fade-in"
@@ -455,7 +442,7 @@ Nawaf's approach is both strategic and personal. In an era where giga-projects, 
               asChild
               className="bg-ssta-navy hover:bg-ssta-dark text-white"
             >
-              <Link to="/sectors">View All Sectors</Link>
+              <Link to="/sectors">{t.sectors.viewAll}</Link>
             </Button>
           </div>
         </div>
@@ -463,9 +450,9 @@ Nawaf's approach is both strategic and personal. In an era where giga-projects, 
 
       {/* Call to Action */}
       <CallToAction
-        title="Partner With Us"
-        description="Looking to deliver certified training across your organisation? Let's build the next generation of Saudi security excellence — together."
-        buttonText="Get in Touch"
+        title={t.cta.title}
+        description={t.cta.description}
+        buttonText={t.cta.buttonText}
         buttonLink="/contact"
       />
     </>
