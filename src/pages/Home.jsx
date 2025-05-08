@@ -1,4 +1,3 @@
-
 import React from "react";
 import {
   ArrowRight,
@@ -28,28 +27,28 @@ const Home = () => {
   const sectorDescriptions = {
     gigaProjects: {
       en: "NEOM, The Line, Qiddiya, Diriyah Gate",
-      ar: "نيوم، ذا لاين، القدية، بوابة الدرعية"
+      ar: "نيوم، ذا لاين، القدية، بوابة الدرعية",
     },
     entertainment: {
       en: "Riyadh Season, FIFA 2034, concerts, festivals",
-      ar: "موسم الرياض، كأس العالم 2034، الحفلات، المهرجانات"
+      ar: "موسم الرياض، كأس العالم ۲۰۳٤، الحفلات، المهرجانات",
     },
     healthcare: {
       en: "Public & private hospitals, PHCs, emergency response",
-      ar: "المستشفيات العامة والخاصة، مراكز الرعاية الصحية الأولية، الاستجابة للطوارئ"
+      ar: "المستشفيات العامة والخاصة، مراكز الرعاية الصحية الأولية، الاستجابة للطوارئ",
     },
     commercial: {
       en: "Shopping malls, towers, business parks",
-      ar: "مراكز التسوق، الأبراج، المجمعات التجارية"
+      ar: "مراكز التسوق، الأبراج، المجمعات التجارية",
     },
     aviation: {
       en: "Airports, metros, logistics terminals",
-      ar: "المطارات، المترو، محطات الخدمات اللوجستية"
+      ar: "المطارات، المترو، محطات الخدمات اللوجستية",
     },
     government: {
       en: "MOI, PIF-backed projects, Vision 2030 bodies",
-      ar: "وزارة الداخلية، مشاريع صندوق الاستثمارات العامة، هيئات رؤية 2030"
-    }
+      ar: "وزارة الداخلية، مشاريع صندوق الاستثمارات العامة، هيئات رؤية ۲۰۳۰",
+    },
   };
 
   // Arabic translations for courses
@@ -57,63 +56,63 @@ const Home = () => {
     csp: {
       title: {
         en: "Certified Security Personnel (CSP)",
-        ar: "موظف أمن معتمد"
+        ar: "موظف أمن معتمد",
       },
       category: {
         en: "Security Training",
-        ar: "التدريب الأمني"
-      }
+        ar: "التدريب الأمني",
+      },
     },
     cms: {
       title: {
         en: "Crisis Management Specialist",
-        ar: "متخصص إدارة الأزمات"
+        ar: "متخصص إدارة الأزمات",
       },
       category: {
         en: "Security Training",
-        ar: "التدريب الأمني"
-      }
+        ar: "التدريب الأمني",
+      },
     },
     far: {
       title: {
         en: "First Aid & First Responder",
-        ar: "الإسعافات الأولية والمستجيب الأول"
+        ar: "الإسعافات الأولية والمستجيب الأول",
       },
       category: {
         en: "Security Training",
-        ar: "التدريب الأمني"
-      }
+        ar: "التدريب الأمني",
+      },
     },
     eps: {
       title: {
         en: "Executive Protection Specialist",
-        ar: "متخصص حماية الشخصيات التنفيذية"
+        ar: "متخصص حماية الشخصيات التنفيذية",
       },
       category: {
         en: "VIP Protection",
-        ar: "حماية الشخصيات المهمة"
-      }
+        ar: "حماية الشخصيات المهمة",
+      },
     },
     esm: {
       title: {
         en: "Event Security Manager",
-        ar: "مدير أمن الفعاليات"
+        ar: "مدير أمن الفعاليات",
       },
       category: {
         en: "Event Security",
-        ar: "أمن الفعاليات"
-      }
+        ar: "أمن الفعاليات",
+      },
     },
     sra: {
       title: {
         en: "Security Risk Assessor",
-        ar: "مقيّم المخاطر الأمنية"
+        ar: "مقيّم المخاطر الأمنية",
       },
       category: {
         en: "Consultancy & Leadership",
-        ar: "الاستشارات والقيادة"
-      }
-    }
+        ar: "الاستشارات والقيادة",
+      },
+    },
   };
 
   // Arabic translations for team members
@@ -126,8 +125,8 @@ const Home = () => {
 
       تشمل خبرته الواسعة التخطيط الاستراتيجي وأمن المعلومات والقيادة التنظيمية. ساهم التزام اللواء الشهري بالتميز والابتكار بشكل كبير في تحديث وتطوير القوات المسلحة السعودية.
 
-      بصفته الرئيس التنفيذي للأكاديمية السعودية للتدريب الأمني (SSTA)، يستثمر اللواء الشهري خبرته الواسعة لتطوير مبادرات التدريب الأمني في المملكة. تحت قيادته، تكرس الأكاديمية جهودها لتعزيز قدرات المتخصصين في مجال الأمن، بما يتماشى مع أهداف رؤية المملكة 2030 لتعزيز الأمن الوطني وتشجيع الاعتماد على الذات تكنولوجيًا.
-      `
+      بصفته الرئيس التنفيذي للأكاديمية السعودية للتدريب الأمني (SSTA)، يستثمر اللواء الشهري خبرته الواسعة لتطوير مبادرات التدريب الأمني في المملكة. تحت قيادته، تكرس الأكاديمية جهودها لتعزيز قدرات المتخصصين في مجال الأمن، بما يتماشى مع أهداف رؤية المملكة ۲۰۳۰ لتعزيز الأمن الوطني وتشجيع الاعتماد على الذات تكنولوجيًا.
+      `,
     },
     nawaf: {
       name: "نواف القحطاني",
@@ -135,29 +134,29 @@ const Home = () => {
       bio: `
       يعمل نواف القحطاني كمدير للشراكات في الأكاديمية السعودية للتدريب الأمني (SSTA)، حيث يلعب دورًا محوريًا في تطوير قطاع الأمن الخاص في المملكة. بخلفيته القوية في المبيعات والتسويق وتطوير الأعمال، يتفوق نواف في بناء التحالفات الاستراتيجية وقيادة المبادرات التعاونية التي ترفع من مستوى معايير الصناعة.
 
-      إدراكًا منه للفجوات الحرجة في التدريب والمعايير والتطوير المهني عبر الصناعة، يكرس نواف جهوده لترسيخ معايير جديدة تتماشى مع أهداف رؤية المملكة 2030. تمكنه خبرته من تحديد ومعالجة هذه الفجوات بفعالية، مما يضمن أن القوى العاملة الأمنية مستعدة جيدًا لتلبية متطلبات بيئة سريعة التغير.
+      إدراكًا منه للفجوات الحرجة في التدريب والمعايير والتطوير المهني عبر الصناعة، يكرس نواف جهوده لترسيخ معايير جديدة تتماشى مع أهداف رؤية المملكة ۲۰۳۰. تمكنه خبرته من تحديد ومعالجة هذه الفجوات بفعالية، مما يضمن أن القوى العاملة الأمنية مستعدة جيدًا لتلبية متطلبات بيئة سريعة التغير.
 
       نهج نواف استراتيجي وشخصي في آن واحد. في عصر تضع فيه المشاريع العملاقة والفعاليات الكبرى والاهتمام العالمي ضغوطًا غير مسبوقة على الأمن الأمامي، يدافع عن الاعتقاد بأن الأمن الوطني الحقيقي يبدأ من أولئك الموجودين على الأرض. من خلال قيادته في الأكاديمية، يواصل نواف تشكيل مستقبل قطاع الأمن الخاص في المملكة العربية السعودية، مما يضمن أن كل حارس، وكل فريق، وكل منظمة تعكس قوة المملكة واستعدادها والتزامها بالتميز على المستوى العالمي.
-      `
+      `,
     },
     sukh: {
       name: "صخ جيل",
       position: "المؤسس والمدير الاستراتيجي",
       bio: `
-      صخ جيل هو استراتيجي ورائد أعمال ذو توجه عالمي كرس خبرته لدعم رؤية المملكة 2030. بخلفيته في إطلاق مشاريع مبتكرة عبر التسويق الرقمي والتكنولوجيا والاستشارات التجارية، تطور صخ ليصبح قائدًا معروفًا بتصميم أطر تحويلية تمكّن الدول والصناعات والأفراد.
+      صخ جيل هو استراتيجي ورائد أعمال ذو توجه عالمي كرس خبرته لدعم رؤية المملكة ۲۰۳۰. بخلفيته في إطلاق مشاريع مبتكرة عبر التسويق الرقمي والتكنولوجيا والاستشارات التجارية، تطور صخ ليصبح قائدًا معروفًا بتصميم أطر تحويلية تمكّن الدول والصناعات والأفراد.
 
       ولد ونشأ في المملكة المتحدة، يعيش صخ الآن في الرياض، حيث كرس نفسه بالكامل لمستقبل المملكة. بإلهام من التحول السريع للمملكة العربية السعودية واعترافًا بالفجوات الحرجة في تطوير القوى العاملة، أسس الأكاديمية السعودية للتدريب الأمني (SSTA) لإعادة تعريف المعايير الأمنية ومؤسسة شفاء المستقبل الصحية لقيادة اتحاد من الأطباء المدربين في المملكة المتحدة يركزون على تطوير الرعاية الصحية من خلال تعزيز مهارات المواهب السعودية.
 
       معروف بقدرته على دمج الخبرة العالمية مع الأولويات الوطنية، يتخصص صخ في بناء أنظمة بيئية هادفة تدفع النمو المستدام عبر الأمن والرعاية الصحية وما بعدها. يركز عمله على تمكين المواهب السعودية، وترسيخ أفضل الممارسات الدولية، وضمان توافق كل مشروع مع رؤية المملكة طويلة المدى للتميز والسيادة.
 
       بالتزامه العميق بتحول المملكة العربية السعودية، يمثل صخ جيل فئة جديدة من القيادة - يمزج بين الرشاقة الريادية والخبرة عبر القطاعات والإيمان الراسخ بإمكانات المملكة لوضع معايير عالمية عبر الصناعات الحيوية.
-      `
+      `,
     },
     mark: {
       name: "مارك برامويل",
       position: "مدير التدريب والاستشاري الرئيسي",
       bio: `
-      مارك برامويل هو متخصص أمني معتمد وذو خبرة عالية، مع أكثر من 25 عامًا من الخبرة في مجالات الاستخبارات العسكرية، والأمن الدبلوماسي، وضمان المخاطر الوطنية، وأنظمة التدريب على مستوى المؤسسات.
+      مارك برامويل هو متخصص أمني معتمد وذو خبرة عالية، مع أكثر من ۲٥ عامًا من الخبرة في مجالات الاستخبارات العسكرية، والأمن الدبلوماسي، وضمان المخاطر الوطنية، وأنظمة التدريب على مستوى المؤسسات.
 
       كضابط استخبارات سابق بالجيش البريطاني، خدم مارك في مسارح عالمية حساسة بما في ذلك العراق وسوريا وأفغانستان، حيث قدم المشورة لكبار المسؤولين العسكريين والحكوميين بشأن استراتيجية الأزمات وعمليات الاستخبارات والبنية التحتية للأمن المادي. شغل منصب الملحق الدفاعي المساعد في دمشق، حيث أدار عمليات الطوارئ عالية الضغط، وقدم تحليلات استخباراتية استراتيجية شكلت سياسة الحكومة البريطانية. يتحدث مارك اللغة العربية بطلاقة، مما يمنحه ميزة عملياتية نادرة في القيادة عبر الثقافات والتوجيه وبناء الثقة.
 
@@ -188,32 +187,32 @@ const Home = () => {
       • مدير التدريب الدفاعي
 
       كمدير التدريب في الأكاديمية السعودية للتدريب الأمني، مارك مسؤول عن:
-      • تصميم والتحقق من صحة إطار الشهادة المكون من 40 دورة
+      • تصميم والتحقق من صحة إطار الشهادة المكون من ٤۰ دورة
       • الإشراف على التقييمات القائمة على المحاكاة عبر الأكاديميات الوطنية
       • تدريب مجموعة النخبة السعودية لتصبح مدربين رئيسيين متخصصين في القطاعات
       • ضمان توافق جميع الشهادات مع المعايير العالمية مع تمكين القوى العاملة السعودية أولاً
 
       مارك لا يدرب الحراس. إنه يبني أنظمة سيادية لاعتماد أولئك الذين يقودونهم.
-      `
+      `,
     },
     samraj: {
       name: "سامراج بادا",
       position: "المدرب الأول ومسؤول الجودة",
       bio: `
-      بخبرة تزيد عن 20 عامًا في الخطوط الأمامية، سامراج بادا هو خبير عمليات تكتيكية متمرس معروف بقيادة فرق حماية عالية المخاطر في جميع أنحاء المملكة المتحدة. من تأمين الملكية والتنفيذيين إلى إدارة العمليات المباشرة في استوديوهات سكاي، تجمع قيادته بين الدقة في الوقت الحقيقي والبصيرة التشغيلية العميقة.
+      بخبرة تزيد عن ۲۰ عامًا في الخطوط الأمامية، سامراج بادا هو خبير عمليات تكتيكية متمرس معروف بقيادة فرق حماية عالية المخاطر في جميع أنحاء المملكة المتحدة. من تأمين الملكية والتنفيذيين إلى إدارة العمليات المباشرة في استوديوهات سكاي، تجمع قيادته بين الدقة في الوقت الحقيقي والبصيرة التشغيلية العميقة.
 
       في الأكاديمية السعودية للتدريب الأمني، يقود سامراج التدريب العملي وضمان الجودة عبر جميع برامج الشهادات. يقود التدريبات الحية، والمحاكاة عالية الضغط، ويدرب المدربين السعوديين للأداء بثقة تحت الضغط. كمتعاون طويل الأمد مع مارك برامويل، فهو يضمن أن كل دورة تقدم ليس فقط النظرية - بل الأداء الجاهز للميدان.
 
       يعد سامراج الفرق للحظات التي لا يكون فيها الفشل خيارًا.
-      `
+      `,
     },
     tauqir: {
       name: "توقير خان",
       position: "المسؤول التنفيذي للتسويق",
       bio: `
       يجمع توقير خان بين مزيج فريد من الخبرة التقنية والفطنة التسويقية، ويتمتع بخبرة تزيد عن أربع سنوات في البرمجة إلى جانب خلفية قوية في المبيعات والتسويق. بصفته المسؤول التنفيذي للتسويق في الأكاديمية السعودية للتدريب الأمني، يستفيد من عقليته التحليلية واستراتيجيته الإبداعية لتعزيز ظهور العلامة التجارية، ودفع المشاركة، ودعم أهداف نمو الأكاديمية في صناعة التدريب الأمني.
-      `
-    }
+      `,
+    },
   };
 
   return (
@@ -276,12 +275,8 @@ const Home = () => {
                 subtitle={t.about.subtitle}
                 centered={false}
               />
-              <p className="text-gray-700 mb-6">
-                {t.about.paragraph1}
-              </p>
-              <p className="text-gray-700 mb-6">
-                {t.about.paragraph2}
-              </p>
+              <p className="text-gray-700 mb-6">{t.about.paragraph1}</p>
+              <p className="text-gray-700 mb-6">{t.about.paragraph2}</p>
               <p className="text-gray-700 font-semibold mb-8">
                 {t.about.paragraph3}
               </p>
@@ -308,7 +303,7 @@ const Home = () => {
                 <div className="absolute inset-0 opacity-20 bg-pattern-grid"></div>
               </div>
               <div className="absolute -bottom-6 -left-6 bg-ssta-gold text-ssta-dark p-4 rounded shadow-lg">
-                <p className="text-4xl font-bold">40+</p>
+                <p className="text-4xl font-bold">{isArabic ? "٤۰+" : "40+"}</p>
                 <p className="font-medium">{t.about.programs}</p>
               </div>
             </div>
@@ -388,49 +383,94 @@ const Home = () => {
       {/* Courses Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <SectionTitle
-            title={t.courses.title}
-            subtitle={t.courses.subtitle}
-          />
+          <SectionTitle title={t.courses.title} subtitle={t.courses.subtitle} />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
             <CourseCard
-              title={isArabic ? coursesTranslations.csp.title.ar : coursesTranslations.csp.title.en}
-              category={isArabic ? coursesTranslations.csp.category.ar : coursesTranslations.csp.category.en}
+              title={
+                isArabic
+                  ? coursesTranslations.csp.title.ar
+                  : coursesTranslations.csp.title.en
+              }
+              category={
+                isArabic
+                  ? coursesTranslations.csp.category.ar
+                  : coursesTranslations.csp.category.en
+              }
               imageUrl="/courses/csp.jpg"
               className="animate-fade-in"
             />
             <CourseCard
-              title={isArabic ? coursesTranslations.cms.title.ar : coursesTranslations.cms.title.en}
-              category={isArabic ? coursesTranslations.cms.category.ar : coursesTranslations.cms.category.en}
+              title={
+                isArabic
+                  ? coursesTranslations.cms.title.ar
+                  : coursesTranslations.cms.title.en
+              }
+              category={
+                isArabic
+                  ? coursesTranslations.cms.category.ar
+                  : coursesTranslations.cms.category.en
+              }
               imageUrl="/courses/cms.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.2s" }}
             />
             <CourseCard
-              title={isArabic ? coursesTranslations.far.title.ar : coursesTranslations.far.title.en}
-              category={isArabic ? coursesTranslations.far.category.ar : coursesTranslations.far.category.en}
+              title={
+                isArabic
+                  ? coursesTranslations.far.title.ar
+                  : coursesTranslations.far.title.en
+              }
+              category={
+                isArabic
+                  ? coursesTranslations.far.category.ar
+                  : coursesTranslations.far.category.en
+              }
               imageUrl="/courses/far.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.3s" }}
             />
             <CourseCard
-              title={isArabic ? coursesTranslations.eps.title.ar : coursesTranslations.eps.title.en}
-              category={isArabic ? coursesTranslations.eps.category.ar : coursesTranslations.eps.category.en}
+              title={
+                isArabic
+                  ? coursesTranslations.eps.title.ar
+                  : coursesTranslations.eps.title.en
+              }
+              category={
+                isArabic
+                  ? coursesTranslations.eps.category.ar
+                  : coursesTranslations.eps.category.en
+              }
               imageUrl="/courses/eps.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.4s" }}
             />
             <CourseCard
-              title={isArabic ? coursesTranslations.esm.title.ar : coursesTranslations.esm.title.en}
-              category={isArabic ? coursesTranslations.esm.category.ar : coursesTranslations.esm.category.en}
+              title={
+                isArabic
+                  ? coursesTranslations.esm.title.ar
+                  : coursesTranslations.esm.title.en
+              }
+              category={
+                isArabic
+                  ? coursesTranslations.esm.category.ar
+                  : coursesTranslations.esm.category.en
+              }
               imageUrl="/courses/esm.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.5s" }}
             />
             <CourseCard
-              title={isArabic ? coursesTranslations.sra.title.ar : coursesTranslations.sra.title.en}
-              category={isArabic ? coursesTranslations.sra.category.ar : coursesTranslations.sra.category.en}
+              title={
+                isArabic
+                  ? coursesTranslations.sra.title.ar
+                  : coursesTranslations.sra.title.en
+              }
+              category={
+                isArabic
+                  ? coursesTranslations.sra.category.ar
+                  : coursesTranslations.sra.category.en
+              }
               imageUrl="/courses/sra.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.6s" }}
@@ -600,10 +640,7 @@ Samraj prepares teams for moments where failure is not an option.
       {/* Sectors We Serve */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <SectionTitle
-            title={t.sectors.title}
-            subtitle={t.sectors.subtitle}
-          />
+          <SectionTitle title={t.sectors.title} subtitle={t.sectors.subtitle} />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
             <SectorCard

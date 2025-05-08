@@ -1,7 +1,13 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
-import { MapPin, Phone, Mail, Facebook, Instagram, Linkedin } from "lucide-react";
+import {
+  MapPin,
+  Phone,
+  Mail,
+  Facebook,
+  Instagram,
+  Linkedin,
+} from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { translations } from "@/translations/translations";
 
@@ -16,18 +22,31 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4">SSTA</h3>
-            <p className="text-gray-300 mb-4">
-              {t.about}
-            </p>
-            <div className={`flex ${isArabic ? 'space-x-reverse space-x-4' : 'space-x-4'}`}>
-              <a href="#" className="text-white hover:text-ssta-gold transition-colors">
+            <h3 className="text-2xl font-bold mb-4">
+              <img src="/logo.png" alt="SSTA" className="h-6 mb-4" />
+            </h3>
+            <p className="text-gray-300 mb-4">{t.about}</p>
+            <div
+              className={`flex ${
+                isArabic ? "space-x-reverse space-x-4" : "space-x-4"
+              }`}
+            >
+              <a
+                href="#"
+                className="text-white hover:text-ssta-gold transition-colors"
+              >
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-white hover:text-ssta-gold transition-colors">
+              <a
+                href="#"
+                className="text-white hover:text-ssta-gold transition-colors"
+              >
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-white hover:text-ssta-gold transition-colors">
+              <a
+                href="#"
+                className="text-white hover:text-ssta-gold transition-colors"
+              >
                 <Linkedin size={20} />
               </a>
             </div>
@@ -37,27 +56,42 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">{t.quickLinks}</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-gray-300 hover:text-ssta-gold transition-colors">
+                <Link
+                  to="/"
+                  className="text-gray-300 hover:text-ssta-gold transition-colors"
+                >
                   {navT.home}
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-gray-300 hover:text-ssta-gold transition-colors">
+                <Link
+                  to="/about"
+                  className="text-gray-300 hover:text-ssta-gold transition-colors"
+                >
                   {navT.about}
                 </Link>
               </li>
               <li>
-                <Link to="/courses" className="text-gray-300 hover:text-ssta-gold transition-colors">
+                <Link
+                  to="/courses"
+                  className="text-gray-300 hover:text-ssta-gold transition-colors"
+                >
                   {navT.courses}
                 </Link>
               </li>
               <li>
-                <Link to="/sectors" className="text-gray-300 hover:text-ssta-gold transition-colors">
+                <Link
+                  to="/sectors"
+                  className="text-gray-300 hover:text-ssta-gold transition-colors"
+                >
                   {navT.sectors}
                 </Link>
               </li>
               <li>
-                <Link to="/leadership" className="text-gray-300 hover:text-ssta-gold transition-colors">
+                <Link
+                  to="/leadership"
+                  className="text-gray-300 hover:text-ssta-gold transition-colors"
+                >
                   {navT.leadership}
                 </Link>
               </li>
@@ -69,17 +103,26 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-3">
                 <MapPin size={20} className="text-ssta-gold" />
-                <span className="text-gray-300">Riyadh, Saudi Arabia</span>
+                <span className="text-gray-300">
+                  {" "}
+                  {isArabic ? "الرياض" : "Riyadh, Saudi Arabia"}
+                </span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={20} className="text-ssta-gold" />
-                <a href="mailto:enquiry.ssta@gmail.com" className="text-gray-300 hover:text-ssta-gold transition-colors">
+                <a
+                  href="mailto:enquiry.ssta@gmail.com"
+                  className="text-gray-300 hover:text-ssta-gold transition-colors"
+                >
                   enquiry.ssta@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={20} className="text-ssta-gold" />
-                <a href={`tel:+966505753717`} className="text-gray-300 hover:text-ssta-gold transition-colors">
+                <a
+                  href={`tel:+966505753717`}
+                  className="text-gray-300 hover:text-ssta-gold transition-colors"
+                >
                   {isArabic ? "٩٦٦٥٠٥٧٥٣٧١٧+" : "+966 50 575 3717"}
                 </a>
               </li>
@@ -88,9 +131,7 @@ const Footer = () => {
 
           <div>
             <h3 className="text-xl font-bold mb-4">{t.partnerWithUs.title}</h3>
-            <p className="text-gray-300 mb-4">
-              {t.partnerWithUs.description}
-            </p>
+            <p className="text-gray-300 mb-4">{t.partnerWithUs.description}</p>
             <Link
               to="/contact"
               className="bg-ssta-gold hover:bg-ssta-gold-light text-ssta-dark font-bold py-2 px-4 rounded transition-colors inline-block"
@@ -101,9 +142,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-10 pt-6 text-center">
-          <p className="text-gray-400">
-            {t.copyright}
-          </p>
+          <p className="text-gray-400">{t.copyright}</p>
         </div>
       </div>
     </footer>

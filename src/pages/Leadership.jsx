@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Award, Shield, Briefcase } from "lucide-react";
 import SectionTitle from "@/components/SectionTitle";
@@ -22,8 +21,8 @@ const Leadership = () => {
 
       تشمل خبرته الواسعة التخطيط الاستراتيجي وأمن المعلومات والقيادة التنظيمية. ساهم التزام اللواء الشهري بالتميز والابتكار بشكل كبير في تحديث وتطوير القوات المسلحة السعودية.
 
-      بصفته الرئيس التنفيذي للأكاديمية السعودية للتدريب الأمني (SSTA)، يستثمر اللواء الشهري خبرته الواسعة لتطوير مبادرات التدريب الأمني في المملكة. تحت قيادته، تكرس الأكاديمية جهودها لتعزيز قدرات المتخصصين في مجال الأمن، بما يتماشى مع أهداف رؤية المملكة 2030 لتعزيز الأمن الوطني وتشجيع الاعتماد على الذات تكنولوجيًا.
-      `
+      بصفته الرئيس التنفيذي للأكاديمية السعودية للتدريب الأمني (SSTA)، يستثمر اللواء الشهري خبرته الواسعة لتطوير مبادرات التدريب الأمني في المملكة. تحت قيادته، تكرس الأكاديمية جهودها لتعزيز قدرات المتخصصين في مجال الأمن، بما يتماشى مع أهداف رؤية المملكة ۲۰۳۰ لتعزيز الأمن الوطني وتشجيع الاعتماد على الذات تكنولوجيًا.
+      `,
     },
     nawaf: {
       name: "نواف القحطاني",
@@ -31,29 +30,29 @@ const Leadership = () => {
       bio: `
       يعمل نواف القحطاني كمدير للشراكات في الأكاديمية السعودية للتدريب الأمني (SSTA)، حيث يلعب دورًا محوريًا في تطوير قطاع الأمن الخاص في المملكة. بخلفيته القوية في المبيعات والتسويق وتطوير الأعمال، يتفوق نواف في بناء التحالفات الاستراتيجية وقيادة المبادرات التعاونية التي ترفع من مستوى معايير الصناعة.
 
-      إدراكًا منه للفجوات الحرجة في التدريب والمعايير والتطوير المهني عبر الصناعة، يكرس نواف جهوده لترسيخ معايير جديدة تتماشى مع أهداف رؤية المملكة 2030. تمكنه خبرته من تحديد ومعالجة هذه الفجوات بفعالية، مما يضمن أن القوى العاملة الأمنية مستعدة جيدًا لتلبية متطلبات بيئة سريعة التغير.
+      إدراكًا منه للفجوات الحرجة في التدريب والمعايير والتطوير المهني عبر الصناعة، يكرس نواف جهوده لترسيخ معايير جديدة تتماشى مع أهداف رؤية المملكة ۲۰۳۰. تمكنه خبرته من تحديد ومعالجة هذه الفجوات بفعالية، مما يضمن أن القوى العاملة الأمنية مستعدة جيدًا لتلبية متطلبات بيئة سريعة التغير.
 
       نهج نواف استراتيجي وشخصي في آن واحد. في عصر تضع فيه المشاريع العملاقة والفعاليات الكبرى والاهتمام العالمي ضغوطًا غير مسبوقة على الأمن الأمامي، يدافع عن الاعتقاد بأن الأمن الوطني الحقيقي يبدأ من أولئك الموجودين على الأرض. من خلال قيادته في الأكاديمية، يواصل نواف تشكيل مستقبل قطاع الأمن الخاص في المملكة العربية السعودية، مما يضمن أن كل حارس، وكل فريق، وكل منظمة تعكس قوة المملكة واستعدادها والتزامها بالتميز على المستوى العالمي.
-      `
+      `,
     },
     sukh: {
       name: "صخ جيل",
       position: "المؤسس والمدير الاستراتيجي",
       bio: `
-      صخ جيل هو استراتيجي ورائد أعمال ذو توجه عالمي كرس خبرته لدعم رؤية المملكة 2030. بخلفيته في إطلاق مشاريع مبتكرة عبر التسويق الرقمي والتكنولوجيا والاستشارات التجارية، تطور صخ ليصبح قائدًا معروفًا بتصميم أطر تحويلية تمكّن الدول والصناعات والأفراد.
+      صخ جيل هو استراتيجي ورائد أعمال ذو توجه عالمي كرس خبرته لدعم رؤية المملكة ۲۰۳۰. بخلفيته في إطلاق مشاريع مبتكرة عبر التسويق الرقمي والتكنولوجيا والاستشارات التجارية، تطور صخ ليصبح قائدًا معروفًا بتصميم أطر تحويلية تمكّن الدول والصناعات والأفراد.
 
       ولد ونشأ في المملكة المتحدة، يعيش صخ الآن في الرياض، حيث كرس نفسه بالكامل لمستقبل المملكة. بإلهام من التحول السريع للمملكة العربية السعودية واعترافًا بالفجوات الحرجة في تطوير القوى العاملة، أسس الأكاديمية السعودية للتدريب الأمني (SSTA) لإعادة تعريف المعايير الأمنية ومؤسسة شفاء المستقبل الصحية لقيادة اتحاد من الأطباء المدربين في المملكة المتحدة يركزون على تطوير الرعاية الصحية من خلال تعزيز مهارات المواهب السعودية.
 
       معروف بقدرته على دمج الخبرة العالمية مع الأولويات الوطنية، يتخصص صخ في بناء أنظمة بيئية هادفة تدفع النمو المستدام عبر الأمن والرعاية الصحية وما بعدها. يركز عمله على تمكين المواهب السعودية، وترسيخ أفضل الممارسات الدولية، وضمان توافق كل مشروع مع رؤية المملكة طويلة المدى للتميز والسيادة.
 
       بالتزامه العميق بتحول المملكة العربية السعودية، يمثل صخ جيل فئة جديدة من القيادة - يمزج بين الرشاقة الريادية والخبرة عبر القطاعات والإيمان الراسخ بإمكانات المملكة لوضع معايير عالمية عبر الصناعات الحيوية.
-      `
+      `,
     },
     mark: {
       name: "مارك برامويل",
       position: "مدير التدريب والاستشاري الرئيسي",
       bio: `
-      مارك برامويل هو متخصص أمني معتمد وذو خبرة عالية، مع أكثر من 25 عامًا من الخبرة في مجالات الاستخبارات العسكرية، والأمن الدبلوماسي، وضمان المخاطر الوطنية، وأنظمة التدريب على مستوى المؤسسات.
+      مارك برامويل هو متخصص أمني معتمد وذو خبرة عالية، مع أكثر من ۲٥ عامًا من الخبرة في مجالات الاستخبارات العسكرية، والأمن الدبلوماسي، وضمان المخاطر الوطنية، وأنظمة التدريب على مستوى المؤسسات.
 
       كضابط استخبارات سابق بالجيش البريطاني، خدم مارك في مسارح عالمية حساسة بما في ذلك العراق وسوريا وأفغانستان، حيث قدم المشورة لكبار المسؤولين العسكريين والحكوميين بشأن استراتيجية الأزمات وعمليات الاستخبارات والبنية التحتية للأمن المادي. شغل منصب الملحق الدفاعي المساعد في دمشق، حيث أدار عمليات الطوارئ عالية الضغط، وقدم تحليلات استخباراتية استراتيجية شكلت سياسة الحكومة البريطانية. يتحدث مارك اللغة العربية بطلاقة، مما يمنحه ميزة عملياتية نادرة في القيادة عبر الثقافات والتوجيه وبناء الثقة.
 
@@ -90,7 +89,7 @@ const Leadership = () => {
       • ضمان توافق جميع الشهادات مع المعايير العالمية مع تمكين القوى العاملة السعودية أولاً
 
       مارك لا يدرب الحراس. إنه يبني أنظمة سيادية لاعتماد أولئك الذين يقودونهم.
-      `
+      `,
     },
     samraj: {
       name: "سامراج بادا",
@@ -101,27 +100,27 @@ const Leadership = () => {
       في الأكاديمية السعودية للتدريب الأمني، يقود سامراج التدريب العملي وضمان الجودة عبر جميع برامج الشهادات. يقود التدريبات الحية، والمحاكاة عالية الضغط، ويدرب المدربين السعوديين للأداء بثقة تحت الضغط. كمتعاون طويل الأمد مع مارك برامويل، فهو يضمن أن كل دورة تقدم ليس فقط النظرية - بل الأداء الجاهز للميدان.
 
       يعد سامراج الفرق للحظات التي لا يكون فيها الفشل خيارًا.
-      `
+      `,
     },
     tauqir: {
       name: "توقير خان",
       position: "المسؤول التنفيذي للتسويق",
       bio: `
       يجمع توقير خان بين مزيج فريد من الخبرة التقنية والفطنة التسويقية، ويتمتع بخبرة تزيد عن أربع سنوات في البرمجة إلى جانب خلفية قوية في المبيعات والتسويق. بصفته المسؤول التنفيذي للتسويق في الأكاديمية السعودية للتدريب الأمني، يستفيد من عقليته التحليلية واستراتيجيته الإبداعية لتعزيز ظهور العلامة التجارية، ودفع المشاركة، ودعم أهداف نمو الأكاديمية في صناعة التدريب الأمني.
-      `
-    }
+      `,
+    },
   };
 
   // Arabic translations for vision section
   const visionSectionContent = {
     paragraph1: {
       en: t.visionSection.paragraph1,
-      ar: "في الأكاديمية السعودية للتدريب الأمني، نؤمن بأن الأمن فن استراتيجي يعتمد على القيادة التي تلهم الثقة وتبني النظم الفعالة والمستدامة. فريق قيادتنا هو مزيج متميز من الخبراء العسكريين والمهنيين المدنيين والمتخصصين السعوديين الذين يشكلون معًا مستقبل التدريب الأمني في المملكة."
+      ar: "في الأكاديمية السعودية للتدريب الأمني، نؤمن بأن الأمن فن استراتيجي يعتمد على القيادة التي تلهم الثقة وتبني النظم الفعالة والمستدامة. فريق قيادتنا هو مزيج متميز من الخبراء العسكريين والمهنيين المدنيين والمتخصصين السعوديين الذين يشكلون معًا مستقبل التدريب الأمني في المملكة.",
     },
     paragraph2: {
       en: t.visionSection.paragraph2,
-      ar: "بتوجيه من الرؤية الاستراتيجية للمؤسسين والخبرة العملية لكبار المدربين لدينا، نلتزم بتعزيز مواهب الجيل القادم من قادة الأمن السعوديين الذين سيقودون المملكة نحو مستقبل أكثر أمانًا وازدهارًا."
-    }
+      ar: "بتوجيه من الرؤية الاستراتيجية للمؤسسين والخبرة العملية لكبار المدربين لدينا، نلتزم بتعزيز مواهب الجيل القادم من قادة الأمن السعوديين الذين سيقودون المملكة نحو مستقبل أكثر أمانًا وازدهارًا.",
+    },
   };
 
   return (
@@ -163,7 +162,7 @@ His extensive experience encompasses strategic planning, information security, a
 As the Chief Executive Officer of the Saudi Security Training Academy (SSTA), Major General Alshehri leverages his vast expertise to advance the Kingdom's security training initiatives. Under his leadership, SSTA is dedicated to enhancing the capabilities of security professionals, aligning with Saudi Arabia's Vision 2030 objectives to strengthen national security and promote technological self-reliance.
 `}
             />
-            
+
             <TeamMemberCard
               name="Nawaf Y M Alqahtani"
               position="Senior Partnership Manager"
@@ -177,7 +176,7 @@ Recognizing the critical gaps in training, standards, and professional developme
 
 Nawaf's approach is both strategic and personal. In an era where giga-projects, mega-events, and global attention place unprecedented pressure on frontline security, he champions the belief that true national security begins with those on the ground. Through his leadership at SSTA, Nawaf continues to shape the future of Saudi Arabia's private security sector, ensuring that every guard, every team, and every organization reflects the Kingdom's strength, readiness, and commitment to excellence on the world stage.`}
             />
-            
+
             <TeamMemberCard
               name="Sukh Gill"
               position="Founder & Strategic Director"
@@ -193,7 +192,7 @@ Renowned for his ability to merge global expertise with national priorities, Suk
             
 With a deep commitment to Saudi Arabia's transformation, Sukh Gill represents a new class of leadership — blending entrepreneurial agility, cross-sector expertise, and an unwavering belief in the Kingdom's potential to set global benchmarks across critical industries.`}
             />
-            
+
             <TeamMemberCard
               name="Mark Bramwell"
               position="Director of Training & Principle Consultant"
@@ -256,7 +255,7 @@ Mark does not teach guards. He builds sovereign systems to certify those who lea
             
                   `}
             />
-            
+
             <TeamMemberCard
               name="Samraj Padda"
               position="Senior Trainer & Quality Lead"
@@ -271,7 +270,7 @@ At SSTA, Samraj drives hands-on training and quality assurance across all certif
 Samraj prepares teams for moments where failure is not an option.
             `}
             />
-            
+
             <TeamMemberCard
               name="Tauqir Khan"
               position="Marketing Executive"
@@ -288,7 +287,11 @@ Samraj prepares teams for moments where failure is not an option.
       {/* Leadership Vision */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${isArabic ? "rtl" : "ltr"}`}>
+          <div
+            className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${
+              isArabic ? "rtl" : "ltr"
+            }`}
+          >
             <div>
               <div className="rounded-lg shadow-lg w-full h-80 overflow-hidden">
                 <img
@@ -305,52 +308,112 @@ Samraj prepares teams for moments where failure is not an option.
                 centered={false}
               />
 
-              <p className={`text-gray-700 mb-4 ${isArabic ? "font-arabic" : ""}`}>
-                {isArabic ? visionSectionContent.paragraph1.ar : visionSectionContent.paragraph1.en}
+              <p
+                className={`text-gray-700 mb-4 ${
+                  isArabic ? "font-arabic" : ""
+                }`}
+              >
+                {isArabic
+                  ? visionSectionContent.paragraph1.ar
+                  : visionSectionContent.paragraph1.en}
               </p>
 
-              <p className={`text-gray-700 mb-6 ${isArabic ? "font-arabic" : ""}`}>
-                {isArabic ? visionSectionContent.paragraph2.ar : visionSectionContent.paragraph2.en}
+              <p
+                className={`text-gray-700 mb-6 ${
+                  isArabic ? "font-arabic" : ""
+                }`}
+              >
+                {isArabic
+                  ? visionSectionContent.paragraph2.ar
+                  : visionSectionContent.paragraph2.en}
               </p>
 
               <div className="space-y-6">
-                <div className={`flex ${isArabic ? "flex-row-reverse text-right" : ""}`}>
-                  <div className={`bg-ssta-gold/10 p-3 rounded-full h-14 w-14 flex items-center justify-center ${isArabic ? "ml-4" : "mr-4"} flex-shrink-0`}>
+                <div
+                  className={`flex ${
+                    isArabic ? "flex-row-reverse text-right" : ""
+                  }`}
+                >
+                  <div
+                    className={`bg-ssta-gold/10 p-3 rounded-full h-14 w-14 flex items-center justify-center ${
+                      isArabic ? "ml-4" : "mr-4"
+                    } flex-shrink-0`}
+                  >
                     <Shield className="text-ssta-gold" />
                   </div>
                   <div>
-                    <h3 className={`text-lg font-bold mb-2 text-ssta-dark ${isArabic ? "font-arabic" : ""}`}>
+                    <h3
+                      className={`text-lg font-bold mb-2 text-ssta-dark ${
+                        isArabic ? "font-arabic" : ""
+                      }`}
+                    >
                       {t.visionSection.saudiFirst.title}
                     </h3>
-                    <p className={`text-gray-600 ${isArabic ? "font-arabic" : ""}`}>
+                    <p
+                      className={`text-gray-600 ${
+                        isArabic ? "font-arabic" : ""
+                      }`}
+                    >
                       {t.visionSection.saudiFirst.description}
                     </p>
                   </div>
                 </div>
 
-                <div className={`flex ${isArabic ? "flex-row-reverse text-right" : ""}`}>
-                  <div className={`bg-ssta-gold/10 p-3 rounded-full h-14 w-14 flex items-center justify-center ${isArabic ? "ml-4" : "mr-4"} flex-shrink-0`}>
+                <div
+                  className={`flex ${
+                    isArabic ? "flex-row-reverse text-right" : ""
+                  }`}
+                >
+                  <div
+                    className={`bg-ssta-gold/10 p-3 rounded-full h-14 w-14 flex items-center justify-center ${
+                      isArabic ? "ml-4" : "mr-4"
+                    } flex-shrink-0`}
+                  >
                     <Award className="text-ssta-gold" />
                   </div>
                   <div>
-                    <h3 className={`text-lg font-bold mb-2 text-ssta-dark ${isArabic ? "font-arabic" : ""}`}>
+                    <h3
+                      className={`text-lg font-bold mb-2 text-ssta-dark ${
+                        isArabic ? "font-arabic" : ""
+                      }`}
+                    >
                       {t.visionSection.globalExcellence.title}
                     </h3>
-                    <p className={`text-gray-600 ${isArabic ? "font-arabic" : ""}`}>
+                    <p
+                      className={`text-gray-600 ${
+                        isArabic ? "font-arabic" : ""
+                      }`}
+                    >
                       {t.visionSection.globalExcellence.description}
                     </p>
                   </div>
                 </div>
 
-                <div className={`flex ${isArabic ? "flex-row-reverse text-right" : ""}`}>
-                  <div className={`bg-ssta-gold/10 p-3 rounded-full h-14 w-14 flex items-center justify-center ${isArabic ? "ml-4" : "mr-4"} flex-shrink-0`}>
+                <div
+                  className={`flex ${
+                    isArabic ? "flex-row-reverse text-right" : ""
+                  }`}
+                >
+                  <div
+                    className={`bg-ssta-gold/10 p-3 rounded-full h-14 w-14 flex items-center justify-center ${
+                      isArabic ? "ml-4" : "mr-4"
+                    } flex-shrink-0`}
+                  >
                     <Briefcase className="text-ssta-gold" />
                   </div>
                   <div>
-                    <h3 className={`text-lg font-bold mb-2 text-ssta-dark ${isArabic ? "font-arabic" : ""}`}>
+                    <h3
+                      className={`text-lg font-bold mb-2 text-ssta-dark ${
+                        isArabic ? "font-arabic" : ""
+                      }`}
+                    >
                       {t.visionSection.industryTransformation.title}
                     </h3>
-                    <p className={`text-gray-600 ${isArabic ? "font-arabic" : ""}`}>
+                    <p
+                      className={`text-gray-600 ${
+                        isArabic ? "font-arabic" : ""
+                      }`}
+                    >
                       {t.visionSection.industryTransformation.description}
                     </p>
                   </div>
