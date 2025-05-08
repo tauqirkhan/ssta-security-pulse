@@ -44,3 +44,17 @@ export const getTranslation = (section, key, fallback = '') => {
     return fallback;
   }
 };
+
+/**
+ * Helper function to provide Arabic translations for components like TeamMemberCard
+ * @param {object} data - Original data structure containing English content
+ * @param {object} arabicData - Arabic translations for the same data structure
+ * @returns {object} - Combined data structure based on current language
+ */
+export const getLocalizedContent = (data, arabicData) => {
+  const { language } = useLanguage();
+  if (language === 'ar' && arabicData) {
+    return arabicData;
+  }
+  return data;
+};

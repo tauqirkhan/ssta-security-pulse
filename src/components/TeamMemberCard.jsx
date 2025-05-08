@@ -24,7 +24,10 @@ const TeamMemberCard = ({
 
   return (
     <div
-      className={`group relative bg-white rounded-lg overflow-hidden shadow-lg transition-all duration-300 hover:shadow-2xl ${className}`}
+      className={cn(
+        "group relative bg-white rounded-lg overflow-hidden shadow-lg transition-all duration-300 hover:shadow-2xl",
+        className
+      )}
       style={style}
     >
       {/* Image + Bio Overlay */}

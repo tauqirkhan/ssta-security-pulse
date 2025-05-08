@@ -2,15 +2,21 @@
 import React from "react";
 import { cn } from "@/lib/utils";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { useTranslation } from "@/hooks/useTranslation";
 
 const SectorCard = ({ 
   title, 
   description, 
+  arabicDescription,
   icon, 
   className, 
   style 
 }) => {
   const { language } = useLanguage();
+  const isArabic = language === "ar";
+  
+  // Use Arabic description if provided and Arabic is selected
+  const displayDescription = isArabic && arabicDescription ? arabicDescription : description;
   
   return (
     <div 
@@ -25,7 +31,7 @@ const SectorCard = ({
         {icon && React.cloneElement(icon, { className: "text-ssta-gold" })}
       </div>
       <h3 className={`text-xl font-bold mb-2 text-ssta-dark ${language === "ar" ? "font-arabic" : ""}`}>{title}</h3>
-      {description && <p className="text-gray-600">{description}</p>}
+      {displayDescription && <p className={`text-gray-600 ${language === "ar" ? "font-arabic" : ""}`}>{displayDescription}</p>}
     </div>
   );
 };
