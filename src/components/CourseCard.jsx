@@ -1,8 +1,10 @@
+
 import React from "react";
 import { cn } from "@/lib/utils";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const CourseCard = ({
   title,
@@ -12,6 +14,8 @@ const CourseCard = ({
   className,
   style,
 }) => {
+  const { language } = useLanguage();
+  const isArabic = language === "ar";
   const sectionId = title.toLowerCase().replace(/[^a-z0-9]+/g, "-");
 
   return (
@@ -51,11 +55,11 @@ const CourseCard = ({
         <Button
           asChild
           variant="ghost"
-          className="p-0 h-auto text-ssta-navy hover:text-ssta-gold group"
+          className={`p-0 h-auto text-ssta-navy hover:text-ssta-gold group ${isArabic ? "flex-row-reverse" : ""}`}
         >
           <Link to={`/courses#${sectionId}`}>
-            Learn More{" "}
-            <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+            {isArabic ? "اعرف المزيد" : "Learn More"}{" "}
+            <ArrowRight className={`h-4 w-4 group-hover:translate-x-1 transition-transform ${isArabic ? "mr-2 rotate-180" : "ml-2"}`} />
           </Link>
         </Button>
       </div>

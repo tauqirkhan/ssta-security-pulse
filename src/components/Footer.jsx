@@ -9,6 +9,7 @@ const Footer = () => {
   const { language } = useLanguage();
   const t = translations.footer[language];
   const navT = translations.navbar[language];
+  const isArabic = language === "ar";
 
   return (
     <footer className="bg-ssta-dark text-white py-12">
@@ -19,7 +20,7 @@ const Footer = () => {
             <p className="text-gray-300 mb-4">
               {t.about}
             </p>
-            <div className="flex space-x-4">
+            <div className={`flex ${isArabic ? 'space-x-reverse space-x-4' : 'space-x-4'}`}>
               <a href="#" className="text-white hover:text-ssta-gold transition-colors">
                 <Facebook size={20} />
               </a>
@@ -72,14 +73,14 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={20} className="text-ssta-gold" />
-                <a href="mailto:info@ssta.sa" className="text-gray-300 hover:text-ssta-gold transition-colors">
-                  info@SSTA.sa
+                <a href="mailto:enquiry.ssta@gmail.com" className="text-gray-300 hover:text-ssta-gold transition-colors">
+                  enquiry.ssta@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={20} className="text-ssta-gold" />
-                <a href="tel:+966XXXXXXXXX" className="text-gray-300 hover:text-ssta-gold transition-colors">
-                  +966 [XXX XXXX XXXX]
+                <a href={`tel:+966505753717`} className="text-gray-300 hover:text-ssta-gold transition-colors">
+                  {isArabic ? "٩٦٦٥٠٥٧٥٣٧١٧+" : "+966 50 575 3717"}
                 </a>
               </li>
             </ul>

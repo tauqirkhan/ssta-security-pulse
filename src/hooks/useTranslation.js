@@ -58,3 +58,24 @@ export const getLocalizedContent = (data, arabicData) => {
   }
   return data;
 };
+
+/**
+ * Convert numbers to Arabic numerals if Arabic language is selected
+ * @param {string} number - The number to convert to Arabic numerals
+ * @returns {string} - The number in the appropriate numerals based on language
+ */
+export const localizeNumber = (number) => {
+  const { language } = useLanguage();
+  
+  if (language !== 'ar') return number;
+  
+  // Map of English to Arabic numerals
+  const numeralMap = {
+    '0': '٠', '1': '١', '2': '٢', '3': '٣', '4': '٤',
+    '5': '٥', '6': '٦', '7': '٧', '8': '٨', '9': '٩',
+    '+': '+'  // Keep plus sign the same
+  };
+  
+  // Replace each digit with its Arabic equivalent
+  return number.toString().split('').map(digit => numeralMap[digit] || digit).join('');
+};
