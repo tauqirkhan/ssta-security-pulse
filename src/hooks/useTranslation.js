@@ -23,3 +23,24 @@ export const useTranslation = (section) => {
   // Return translations for current language in the specified section
   return sectionTranslations[language];
 };
+
+/**
+ * Gets a specific translation for the current language
+ * @param {string} section - The section of translations to access
+ * @param {string} key - The specific translation key to access
+ * @param {string} fallback - Optional fallback text if translation is not found
+ * @returns {string} - The translated string
+ */
+export const getTranslation = (section, key, fallback = '') => {
+  const { language } = useLanguage();
+  
+  try {
+    const sectionTranslations = translations[section] || {};
+    const langTranslations = sectionTranslations[language] || sectionTranslations['en'] || {};
+    
+    return langTranslations[key] || fallback;
+  } catch (error) {
+    console.warn(`Translation not found for ${section}.${key} in ${language}`);
+    return fallback;
+  }
+};
