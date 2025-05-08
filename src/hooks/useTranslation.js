@@ -13,6 +13,13 @@ export const useTranslation = (section) => {
   // Get translations for the specified section, or return an empty object if section doesn't exist
   const sectionTranslations = translations[section] || {};
   
+  // Check if the language exists in this section
+  if (!sectionTranslations[language]) {
+    console.warn(`Missing translations for language '${language}' in section '${section}'`);
+    // Fallback to English if the requested language doesn't exist
+    return sectionTranslations['en'] || {};
+  }
+  
   // Return translations for current language in the specified section
-  return sectionTranslations[language] || {};
+  return sectionTranslations[language];
 };

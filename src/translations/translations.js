@@ -165,6 +165,14 @@ export const translations = {
         title: "Security Solutions for Every Sector",
         subtitle: "Our training programs are tailored to address the unique security needs of different industries and sectors across the Kingdom."
       },
+      sectors: {
+        gigaProjects: "Giga-Projects & Smart Cities",
+        entertainment: "Event & Entertainment",
+        healthcare: "Healthcare & Medical",
+        commercial: "Commercial & Retail",
+        aviation: "Aviation & Transport",
+        government: "Government Entities"
+      },
       featuredSector: {
         title: "Giga-Projects & Smart Cities",
         subtitle: "Security solutions tailored for Saudi Arabia's ambitious urban development initiatives",
@@ -197,6 +205,14 @@ export const translations = {
       overview: {
         title: "حلول أمنية لكل قطاع",
         subtitle: "برامجنا التدريبية مصممة خصيصًا لتلبية الاحتياجات الأمنية الفريدة للصناعات والقطاعات المختلفة في المملكة."
+      },
+      sectors: {
+        gigaProjects: "المشاريع العملاقة والمدن الذكية",
+        entertainment: "الفعاليات والترفيه",
+        healthcare: "الرعاية الصحية والطبية",
+        commercial: "التجاري والتجزئة",
+        aviation: "الطيران والنقل",
+        government: "الجهات الحكومية"
       },
       featuredSector: {
         title: "المشاريع العملاقة والمدن الذكية",
@@ -325,12 +341,306 @@ export const translations = {
     en: {
       language: "Language",
       english: "English",
-      arabic: "العربية"
+      arabic: "العربية",
+      readMore: "Read More",
+      viewAll: "View All",
+      submit: "Submit",
+      loading: "Loading...",
+      error: "Something went wrong",
+      success: "Success",
+      required: "Required",
+      optional: "Optional"
     },
     ar: {
       language: "اللغة",
       english: "English",
-      arabic: "العربية"
+      arabic: "العربية",
+      readMore: "اقرأ المزيد",
+      viewAll: "عرض الكل",
+      submit: "إرسال",
+      loading: "جارٍ التحميل...",
+      error: "حدث خطأ ما",
+      success: "تم بنجاح",
+      required: "مطلوب",
+      optional: "اختياري"
+    }
+  },
+  
+  // Courses page translations
+  courses: {
+    en: {
+      hero: {
+        title: "Our Courses & Certifications",
+        subtitle: "World-class training for Saudi security professionals"
+      },
+      overview: {
+        title: "Security Training Programs",
+        subtitle: "SSTA offers comprehensive certification pathways across multiple security disciplines"
+      },
+      categories: {
+        security: "Security",
+        specialistSecurity: "Specialist Security Training",
+        firstAid: "First Aid",
+        controlRoom: "Control Room Operations",
+        spectatorSafety: "Spectator & Event Safety",
+        leadership: "Leadership & Management",
+        supervisor: "Supervisor & First Line Manager",
+        middleManager: "Middle, Operational & Departmental Manager",
+        customerService: "Customer Service",
+        intelligence: "Intelligence"
+      },
+      cta: {
+        title: "Ready to Advance Your Security Career?",
+        description: "Enroll in one of our world-class certification programs today.",
+        buttonText: "Contact Us"
+      }
+    },
+    ar: {
+      hero: {
+        title: "دوراتنا وشهاداتنا",
+        subtitle: "تدريب عالمي المستوى لمحترفي الأمن السعودي"
+      },
+      overview: {
+        title: "برامج التدريب الأمني",
+        subtitle: "تقدم الأكاديمية السعودية للتدريب الأمني مسارات شهادات شاملة عبر تخصصات أمنية متعددة"
+      },
+      categories: {
+        security: "الأمن",
+        specialistSecurity: "تدريب أمني متخصص",
+        firstAid: "الإسعافات الأولية",
+        controlRoom: "عمليات غرفة التحكم",
+        spectatorSafety: "سلامة المتفرجين والفعاليات",
+        leadership: "القيادة والإدارة",
+        supervisor: "المشرف ومدير الخط الأول",
+        middleManager: "مدير متوسط وتشغيلي وإداري",
+        customerService: "خدمة العملاء",
+        intelligence: "الاستخبارات"
+      },
+      cta: {
+        title: "هل أنت مستعد لتطوير مهنتك الأمنية؟",
+        description: "سجل اليوم في إحدى برامج الشهادات عالمية المستوى.",
+        buttonText: "اتصل بنا"
+      }
+    }
+  },
+  
+  // Contact page translations
+  contact: {
+    en: {
+      hero: {
+        title: "Contact SSTA",
+        subtitle: "Get in touch with our team today"
+      },
+      contactInfo: {
+        title: "Get in Touch",
+        subtitle: "Have questions about our training programs? Contact us today.",
+        location: {
+          title: "Our Location",
+          address: "Riyadh, Saudi Arabia"
+        },
+        email: {
+          title: "Email Us",
+          address: "enquiry.ssta@gmail.com"
+        },
+        phone: {
+          title: "Call Us",
+          number: "+966 50 575 3717"
+        }
+      },
+      form: {
+        title: "Send Us a Message",
+        name: "Your Name *",
+        organization: "Organization",
+        email: "Email Address *",
+        phone: "Phone Number",
+        message: "Your Message *",
+        send: "Send Message",
+        sending: "Sending...",
+        success: {
+          title: "Message Received!",
+          description: "Thank you for contacting SSTA. Our team will review your inquiry and get back to you shortly.",
+          button: "Send Another Message"
+        }
+      },
+      visit: {
+        title: "Visit Us",
+        subtitle: "Our training academy is conveniently located in Riyadh's business district",
+        office: "SSTA Office Location",
+        address: "Riyadh, Kingdom of Saudi Arabia",
+        map: "Location Map"
+      }
+    },
+    ar: {
+      hero: {
+        title: "اتصل بالأكاديمية السعودية للتدريب الأمني",
+        subtitle: "تواصل مع فريقنا اليوم"
+      },
+      contactInfo: {
+        title: "تواصل معنا",
+        subtitle: "هل لديك أسئلة حول برامجنا التدريبية؟ اتصل بنا اليوم.",
+        location: {
+          title: "موقعنا",
+          address: "الرياض، المملكة العربية السعودية"
+        },
+        email: {
+          title: "البريد الإلكتروني",
+          address: "enquiry.ssta@gmail.com"
+        },
+        phone: {
+          title: "اتصل بنا",
+          number: "+966 50 575 3717"
+        }
+      },
+      form: {
+        title: "أرسل لنا رسالة",
+        name: "اسمك *",
+        organization: "المؤسسة",
+        email: "عنوان البريد الإلكتروني *",
+        phone: "رقم الهاتف",
+        message: "رسالتك *",
+        send: "إرسال الرسالة",
+        sending: "جارٍ الإرسال...",
+        success: {
+          title: "تم استلام الرسالة!",
+          description: "شكراً لاتصالك بالأكاديمية السعودية للتدريب الأمني. سيقوم فريقنا بمراجعة استفسارك والرد عليك قريباً.",
+          button: "إرسال رسالة أخرى"
+        }
+      },
+      visit: {
+        title: "قم بزيارتنا",
+        subtitle: "تقع أكاديمية التدريب الخاصة بنا في منطقة الأعمال بالرياض",
+        office: "موقع مكتب الأكاديمية السعودية للتدريب الأمني",
+        address: "الرياض، المملكة العربية السعودية",
+        map: "خريطة الموقع"
+      }
+    }
+  },
+  
+  // About page translations
+  about: {
+    en: {
+      hero: {
+        title: "About SSTA",
+        subtitle: "Building Saudi Arabia's security excellence"
+      },
+      story: {
+        title: "Our Story",
+        subtitle: "Founded on a mission to transform Saudi Arabia's security industry",
+        paragraph1: "SSTA was established to create the Kingdom's first truly world-class security training academy — led by Saudis and strengthened by leading international expertise.",
+        paragraph2: "We recognized a major gap in the market. Although Saudi Arabia has over 200,000 security professionals, fewer than 20% have received formal qualifications or structured training. Most security companies focus on manpower rather than building centers of excellence.",
+        paragraph3: "Our mission is to transform this landscape, supporting Vision 2030 by upskilling Saudi nationals and contributing to the development of a knowledge-based economy."
+      },
+      mission: {
+        title: "Our Mission",
+        description: "To build the region's most credible, capable and qualified security professionals through world-class training and certification programmes that blend international standards with local expertise."
+      },
+      vision: {
+        title: "Our Vision",
+        description: "To become the undisputed leader in security training across Saudi Arabia and the wider GCC, recognized for our Saudi-first approach, international accreditations, and the exceptional quality of our graduates."
+      },
+      difference: {
+        title: "What Sets Us Apart",
+        subtitle: "The SSTA difference in security training",
+        saudiLed: {
+          title: "Saudi-Led and Locally Driven",
+          description: "Unlike many foreign-owned competitors, we are proudly Saudi-led with a local CEO, ensuring strong alignment with Saudi values and Vision 2030 priorities."
+        },
+        ukExperts: {
+          title: "Elite UK Security Experts",
+          description: "Our training programs are designed and delivered by former UK military, intelligence, and corporate security leaders with decades of global experience."
+        },
+        certifications: {
+          title: "International Certifications",
+          description: "Our programs are verified and accredited to UK and international standards, providing graduates with globally recognized qualifications."
+        },
+        sectorTraining: {
+          title: "Sector-Specific Training",
+          description: "We offer specialized courses for different sectors (mega-projects, events, healthcare, retail) rather than one-size-fits-all programs."
+        }
+      },
+      approach: {
+        title: "Our Approach",
+        subtitle: "How we develop Saudi security excellence",
+        practical: {
+          title: "Practical Over Theoretical",
+          description: "Our training focuses on real-world scenarios and hands-on practice rather than theoretical concepts alone. We believe in learning by doing."
+        },
+        quality: {
+          title: "Quality Over Quantity",
+          description: "We maintain small class sizes and high trainer-to-student ratios to ensure personalized attention and maximum skills development."
+        },
+        career: {
+          title: "Career Development Focus",
+          description: "Beyond technical skills, we incorporate leadership development, career planning and continuous professional development into all our programs."
+        }
+      },
+      cta: {
+        title: "Ready to Partner With SSTA?",
+        description: "Join us in building the future of Saudi security excellence through world-class training and certification programs.",
+        buttonText: "Get in Touch"
+      }
+    },
+    ar: {
+      hero: {
+        title: "عن الأكاديمية السعودية للتدريب الأمني",
+        subtitle: "بناء التميز الأمني السعودي"
+      },
+      story: {
+        title: "قصتنا",
+        subtitle: "تأسست على مهمة لتحويل صناعة الأمن في المملكة العربية السعودية",
+        paragraph1: "تم إنشاء الأكاديمية السعودية للتدريب الأمني لإنشاء أول أكاديمية تدريب أمني حقيقية على مستوى عالمي في المملكة - بقيادة سعودية ومعززة بخبرة دولية رائدة.",
+        paragraph2: "لقد أدركنا وجود فجوة كبيرة في السوق. على الرغم من أن المملكة العربية السعودية بها أكثر من 200,000 متخصص في الأمن، إلا أن أقل من 20% حصلوا على مؤهلات رسمية أو تدريب منظم. تركز معظم شركات الأمن على القوى العاملة بدلاً من بناء مراكز للتميز.",
+        paragraph3: "مهمتنا هي تحويل هذا المشهد، ودعم رؤية 2030 من خلال رفع مستوى مهارات المواطنين السعوديين والمساهمة في تطوير اقتصاد قائم على المعرفة."
+      },
+      mission: {
+        title: "مهمتنا",
+        description: "بناء أكثر محترفي الأمن مصداقية وقدرة وكفاءة في المنطقة من خلال برامج تدريب وشهادات عالمية المستوى تمزج بين المعايير الدولية والخبرة المحلية."
+      },
+      vision: {
+        title: "رؤيتنا",
+        description: "أن نصبح الرائد الذي لا منازع له في التدريب الأمني في جميع أنحاء المملكة العربية السعودية ودول مجلس التعاون الخليجي الأوسع، معروفين بنهجنا السعودي أولاً، واعتماداتنا الدولية، والجودة الاستثنائية لخريجينا."
+      },
+      difference: {
+        title: "ما يميزنا",
+        subtitle: "اختلاف الأكاديمية السعودية للتدريب الأمني في التدريب الأمني",
+        saudiLed: {
+          title: "بقيادة سعودية ومحلية",
+          description: "على عكس العديد من المنافسين المملوكين لأجانب، نحن فخورون بالقيادة السعودية مع رئيس تنفيذي محلي، مما يضمن توافقًا قويًا مع القيم السعودية وأولويات رؤية 2030."
+        },
+        ukExperts: {
+          title: "خبراء أمن بريطانيون نخبة",
+          description: "تم تصميم وتقديم برامجنا التدريبية من قبل قادة سابقين في الجيش البريطاني والاستخبارات والأمن المؤسسي مع عقود من الخبرة العالمية."
+        },
+        certifications: {
+          title: "شهادات دولية",
+          description: "برامجنا معتمدة ومصدقة وفقًا للمعايير البريطانية والدولية، مما يوفر للخريجين مؤهلات معترف بها عالميًا."
+        },
+        sectorTraining: {
+          title: "تدريب خاص بالقطاع",
+          description: "نقدم دورات متخصصة لقطاعات مختلفة (المشاريع الضخمة، الفعاليات، الرعاية الصحية، التجزئة) بدلاً من برامج ذات حجم واحد يناسب الجميع."
+        }
+      },
+      approach: {
+        title: "نهجنا",
+        subtitle: "كيف نطور التميز الأمني السعودي",
+        practical: {
+          title: "عملي أكثر من نظري",
+          description: "يركز تدريبنا على سيناريوهات العالم الحقيقي والممارسة العملية بدلاً من المفاهيم النظرية وحدها. نحن نؤمن بالتعلم من خلال الممارسة."
+        },
+        quality: {
+          title: "الجودة فوق الكمية",
+          description: "نحن نحافظ على أحجام صغيرة للفصول الدراسية ونسب عالية بين المدرب والطالب لضمان الاهتمام الشخصي وتطوير المهارات القصوى."
+        },
+        career: {
+          title: "التركيز على تطوير المسار الوظيفي",
+          description: "بما يتجاوز المهارات التقنية، ندمج تطوير القيادة وتخطيط المسار الوظيفي والتطوير المهني المستمر في جميع برامجنا."
+        }
+      },
+      cta: {
+        title: "هل أنت مستعد للشراكة مع الأكاديمية السعودية للتدريب الأمني؟",
+        description: "انضم إلينا في بناء مستقبل التميز الأمني السعودي من خلال برامج التدريب والشهادات العالمية.",
+        buttonText: "تواصل معنا"
+      }
     }
   }
 };
