@@ -507,7 +507,7 @@ export const translations = {
         },
         email: {
           title: "Email Us",
-          address: "enquiry.ssta@gmail.com",
+          address: "sukh@ssta.daad.sa",
         },
         phone: {
           title: "Call Us",
@@ -553,7 +553,7 @@ export const translations = {
         },
         email: {
           title: "البريد الإلكتروني",
-          address: "enquiry.ssta@gmail.com",
+          address: "sukh@ssta.daad.sa",
         },
         phone: {
           title: "اتصل بنا",
