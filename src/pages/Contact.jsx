@@ -45,7 +45,7 @@ const Contact = () => {
       toast({
         title: isArabic ? "تم إرسال الرسالة" : "Message Sent",
         description: isArabic
-          ? "شكرا لاتصالك بالأكاديمية السعودية للتدريب الأمني. سنرد عليك قريبا."
+          ? "شكرا لاتصالك بسعودي سيكيوريتي ترينينغ آند أدفانسمنت. سنرد عليك قريبا."
           : "Thank you for contacting SSTA. We will get back to you shortly.",
         variant: "default",
       });
@@ -178,7 +178,7 @@ const Contact = () => {
                     src="/section_images/office.jpg"
                     alt={
                       isArabic
-                        ? "موقع مكتب الأكاديمية السعودية للتدريب الأمني"
+                        ? "موقع مكتب سعودي سيكيوريتي ترينينغ آند أدفانسمنت"
                         : "SSTA Office Location"
                     }
                     className="w-full h-full object-cover object-center"
