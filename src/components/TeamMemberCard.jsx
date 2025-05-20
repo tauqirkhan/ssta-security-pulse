@@ -1,5 +1,3 @@
-
-import React from "react";
 import { cn } from "@/lib/utils";
 import { useLanguage } from "@/contexts/LanguageContext";
 
@@ -16,10 +14,11 @@ const TeamMemberCard = ({
 }) => {
   const { language } = useLanguage();
   const isArabic = language === "ar";
-  
+
   // Use Arabic content if available and Arabic is selected
   const displayName = isArabic && arabicName ? arabicName : name;
-  const displayPosition = isArabic && arabicPosition ? arabicPosition : position;
+  const displayPosition =
+    isArabic && arabicPosition ? arabicPosition : position;
   const displayBio = isArabic && arabicBio ? arabicBio : bio;
 
   return (
@@ -42,7 +41,9 @@ const TeamMemberCard = ({
         {displayBio && (
           <div className="absolute inset-0 bg-black bg-opacity-80 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none group-hover:pointer-events-auto">
             <div
-              className={`w-full h-full px-4 py-3 text-sm leading-relaxed overflow-y-auto overflow-x-hidden scroll-smooth ${isArabic ? "font-arabic text-right" : ""}`}
+              className={`w-full h-full px-4 py-3 text-sm leading-relaxed overflow-y-auto overflow-x-hidden scroll-smooth ${
+                isArabic ? "font-arabic text-right" : ""
+              }`}
               style={{
                 scrollbarWidth: "thin", // Firefox
                 scrollbarColor: "#9ca3af transparent", // Firefox fallback
@@ -64,8 +65,20 @@ const TeamMemberCard = ({
 
       {/* Name & Position */}
       <div className={`p-6 ${isArabic ? "text-right" : ""}`}>
-        <h3 className={`text-xl font-bold text-ssta-dark ${isArabic ? "font-arabic" : ""}`}>{displayName}</h3>
-        <p className={`text-ssta-gold font-medium mb-3 ${isArabic ? "font-arabic" : ""}`}>{displayPosition}</p>
+        <h3
+          className={`text-xl font-bold text-ssta-dark ${
+            isArabic ? "font-arabic" : ""
+          }`}
+        >
+          {displayName}
+        </h3>
+        <p
+          className={`text-ssta-gold font-medium mb-3 ${
+            isArabic ? "font-arabic" : ""
+          }`}
+        >
+          {displayPosition}
+        </p>
       </div>
     </div>
   );

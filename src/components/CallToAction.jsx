@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -9,32 +8,35 @@ const CallToAction = () => {
   const isArabic = language === "ar";
 
   return (
-    <section className="py-16 bg-ssta-dark text-white">
-      {/* Using bg-ssta-dark as the background */}
+    <section className="py-16 white text-gray-700">
       <div
         className={`container mx-auto px-4 text-center ${
           isArabic ? "rtl" : ""
         }`}
       >
         <h2
-          className={`text-3xl font-bold mb-4 ${isArabic ? "font-arabic" : ""}`}
+          className={`text-3xl font-bold mb-4 text-ssta-dark ${
+            isArabic ? "font-arabic" : ""
+          }`}
         >
           {isArabic
             ? "دعوة للتقدم كشريك مؤسس"
             : "Invitation to Apply as a Founding Partner"}
         </h2>
         <p
-          className={`text-lg text-white/80 max-w-2xl mx-auto mb-8 ${
+          className={`text-lg text-ssta-dark/80 max-w-2xl mx-auto mb-8 ${
             isArabic ? "font-arabic" : ""
           }`}
         >
           {isArabic
-            ? "نحن نبحث عن ثلاث شركات سعودية مرموقة للانضمام إلينا في ريادة معيار تدريب أمني وطني. يوفر هذا التعاون الحصري والموجه فقط دعوة فرصة فريدة لتشكيل مستقبل الأمن السعودي."
-            : "We are seeking three esteemed Saudi firms to join us in pioneering a national security training standard. This exclusive, invitation-only partnership offers a unique opportunity to shape the future of Saudi security."}
+            ? "نحن نبحث عن شركة سعودية متميزة للانضمام إلينا في وضع معيار وطني لتدريب الأمن. توفر هذه الشراكة الحصرية فرصة فريدة لقيادة مستقبل الأمن في المملكة."
+            : "We are seeking one distinguished Saudi firm to join us in setting a national standard for security training. This exclusive partnership offers a unique opportunity to lead the future of Saudi security."}
         </p>
 
         <h3
-          className={`text-2xl font-bold mb-4 ${isArabic ? "font-arabic" : ""}`}
+          className={`text-2xl font-bold mb-4 text-ssta-dark ${
+            isArabic ? "font-arabic" : ""
+          }`}
         >
           {isArabic ? "لماذا الشراكة مع SSTA؟" : "Why Partner with SSTA?"}
         </h3>
@@ -66,12 +68,14 @@ const CallToAction = () => {
         </ul>
 
         <h3
-          className={`text-2xl font-bold mb-4 ${isArabic ? "font-arabic" : ""}`}
+          className={`text-2xl font-bold mb-4 text-ssta-dark ${
+            isArabic ? "font-arabic" : ""
+          }`}
         >
           {isArabic ? "الخطوات التالية" : "Next Steps"}
         </h3>
         <p
-          className={`text-lg text-white/80 mb-8 ${
+          className={`text-lg text-ssta-dark/80 mb-8 ${
             isArabic ? "font-arabic" : ""
           }`}
         >
@@ -82,7 +86,7 @@ const CallToAction = () => {
 
         <Button
           asChild
-          className={`bg-ssta-gold hover:bg-ssta-gold-light text-black px-6 py-2 ${
+          className={`bg-ssta-gold font-bold hover:bg-ssta-gold-light text-black px-6 py-2 ${
             isArabic ? "font-arabic" : ""
           }`}
           size="lg"
