@@ -36,7 +36,7 @@ export const translations = {
       about: {
         title: "About SSTA",
         subtitle:
-          "The Saudi Security Training Academy (SSTA) is more than a training provider — we are the Kingdom’s benchmark for security excellence.",
+          "The Saudi Security Training & Advancement (SSTA) is more than a training provider — we are the Kingdom’s benchmark for security excellence.",
         paragraph1:
           "Saudi-led and globally aligned, SSTA delivers world-class training and certification for the Kingdom’s private security sector.",
         paragraph2:
@@ -373,7 +373,7 @@ export const translations = {
   footer: {
     en: {
       about:
-        "Saudi Security Training Academy - The new standard in Saudi security training.",
+        "Saudi Security Training & Advancement - The new standard in Saudi security training.",
       quickLinks: "Quick Links",
       contactUs: "Contact Us",
       partnerWithUs: {
@@ -382,7 +382,8 @@ export const translations = {
           "Looking to deliver certified training across your organisation? Let's talk.",
         buttonText: "Get in Touch",
       },
-      copyright: "© 2025 Saudi Security Training Academy. All rights reserved.",
+      copyright:
+        "© 2025 Saudi Security Training & Advancement. All rights reserved.",
     },
     ar: {
       about:
@@ -602,7 +603,7 @@ export const translations = {
         paragraph2:
           "We recognized a major gap in the market. Although Saudi Arabia has over 200,000 security professionals, fewer than 20% have received formal qualifications or structured training. Most security companies focus on manpower rather than building centers of excellence.",
         paragraph3:
-          "Our mission is to transform this landscape, supporting Vision ۲۰۳۰ by upskilling Saudi nationals and contributing to the development of a knowledge-based economy.",
+          "Our mission is to transform this landscape, supporting Vision 2030 by upskilling Saudi nationals and contributing to the development of a knowledge-based economy.",
       },
       mission: {
         title: "Our Mission",

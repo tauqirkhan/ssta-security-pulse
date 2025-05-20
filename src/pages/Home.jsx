@@ -508,7 +508,7 @@ const Home = () => {
 
 His extensive experience encompasses strategic planning, information security, and organizational leadership. Major General Alshehri's commitment to excellence and innovation has significantly contributed to the modernization and professionalization of Saudi Arabia's armed forces.
 
-As the Chief Executive Officer of the Saudi Security Training Academy (SSTA), Major General Alshehri leverages his vast expertise to advance the Kingdom's security training initiatives. Under his leadership, SSTA is dedicated to enhancing the capabilities of security professionals, aligning with Saudi Arabia's Vision 2030 objectives to strengthen national security and promote technological self-reliance.
+As the Chief Executive Officer of the Saudi Security Training & Advancement (SSTA), Major General Alshehri leverages his vast expertise to advance the Kingdom's security training initiatives. Under his leadership, SSTA is dedicated to enhancing the capabilities of security professionals, aligning with Saudi Arabia's Vision 2030 objectives to strengthen national security and promote technological self-reliance.
 `}
             />
             <TeamMemberCard
@@ -518,7 +518,7 @@ As the Chief Executive Officer of the Saudi Security Training Academy (SSTA), Ma
               arabicPosition={teamMemberTranslations.nawaf.position}
               arabicBio={teamMemberTranslations.nawaf.bio}
               imageUrl="/leadership/nawaf.jpg"
-              bio={`Nawaf Alqahtani serves as the Senior Partnership Manager at the Saudi Security Training Academy (SSTA), where he plays a pivotal role in advancing the Kingdom's private security sector. With a strong background in sales, marketing, and business development, Nawaf excels at forging strategic alliances and driving collaborative initiatives that elevate industry standards.
+              bio={`Nawaf Alqahtani serves as the Senior Partnership Manager at the Saudi Security Training & Advancement (SSTA), where he plays a pivotal role in advancing the Kingdom's private security sector. With a strong background in sales, marketing, and business development, Nawaf excels at forging strategic alliances and driving collaborative initiatives that elevate industry standards.
 
 Recognizing the critical gaps in training, standards, and professional development across the industry, Nawaf is dedicated to embedding new benchmarks that align with Saudi Arabia's Vision 2030 objectives. His expertise enables him to identify and address these gaps effectively, ensuring that the security workforce is well-prepared to meet the demands of a rapidly changing environment.
 
@@ -533,7 +533,7 @@ Nawaf's approach is both strategic and personal. In an era where giga-projects, 
               imageUrl="/leadership/sukh.jpg"
               bio={`Sukh Gill is a globally-minded strategist and entrepreneur who has dedicated his expertise to supporting Saudi Arabia's Vision 2030. With a background in launching innovative ventures across digital marketing, technology, and business consultancy, Sukh has evolved into a leader known for designing transformative frameworks that empower nations, industries, and people.
                         
-Born and raised in the UK, Sukh now lives in Riyadh, having fully committed himself to the Kingdom's future. Inspired by Saudi Arabia's rapid transformation and recognising critical gaps in workforce development, he founded the Saudi Security Training Academy (SSTA) to redefine security standards and Shifa Future Health to lead a consortium of UK-trained doctors focused on advancing healthcare through upskilling Saudi talent.
+Born and raised in the UK, Sukh now lives in Riyadh, having fully committed himself to the Kingdom's future. Inspired by Saudi Arabia's rapid transformation and recognising critical gaps in workforce development, he founded the Saudi Security Training & Advancement (SSTA) to redefine security standards and Shifa Future Health to lead a consortium of UK-trained doctors focused on advancing healthcare through upskilling Saudi talent.
                         
 Renowned for his ability to merge global expertise with national priorities, Sukh specialises in building purpose-driven ecosystems that drive sustainable growth across security, healthcare, and beyond. His work focuses on empowering Saudi talent, embedding international best practices, and ensuring every project aligns with the Kingdom's long-term vision of excellence and sovereignty.
                         
