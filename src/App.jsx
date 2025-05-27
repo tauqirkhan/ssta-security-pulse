@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
@@ -16,12 +15,13 @@ import Sectors from "./pages/Sectors.jsx";
 import Leadership from "./pages/Leadership.jsx";
 import Contact from "./pages/Contact.jsx";
 import NotFound from "./pages/NotFound.jsx";
+import { Analytics } from "@vercel/analytics/next";
 
 const queryClient = new QueryClient();
 
 const AppContent = () => {
   useScrollToTop();
-  
+
   return (
     <>
       <Navbar />
@@ -37,6 +37,7 @@ const AppContent = () => {
         </Routes>
       </main>
       <Footer />
+      <Analytics />
     </>
   );
 };
