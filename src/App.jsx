@@ -15,7 +15,7 @@ import Sectors from "./pages/Sectors.jsx";
 import Leadership from "./pages/Leadership.jsx";
 import Contact from "./pages/Contact.jsx";
 import NotFound from "./pages/NotFound.jsx";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 
 const queryClient = new QueryClient();
 
