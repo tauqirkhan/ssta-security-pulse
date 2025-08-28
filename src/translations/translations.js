@@ -611,7 +611,7 @@ export const translations = {
           "Have questions about our training programs? Contact us today.",
         location: {
           title: "Our Location",
-          address: "Riyadh, Saudi Arabia",
+          address: "Office No. 310, 3rd Floor, City Plaza Building, Al-Ihsa Street, Al-Malaz District, Riyadh, Saudi Arabia",
         },
         email: {
           title: "Email Us",
@@ -643,7 +643,7 @@ export const translations = {
         subtitle:
           "Our training academy is conveniently located in Riyadh's business district",
         office: "SSTA Office Location",
-        address: "Riyadh, Kingdom of Saudi Arabia",
+        address: "Office No. 310, 3rd Floor, City Plaza Building, Al-Ihsa Street, Al-Malaz District, Riyadh, Saudi Arabia",
         map: "Location Map",
       },
     },
@@ -657,7 +657,7 @@ export const translations = {
         subtitle: "هل لديك أسئلة حول برامجنا التدريبية؟ اتصل بنا اليوم.",
         location: {
           title: "موقعنا",
-          address: "الرياض، المملكة العربية السعودية",
+          address: "المكتب رقم ٣١٠، الطابق الثالث، مبنى سيتي بلازا، شارع الإحساء، حي الملز، الرياض، المملكة العربية السعودية",
         },
         email: {
           title: "البريد الإلكتروني",
@@ -687,7 +687,7 @@ export const translations = {
       visit: {
         title: "قم بزيارتنا",
         subtitle: "تقع أكاديمية التدريب الخاصة بنا في منطقة الأعمال بالرياض",
-        office: "موقع مكتب سعودي سيكيوريتي ترينينغ آند أدفانسمنت",
+        office: "المكتب رقم ٣١٠، الطابق الثالث، مبنى سيتي بلازا، شارع الإحساء، حي الملز، الرياض، المملكة العربية السعودية",
         address: "الرياض، المملكة العربية السعودية",
         map: "خريطة الموقع",
       },
