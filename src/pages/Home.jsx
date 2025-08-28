@@ -109,14 +109,14 @@ const Home = () => {
 
         {/* Content */}
         <div className={`relative z-10 text-center max-w-5xl mx-auto space-y-6 px-6 ${isArabic ? "rtl" : ""}`}>
-          <div className={`text-xl md:text-2xl text-ssta-gold font-bold mb-4 animate-fade-in ${isArabic ? "font-arabic" : ""}`}>
+          <div className={`text-lg md:text-xl text-ssta-gold font-bold mb-4 animate-fade-in ${isArabic ? "font-arabic" : ""}`}>
             {t.hero.brand}
           </div>
-          <h1 className={`text-4xl md:text-5xl lg:text-6xl font-bold text-white animate-fade-in ${isArabic ? "font-arabic" : ""}`}>
+          <h1 className={`text-3xl md:text-4xl lg:text-5xl font-bold text-white animate-fade-in ${isArabic ? "font-arabic" : ""}`}>
             {t.hero.title}
           </h1>
           <p
-            className={`text-lg text-white/90 animate-fade-in opacity-0 ${isArabic ? "font-arabic" : ""}`}
+            className={`text-base md:text-lg text-white/90 animate-fade-in opacity-0 ${isArabic ? "font-arabic" : ""}`}
             style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}
           >
             {t.hero.subtitle}
@@ -148,13 +148,11 @@ const Home = () => {
       </section>
 
       {/* Why Now Section */}
-      <section className="py-16 bg-ssta-navy text-white">
+      <section className="py-16 bg-gray-50">
         <div className={`container mx-auto px-4 ${isArabic ? "rtl" : ""}`}>
           <SectionTitle
             title={t.whyNow.title}
             subtitle=""
-            titleClass="text-white"
-            subtitleClass="text-white/80"
             centered={true}
           />
           
@@ -163,10 +161,10 @@ const Home = () => {
               <div className="bg-ssta-gold/10 p-4 rounded-full w-20 h-20 flex items-center justify-center mb-4 mx-auto">
                 <Shield className="text-ssta-gold w-10 h-10" />
               </div>
-              <h3 className={`text-xl font-bold mb-3 ${isArabic ? "font-arabic" : ""}`}>
+              <h3 className={`text-lg md:text-xl font-bold mb-3 text-ssta-dark ${isArabic ? "font-arabic" : ""}`}>
                 {t.whyNow.regulation.title}
               </h3>
-              <p className={`text-white/80 ${isArabic ? "font-arabic" : ""}`}>
+              <p className={`text-gray-700 ${isArabic ? "font-arabic" : ""}`}>
                 {t.whyNow.regulation.description}
               </p>
             </div>
@@ -175,10 +173,10 @@ const Home = () => {
               <div className="bg-ssta-gold/10 p-4 rounded-full w-20 h-20 flex items-center justify-center mb-4 mx-auto">
                 <Calendar className="text-ssta-gold w-10 h-10" />
               </div>
-              <h3 className={`text-xl font-bold mb-3 ${isArabic ? "font-arabic" : ""}`}>
+              <h3 className={`text-lg md:text-xl font-bold mb-3 text-ssta-dark ${isArabic ? "font-arabic" : ""}`}>
                 {t.whyNow.events.title}
               </h3>
-              <p className={`text-white/80 ${isArabic ? "font-arabic" : ""}`}>
+              <p className={`text-gray-700 ${isArabic ? "font-arabic" : ""}`}>
                 {t.whyNow.events.description}
               </p>
             </div>
@@ -187,10 +185,10 @@ const Home = () => {
               <div className="bg-ssta-gold/10 p-4 rounded-full w-20 h-20 flex items-center justify-center mb-4 mx-auto">
                 <Award className="text-ssta-gold w-10 h-10" />
               </div>
-              <h3 className={`text-xl font-bold mb-3 ${isArabic ? "font-arabic" : ""}`}>
+              <h3 className={`text-lg md:text-xl font-bold mb-3 text-ssta-dark ${isArabic ? "font-arabic" : ""}`}>
                 {t.whyNow.leadership.title}
               </h3>
-              <p className={`text-white/80 ${isArabic ? "font-arabic" : ""}`}>
+              <p className={`text-gray-700 ${isArabic ? "font-arabic" : ""}`}>
                 {t.whyNow.leadership.description}
               </p>
             </div>
@@ -286,26 +284,29 @@ const Home = () => {
               <div className="bg-ssta-gold/10 p-3 rounded-full w-16 h-16 flex items-center justify-center mb-4">
                 <Shield className="text-ssta-gold w-8 h-8" />
               </div>
-              <h3 className={`text-xl font-bold mb-4 text-ssta-dark ${isArabic ? "font-arabic" : ""}`}>
+              <h3 className={`text-lg md:text-xl font-bold mb-4 text-ssta-dark ${isArabic ? "font-arabic" : ""}`}>
                 {t.journey.forGuards.title}
               </h3>
-              <div className="space-y-3">
-                <div>
-                  <p className={`font-medium text-red-600 ${isArabic ? "font-arabic" : ""}`}>
-                    {t.journey.forGuards.before}
-                  </p>
-                </div>
-                <div>
-                  <p className={`font-medium text-green-600 ${isArabic ? "font-arabic" : ""}`}>
-                    {t.journey.forGuards.after}
-                  </p>
-                </div>
-                <div>
-                  <p className={`text-gray-700 ${isArabic ? "font-arabic" : ""}`}>
+              <ul className="space-y-2">
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-red-600 w-4 h-4 mt-1 flex-shrink-0" />
+                  <span className={`text-gray-700 ${isArabic ? "font-arabic" : ""}`}>
+                    <strong>{isArabic ? "قبل التدريب:" : "Before:"}</strong> {t.journey.forGuards.before}
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-ssta-gold w-4 h-4 mt-1 flex-shrink-0" />
+                  <span className={`text-gray-700 ${isArabic ? "font-arabic" : ""}`}>
+                    <strong>{isArabic ? "بعد الشهادة:" : "After certification:"}</strong> {t.journey.forGuards.after}
+                  </span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-ssta-gold w-4 h-4 mt-1 flex-shrink-0" />
+                  <span className={`text-gray-700 ${isArabic ? "font-arabic" : ""}`}>
                     <strong>{isArabic ? "المهارات المكتسبة:" : "Skills gained:"}</strong> {t.journey.forGuards.skills}
-                  </p>
-                </div>
-              </div>
+                  </span>
+                </li>
+              </ul>
             </div>
 
             {/* For Supervisors */}
@@ -313,7 +314,7 @@ const Home = () => {
               <div className="bg-ssta-gold/10 p-3 rounded-full w-16 h-16 flex items-center justify-center mb-4">
                 <Users className="text-ssta-gold w-8 h-8" />
               </div>
-              <h3 className={`text-xl font-bold mb-4 text-ssta-dark ${isArabic ? "font-arabic" : ""}`}>
+              <h3 className={`text-lg md:text-xl font-bold mb-4 text-ssta-dark ${isArabic ? "font-arabic" : ""}`}>
                 {t.journey.forSupervisors.title}
               </h3>
               <ul className="space-y-2">
@@ -331,7 +332,7 @@ const Home = () => {
               <div className="bg-ssta-gold/10 p-3 rounded-full w-16 h-16 flex items-center justify-center mb-4">
                 <Building className="text-ssta-gold w-8 h-8" />
               </div>
-              <h3 className={`text-xl font-bold mb-4 text-ssta-dark ${isArabic ? "font-arabic" : ""}`}>
+              <h3 className={`text-lg md:text-xl font-bold mb-4 text-ssta-dark ${isArabic ? "font-arabic" : ""}`}>
                 {t.journey.forCompanies.title}
               </h3>
               <ul className="space-y-2">
@@ -361,7 +362,7 @@ const Home = () => {
                 <div className="bg-ssta-gold/10 p-3 rounded-full w-16 h-16 flex items-center justify-center mb-4">
                   <GraduationCap className="text-ssta-gold w-8 h-8" />
                 </div>
-                <h3 className={`text-xl font-bold mb-3 text-ssta-dark ${isArabic ? "font-arabic" : ""}`}>
+                <h3 className={`text-lg md:text-xl font-bold mb-3 text-ssta-dark ${isArabic ? "font-arabic" : ""}`}>
                   {isArabic ? course.title.ar : course.title.en}
                 </h3>
                 <p className={`text-gray-700 ${isArabic ? "font-arabic" : ""}`}>
@@ -380,13 +381,11 @@ const Home = () => {
       </section>
 
       {/* How Training Works Section */}
-      <section className="py-16 bg-ssta-navy text-white">
+      <section className="py-16 bg-white">
         <div className={`container mx-auto px-4 ${isArabic ? "rtl" : ""}`}>
           <SectionTitle
             title={t.howItWorks.title}
             subtitle=""
-            titleClass="text-white"
-            subtitleClass="text-white/80"
           />
           
           <div className="grid grid-cols-1 md:grid-cols-5 gap-6 mt-12">
@@ -395,10 +394,10 @@ const Home = () => {
                 <div className="bg-ssta-gold text-ssta-dark font-bold text-2xl w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
                   {index + 1}
                 </div>
-                <h3 className={`text-lg font-bold mb-2 ${isArabic ? "font-arabic" : ""}`}>
+                <h3 className={`text-base md:text-lg font-bold mb-2 text-ssta-dark ${isArabic ? "font-arabic" : ""}`}>
                   {isArabic ? step.title.ar : step.title.en}
                 </h3>
-                <p className={`text-white/80 text-sm ${isArabic ? "font-arabic" : ""}`}>
+                <p className={`text-gray-700 text-sm ${isArabic ? "font-arabic" : ""}`}>
                   {isArabic ? step.description.ar : step.description.en}
                 </p>
               </div>
@@ -427,7 +426,7 @@ const Home = () => {
       </section>
 
       {/* Call to Action Section */}
-      <section className="py-16 bg-gradient-to-r from-ssta-navy to-ssta-dark text-white">
+      <section className="py-16 bg-ssta-navy text-white">
         <div className={`container mx-auto px-4 text-center ${isArabic ? "rtl" : ""}`}>
           <SectionTitle
             title={t.cta.title}
@@ -439,7 +438,7 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <div className="text-center">
               <Target className="text-ssta-gold w-12 h-12 mx-auto mb-4" />
-              <h3 className={`text-xl font-bold mb-3 ${isArabic ? "font-arabic" : ""}`}>
+              <h3 className={`text-lg md:text-xl font-bold mb-3 ${isArabic ? "font-arabic" : ""}`}>
                 {t.cta.forGuards.title}
               </h3>
               <p className={`text-white/80 ${isArabic ? "font-arabic" : ""}`}>
@@ -449,7 +448,7 @@ const Home = () => {
 
             <div className="text-center">
               <Users className="text-ssta-gold w-12 h-12 mx-auto mb-4" />
-              <h3 className={`text-xl font-bold mb-3 ${isArabic ? "font-arabic" : ""}`}>
+              <h3 className={`text-lg md:text-xl font-bold mb-3 ${isArabic ? "font-arabic" : ""}`}>
                 {t.cta.forSupervisors.title}
               </h3>
               <p className={`text-white/80 ${isArabic ? "font-arabic" : ""}`}>
@@ -459,7 +458,7 @@ const Home = () => {
 
             <div className="text-center">
               <Building className="text-ssta-gold w-12 h-12 mx-auto mb-4" />
-              <h3 className={`text-xl font-bold mb-3 ${isArabic ? "font-arabic" : ""}`}>
+              <h3 className={`text-lg md:text-xl font-bold mb-3 ${isArabic ? "font-arabic" : ""}`}>
                 {t.cta.forFirms.title}
               </h3>
               <p className={`text-white/80 ${isArabic ? "font-arabic" : ""}`}>
