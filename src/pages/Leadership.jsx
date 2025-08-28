@@ -43,41 +43,6 @@ const Leadership = () => {
 
       `,
     },
-    mark: {
-      name: "مارك برامويل",
-      position: "مدير التدريب والاستشاري الرئيسي",
-      bio: `
-        مارك برامويل هو متخصص أمني معتمد وذو خبرة عالية، مع أكثر من ٢٥ عامًا من الخبرة في مجالات الاستخبارات العسكرية، والأمن الدبلوماسي، وضمان المخاطر الوطنية، وأنظمة التدريب على مستوى المؤسسات.
-كضابط استخبارات سابق بالجيش البريطاني، خدم مارك في مسارح عالمية حساسة بما في ذلك العراق وسوريا وأفغانستان، حيث قدم المشورة لكبار المسؤولين العسكريين والحكوميين بشأن استراتيجية الأزمات وعمليات الاستخبارات والبنية التحتية للأمن المادي. شغل منصب الملحق الدفاعي المساعد في دمشق، حيث أدار عمليات الطوارئ عالية الضغط، وقدم تحليلات استخباراتية استراتيجية شكلت سياسة الحكومة البريطانية. يتحدث مارك اللغة العربية بطلاقة، مما يمنحه ميزة عملياتية نادرة في القيادة عبر الثقافات والتوجيه وبناء الثقة.
-بعد حياته المهنية العسكرية، انتقل مارك إلى القيادة في القطاع الخاص كرئيس للأمن التشغيلي في شركة Mitie، أكبر مزود للأمن وإدارة المرافق في المملكة المتحدة. في هذا الدور، قاد تقييمات المخاطر المادية للبنية التحتية الحيوية في جميع أنحاء المملكة المتحدة، وطور بروتوكولات إجراءات التشغيل القياسية على مستوى البلاد، وقدم المشورة للعملاء متعددي القطاعات بشأن الامتثال التنظيمي، وتخفيف التهديدات، واستمرارية الأعمال.
-مارك هو أيضًا مصمم تدريب معتمد للمؤسسات، حيث بنى ونشر أنظمة بيئية وطنية لـ "تدريب المدربين" لأكثر من 3000 موظف. شملت برامجه التدريبية العسكرية والمدنية:
-• القتال والاستخبارات البشرية
- • حماية الشخصيات الهامة والتنفيذيين
- • الاستجابة للأزمات وتدريبات الإخلاء
- • تدقيق المخاطر والتحليل التنبؤي
- • تصميم المحاكاة وقيادة السيناريوهات الغامرة
-يحمل شهادات بريطانية ودولية في المجال:
- • المستوى 6 (بكالوريوس مع مرتبة الشرف) - متخصص معتمد في إدارة الأمن
- • عضو في المعهد الدولي لإدارة الأمن
- • عضو في معهد الأمن البريطاني
- • عضو في معهد إدارة المخاطر الاستراتيجية
-المؤهلات التدريبية:
- • المستوى 3 - التعليم والتدريب - مؤهل تدريبي لقطاع تعليم وتدريب الكبار
- • NUCO - مدرب الإسعافات الأولية
- • NUCO - مدرب الصحة والسلامة
- • تدريب المدربين الدفاعي
- • النهج الدفاعي لأنظمة التدريب (DSAT) - مدير
- • DSAT - تحليل احتياجات التدريب
- • مشرف التدريب الدفاعي
- • مدير التدريب الدفاعي
-كمدير التدريب في سعودي سيكيوريتي ترينينغ آند أدفانسمنت، مارك مسؤول عن:
- • تصميم والتحقق من صحة إطار الشهادة المكون من 40 دورة
- • الإشراف على التقييمات القائمة على المحاكاة عبر الأكاديميات الوطنية
- • تدريب مجموعة النخبة السعودية لتصبح مدربين رئيسيين متخصصين في القطاعات
- • ضمان توافق جميع الشهادات مع المعايير العالمية مع تمكين القوى العاملة السعودية أولاً
-مارك لا يدرب الحراس. إنه يبني أنظمة سيادية لاعتماد أولئك الذين يقودونهم.
-      `,
-    },
     samraj: {
       name: "سامراج بادا",
       position: "المدرب الأول ومسؤول الجودة",
@@ -94,6 +59,15 @@ const Leadership = () => {
       يجمع توقير خان بين مزيج فريد من الخبرة التقنية والفطنة التسويقية، ويتمتع بخبرة تزيد عن أربع سنوات في البرمجة إلى جانب خلفية قوية في المبيعات والتسويق. بصفته المسؤول التنفيذي للتسويق في سعودي سيكيوريتي ترينينغ آند أدفانسمنت، يستفيد من عقليته التحليلية واستراتيجيته الإبداعية لتعزيز ظهور العلامة التجارية، ودفع المشاركة، ودعم أهداف نمو الأكاديمية في صناعة التدريب الأمني.
       `,
     },
+    andy: {
+      name: " آندي ناغرا",
+      position: "رئيس الحماية المرافقة في",
+      bio: `
+        يُعد آندي ناغرا خبيراً أمنياً متمرساً وذو سمعة رفيعة، وُلد ويقيم في لندن، ويتمتع بخبرة دولية تزيد على عشرين عاماً في مجال الحماية الأمنية. شملت مسيرته عمليات ميدانية في العراق وأفغانستان مع فوج المظلات السابع التابع للجيش البريطاني، إضافة إلى عمله مع وزارة الدفاع الأمريكية في الشرق الأوسط، وقطاع النفط والغاز، وكذلك مع العائلات الملكية في دولة الإمارات، والمشاهير، والرؤساء التنفيذيين للشركات.
+
+يمتلك آندي خبرة واسعة ومثبتة في مجال الحماية المرافقة، والتدريب، ودمج القوى العاملة. ومؤخراً تولى قيادة الحماية المرافقة لنجوم الصف الأول خلال مهرجان البحر الأحمر السينمائي، كما قدم خدمات أمنية خاصة لشخصيات بارزة وأصحاب الثروات الكبيرة في المملكة العربية السعودية.
+      `
+    }
   };
 
   // Arabic translations for vision section
@@ -179,65 +153,18 @@ With a deep commitment to Saudi Arabia's transformation, Sukh Gill represents a 
             />
 
             <TeamMemberCard
-              name="Mark Bramwell"
-              position="Director of Training & Principle Consultant"
-              arabicName={teamMemberTranslations.mark.name}
-              arabicPosition={teamMemberTranslations.mark.position}
-              arabicBio={teamMemberTranslations.mark.bio}
-              imageUrl="/leadership/mark.jpg"
+              name="Andy Nagra"
+              position="Head Of Close Protection"
+              arabicName={teamMemberTranslations.andy.name}
+              arabicPosition={teamMemberTranslations.andy.position}
+              arabicBio={teamMemberTranslations.andy.bio}
+              imageUrl="/leadership/andy.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.3s" }}
-              bio={`Mark Bramwell is a highly accomplished and credentialed security professional, with over 25 years of experience across military intelligence, diplomatic security, national risk assurance, and enterprise-level training systems.
-            
-A former British Army Intelligence Officer, Mark served in sensitive global theatres including Iraq, Syria, and Afghanistan, where he advised senior Military and Government officials on Crisis Strategy, Intelligence Operations, and Physical Security Infrastructure. He held the role of Assistant Defence Attaché in Damascus, where he managed high-pressure emergency operations, and provided strategic MI analysis that shaped UK Government policy. Mark speaks conversational Arabic, giving him rare operational edge in cross-cultural command, mentoring, and trust-building.
-            
-Following his military career, Mark transitioned into leadership in the private sector leadership as Head of Operational Security at Mitie, the UK's largest Security and FM provider. In this role, he has led physical risk assessments for critical infrastructure across the UK, developed nationwide SOP protocols, and advised multi-sector clients on regulatory compliance, threat mitigation, and business continuity.
-            
-Mark is also a certified enterprise training designer, having built and deployed national "Train-the-Trainer" ecosystems for over 3,000 personnel. His civilian and military training programs have covered:
-            
-• Combat & HUMINT
-            
-• VIP and Executive protection
-            
-• Crisis response and evacuation drills
-            
-• Risk auditing and predictive analysis
-            
-• Simulation design and immersive scenario leadership
-            
-            
-He holds UK and International certifications in the field:
-            
-• Level 6 (BA Hons) – Certified Security Management Professional
-• M.ISMI – Member of the International Security Management Institute
-• MSyI – Member of the UK Security Institute
-• M.ISRM – Member of the Institute of Strategic Risk Management
-            
-Training Qualifications
-            
-• Level 3 - Education & Training - Training qualification for the adult education and skills sector
-• NUCO - First Aid Instructor
-• NUCO - Health & Safety Instructor
-• Defence Train The Trainer
-            
-• Defence Systems Approach to Training (DSAT) - Manager
-• DSAT - Training Needs Analysis
-• Defence Training Supervisor
-• Defence Training Manager
-            
-            
-As SSTA's Director of Training, Mark is responsible for:
-            
-• Designing and validating the 40-course certification framework
-            
-• Overseeing simulation-based assessments across national academies
-            
-• Training SAFE's elite Saudi cohort to become sector-specific master instructors
-            
-• Ensuring all certification aligns with global benchmarks while empowering a Saudi-first workforce
-            
-Mark does not teach guards. He builds sovereign systems to certify those who lead them.
-            
+              bio={`
+                    Andy Nagra is a highly experienced and respected London-born security professional with over 20 years of international expertise in protective security. His career includes operational deployments in Iraq and Afghanistan with the British Army’s 7th Parachute Regiment RHA, as well as work with the US Department of Defense in the Middle East, the oil and gas sector, UAE Royalty, celebrities, and corporate CEOs.
+
+Andy has a proven background in close protection, training, and workforce integration. Most recently, he led close protection for A-list stars at the Red Sea Film Festival and has also provided private security for VIP and high-net-worth clients in Saudi Arabia.
                   `}
             />
 
