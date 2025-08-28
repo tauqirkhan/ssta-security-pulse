@@ -202,7 +202,6 @@ const Home = () => {
           <SectionTitle
             title={t.whoIsRaay.title}
             subtitle={t.whoIsRaay.subtitle}
-            backgroundBlue={true}
           />
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-12">
@@ -222,8 +221,8 @@ const Home = () => {
             <div className="relative">
               <div className="rounded-lg shadow-lg w-full h-80 overflow-hidden relative bg-white">
                 <img
-                  src="/section_images/office.jpg"
-                  alt="RAAY Training Center"
+                  src="/section_images/ray.png"
+                  alt="RAY Training Center"
                   className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
                 />
               </div>

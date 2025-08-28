@@ -7,7 +7,6 @@ const SectionTitle = ({
   subtitle, 
   centered = true,
   className,
-  backgroundBlue = false 
 }) => {
   return (
     <div className={cn(
