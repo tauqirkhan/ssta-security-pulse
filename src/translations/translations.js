@@ -184,6 +184,7 @@ export const translations = {
         urgency: "Seats in Riyadh are limited. Enrol today.",
         enrollToday: "Enrol Today"
       },
+    },
     ar: {
       hero: {
         brand: "SSTA | RAAY | BOA — مخطط التدريب الأمني السعودي",
