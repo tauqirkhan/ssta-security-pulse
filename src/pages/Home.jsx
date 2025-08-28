@@ -197,11 +197,12 @@ const Home = () => {
       </section>
 
       {/* Who is RAAY Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-ssta-navy text-white">
         <div className={`container mx-auto px-4 ${isArabic ? "rtl" : ""}`}>
           <SectionTitle
             title={t.whoIsRaay.title}
             subtitle={t.whoIsRaay.subtitle}
+            backgroundBlue={true}
           />
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-12">
@@ -210,11 +211,11 @@ const Home = () => {
                 {t.whoIsRaay.points.map((point, index) => (
                   <li key={index} className="flex items-start gap-3">
                     <CheckCircle className="text-ssta-gold w-5 h-5 mt-1 flex-shrink-0" />
-                    <span className="text-gray-700">{point}</span>
+                    <span className="text-white/80">{point}</span>
                   </li>
                 ))}
               </ul>
-              <p className={`mt-6 text-gray-800 font-semibold ${isArabic ? "font-arabic" : ""}`}>
+              <p className={`mt-6 text-white/80 font-semibold ${isArabic ? "font-arabic" : ""}`}>
                 {t.whoIsRaay.conclusion}
               </p>
             </div>
@@ -271,7 +272,7 @@ const Home = () => {
       </section>
 
       {/* The Journey Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-ssta-navy text-white">
         <div className={`container mx-auto px-4 ${isArabic ? "rtl" : ""}`}>
           <SectionTitle
             title={t.journey.title}
@@ -381,7 +382,7 @@ const Home = () => {
       </section>
 
       {/* How Training Works Section */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-ssta-navy text-white">
         <div className={`container mx-auto px-4 ${isArabic ? "rtl" : ""}`}>
           <SectionTitle
             title={t.howItWorks.title}
@@ -394,10 +395,10 @@ const Home = () => {
                 <div className="bg-ssta-gold text-ssta-dark font-bold text-2xl w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4">
                   {index + 1}
                 </div>
-                <h3 className={`text-base md:text-lg font-bold mb-2 text-ssta-dark ${isArabic ? "font-arabic" : ""}`}>
+                <h3 className={`text-base md:text-lg font-bold mb-2 text-white/80 ${isArabic ? "font-arabic" : ""}`}>
                   {isArabic ? step.title.ar : step.title.en}
                 </h3>
-                <p className={`text-gray-700 text-sm ${isArabic ? "font-arabic" : ""}`}>
+                <p className={`text-white/80 text-sm ${isArabic ? "font-arabic" : ""}`}>
                   {isArabic ? step.description.ar : step.description.en}
                 </p>
               </div>

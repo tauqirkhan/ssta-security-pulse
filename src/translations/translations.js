@@ -25,7 +25,7 @@ export const translations = {
   home: {
     en: {
       hero: {
-        brand: "SSTA | RAAY | BOA — Saudi Security Training Blueprint",
+        brand: "SSTA | RAAY | BOA",
         title: "From Guard to Elite. From Firm to National Champion.",
         subtitle:
           "RAAY | SSTA | BOA bring Saudi Arabia the world's most prestigious civilian security qualifications — Highfield International. This is the same standard trusted in the UK for stadiums, airports, malls, VIP protection, and global events. Now it is here in the Kingdom.",
@@ -187,7 +187,7 @@ export const translations = {
     },
     ar: {
       hero: {
-        brand: "SSTA | RAAY | BOA — مخطط التدريب الأمني السعودي",
+        brand: "SSTA | RAAY | BOA",
         title: "من الحارس إلى النخبة. من الشركة إلى البطل الوطني.",
         subtitle: "RAAY | SSTA | BOA تجلب للمملكة العربية السعودية أرقى المؤهلات الأمنية المدنية في العالم — هايفيلد الدولية. هذا هو نفس المعيار الموثوق به في المملكة المتحدة للملاعب والمطارات والمولات وحماية الشخصيات المهمة والأحداث العالمية. الآن هو هنا في المملكة.",
         exploreCourses: "استكشف الدورات",
