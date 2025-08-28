@@ -386,14 +386,6 @@ const About = () => {
           </div>
         </div>
       </section>
-
-      {/* Call to Action */}
-      <CallToAction
-        title={t.cta.title}
-        description={t.cta.description}
-        buttonText={t.cta.buttonText}
-        buttonLink="/contact"
-      />
     </>
   );
 };
