@@ -21,7 +21,7 @@ import { translations } from "@/translations/translations";
 
 const Home = () => {
   const { language } = useLanguage();
-  const t = translations.home[language];
+  const t = translations.home[language] || translations.home.en;
   const isArabic = language === "ar";
 
   const courses = [

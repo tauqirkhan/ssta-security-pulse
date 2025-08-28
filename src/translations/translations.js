@@ -25,13 +25,15 @@ export const translations = {
   home: {
     en: {
       hero: {
-        title: "Leading the Shift to a New Era of Saudi Security.",
+        brand: "SSTA | RAAY | BOA — Saudi Security Training Blueprint",
+        title: "From Guard to Elite. From Firm to National Champion.",
         subtitle:
-          "SSTA isn’t a training academy — we’re a national partner helping Saudi security firms lead the Kingdom’s new certified standard.",
+          "RAAY | SSTA | BOA bring Saudi Arabia the world's most prestigious civilian security qualifications — Highfield International. This is the same standard trusted in the UK for stadiums, airports, malls, VIP protection, and global events. Now it is here in the Kingdom.",
         description:
           "We train your leaders, strengthen your team, and position your company to represent Saudi excellence nationwide.",
         exploreCourses: "Explore Courses",
         learnMore: "Learn More",
+        getStarted: "Get Started Today",
       },
       about: {
         title: "About SSTA",
@@ -71,11 +73,75 @@ export const translations = {
             "Focused on Saudisation, localisation, and national security development.",
         },
       },
+      // New homepage sections
+      whyNow: {
+        title: "Why Now",
+        regulation: {
+          title: "Regulation is coming",
+          description: "By law, 250,000+ guards must be qualified before 2030. If your company acts first, you lead the market."
+        },
+        events: {
+          title: "Mega events are here",
+          description: "FIFA 2034, Expo 2030, giga-projects — they demand trained professionals, not unskilled guards."
+        },
+        leadership: {
+          title: "Saudi leadership",
+          description: "RAAY + SSTA run the programs inside KSA. BOA brings Highfield-accredited trainers. Together, we combine Saudi pride with international credibility."
+        }
+      },
+      whoIsRaay: {
+        title: "Who is RAAY?",
+        subtitle: "RAAY Training & Consulting Center, led by Dr. Abdullah Alyousyl, is a TVTC-certified Saudi academy.",
+        points: [
+          "Specialises in security training, cybersecurity, artificial intelligence, data science, and risk management.",
+          "Operates licensed academy facilities and the Raay.sa e-learning platform, combining modern digital training with in-person delivery.",
+          "Staffed by experienced consultants with military and security backgrounds, delivering strategic security planning, crisis management, and risk management solutions.",
+          "Recognised as one of Saudi Arabia's leading institutions for human capital development and digital transformation, aligned with Vision 2030."
+        ],
+        conclusion: "With RAAY’s licences and national authority, SSTA’s market strategy, and BOA’s Highfield certification, our partnership delivers the perfect blend of Saudi sovereignty and global credibility."
+      },
+      highfieldPrestige: {
+        title: "The Prestige of Highfield",
+        subtitle: "Highfield International is one of the largest awarding bodies in the UK, approved by the SIA (Security Industry Authority).",
+        description: "Every private security guard in the UK — from stadiums to VIP events — must hold a Highfield (or equivalent) qualification.",
+        goldStandard: "This is the gold standard of global private security.",
+        nowInSaudi: "Now delivered in Saudi Arabia. Under Saudi ownership. For Saudi guards."
+      },
+      journey: {
+        title: "The Journey — From Guard to Leader",
+        subtitle: "Transforming careers and companies through professional certification",
+        forGuards: {
+          title: "For Guards",
+          before: "Before training: long hours, low pay, little recognition.",
+          after: "After Highfield certificate: respected professional. Eligible for higher-paying jobs, promotions, and priority hiring. From ordinary guard to trusted protector of the Kingdom’s honour.",
+          skills: "conflict handling, safety, incident control, professional communication, first aid."
+        },
+        forSupervisors: {
+          title: "For Supervisors & Trainers",
+          points: [
+            "Immediate lift in authority. You become the man or woman your company looks to for discipline, safety, and client satisfaction.",
+            "Train-the-Trainer path: qualify to teach others inside your firm, multiplying your value.",
+            "Career growth: from shift supervisor to site manager to training manager. Salaries and respect rise with each step."
+          ]
+        },
+        forCompanies: {
+          title: "For Companies & Firms",
+          points: [
+            "Win contracts. Trained guards = stronger tender scores.",
+            "Client trust. \"Our guards are trained to UK Highfield standards.\"",
+            "Reputation. Become known as one of the best firms in the Kingdom.",
+            "Retention. Guards stay loyal when they feel respected and qualified."
+          ]
+        }
+      },
       courses: {
-        title: "Our Curriculum — Delivered Through You, Not by Us",
-        subtitle:
-          "We provide a 40-course national curriculum designed to build the Kingdom’s next generation of security leaders.",
+        title: "Courses You Can Book Now",
+        subtitle: "Professional certification programs available today",
         viewAll: "View All Courses",
+        comingSoon: "Coming soon: Close Protection (VIP), Fire Safety, Supervising Security Teams, HEFAT, and Train-the-Trainer."
+      },
+      howItWorks: {
+        title: "How Training Works"
       },
       leadership: {
         title: "Leadership Team",
@@ -95,13 +161,29 @@ export const translations = {
         aviation: "Aviation & Transport",
         government: "Government Entities",
       },
-      cta: {
-        title: "Partner With Us",
-        description:
-          "Looking to deliver certified training across your organisation? Let's build the next generation of Saudi security excellence — together.",
-        buttonText: "Get in Touch",
+      vision2030: {
+        title: "Vision 2030 — The Bigger Story",
+        subtitle: "Preparing Saudi Arabia for the world stage",
+        description: "Saudi Arabia is opening its doors to the world. Millions of visitors will arrive for Expo 2030 and FIFA 2034. They will be welcomed and protected by Saudi guards trained to the highest international standards.",
+        conclusion: "This is not just training. This is national pride. This is the Kingdom saying to the world: \"Our people are ready. Our security is elite. Our honour is protected.\""
       },
-    },
+      cta: {
+        title: "Call to Action",
+        forGuards: {
+          title: "For Guards",
+          description: "Step into a better future. Become Highfield-qualified. Earn more. Rise higher."
+        },
+        forSupervisors: {
+          title: "For Supervisors & Trainers",
+          description: "Take authority. Lead with international credibility."
+        },
+        forFirms: {
+          title: "For Firms",
+          description: "Book your team now. Win contracts. Build reputation. Become the standard."
+        },
+        urgency: "Seats in Riyadh are limited. Enrol today.",
+        enrollToday: "Enrol Today"
+      },
     ar: {
       hero: {
         brand: "SSTA | RAAY | BOA — مخطط التدريب الأمني السعودي",
