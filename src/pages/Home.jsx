@@ -244,13 +244,14 @@ const Home = () => {
               <div className="rounded-lg shadow-lg w-full h-80 overflow-hidden relative bg-gradient-to-br from-ssta-gold/10 to-ssta-navy/5">
                 <div className="flex items-center justify-center h-full">
                   <div className="text-center">
-                    <Star className="text-ssta-gold w-16 h-16 mx-auto mb-4" />
+                    {/* <Star className="text-ssta-gold w-16 h-16 mx-auto mb-4" />
                     <h3 className={`text-2xl font-bold text-ssta-dark ${isArabic ? "font-arabic" : ""}`}>
                       Highfield International
                     </h3>
                     <p className={`text-ssta-gold font-medium ${isArabic ? "font-arabic" : ""}`}>
                       {isArabic ? "المعيار الذهبي" : "The Gold Standard"}
-                    </p>
+                    </p> */}
+                    <img src="/highfield.svg" alt="highfield" />
                   </div>
                 </div>
               </div>
