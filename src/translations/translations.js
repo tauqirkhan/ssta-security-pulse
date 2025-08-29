@@ -430,6 +430,11 @@ export const translations = {
             "We aim to elevate the entire security profession from basic manpower provision to true security expertise.",
         },
       },
+      trainingTeam: {
+        title: "Training Team",
+        subtitle:
+          "Our experienced instructors and training managers bring international expertise to every program",
+      },
       cta: {
         title: "Meet Our Team in Person",
         description:
@@ -468,6 +473,11 @@ export const translations = {
           description:
             "نهدف إلى رفع مستوى مهنة الأمن بأكملها من توفير القوى العاملة الأساسية إلى خبرة أمنية حقيقية.",
         },
+      },
+      trainingTeam: {
+        title: "فريق التدريب",
+        subtitle:
+          "يجلب مدربونا ومدراء التدريب ذوو الخبرة الخبرة الدولية إلى كل برنامج",
       },
       cta: {
         title: "قابل فريقنا شخصياً",

@@ -5,6 +5,9 @@ import TeamMemberCard from "@/components/TeamMemberCard";
 import CallToAction from "@/components/CallToAction";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { translations } from "@/translations/translations";
+import andrewImage from "@/assets/training/andrew.jpg";
+import benImage from "@/assets/training/ben.jpg";
+import darrenImage from "@/assets/training/darren.jpg";
 
 const Leadership = () => {
   const { language } = useLanguage();
@@ -191,6 +194,62 @@ Samraj prepares teams for moments where failure is not an option.
               arabicBio={teamMemberTranslations.tauqir.bio}
               imageUrl="/leadership/tauqir.jpg"
               bio={`Blending a unique combination of technical expertise and marketing acumen, Tauqir Khan brings over four years of coding experience alongside a solid background in sales and marketing. As Marketing Executive at SSTA, he leverages his analytical mindset and creative strategy to enhance brand visibility, drive engagement, and support the academy's growth objectives in the security training industry.`}
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Training Team */}
+      <section className="py-16 bg-gradient-to-br from-gray-50 to-gray-100">
+        <div className="container mx-auto px-4">
+          <SectionTitle
+            title={t.trainingTeam.title}
+            subtitle={t.trainingTeam.subtitle}
+          />
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+            <TeamMemberCard
+              name="Andrew Foster"
+              position="Training Manager"
+              arabicName="أندرو فوستر"
+              arabicPosition="مدير التدريب"
+              arabicBio="يجلب أندرو فوستر أكثر من 25 عامًا من الخبرة في الخطوط الأمامية في الجيش والأمن الخاص، بما في ذلك 13 عامًا مع كتيبة المظلات الأولى (SFSG)، ويواصل الخدمة كاحتياطي نشط في الجيش. مدرب بدني مؤهل في الجيش، يلعب أيضًا الرجبي ويدربه، ويجلب نفس التركيز على العمل الجماعي والانضباط والقيادة إلى نهجه التدريبي."
+              imageUrl={andrewImage}
+              className="animate-fade-in"
+              style={{ animationDelay: "0.1s" }}
+              bio={`Andrew Foster brings over 25 years of frontline experience in military and private security, including 13 years with the 1st Battalion Parachute Regiment (SFSG), and continues to serve as an active Army Reservist. A qualified Army Physical Training Instructor, he also plays and coaches rugby, bringing the same focus on teamwork, discipline, and leadership into his training approach.
+
+He has trained and led teams in high-risk environments across Iraq, Afghanistan, and Libya. His instruction is built on extensive operational experience and a strong foundation of professional qualifications, preparing officers to perform confidently, ethically, and effectively in real-world situations.`}
+            />
+
+            <TeamMemberCard
+              name="Ben Wilmott"
+              position="Team Development Manager"
+              arabicName="بن ويلموت"
+              arabicPosition="مدير تطوير الفريق"
+              arabicBio="بخلفية متميزة كعضو سابق في كوماندوز البحرية الملكية، يجلب بن أكثر من 22 عامًا من الخبرة التشغيلية إلى دوره كمدير تطوير الفرق. تمتد مسيرته المهنية عبر مجموعة واسعة من البيئات عالية المخاطر، حيث قدم خدمات استشارات أمنية حول العالم."
+              imageUrl={benImage}
+              className="animate-fade-in"
+              style={{ animationDelay: "0.2s" }}
+              bio={`With a distinguished background as a former Royal Marines Commando, Ben brings over 22 years of operational experience to his role as Teams Development Manager. His career spans a wide range of high-risk environments, where he has delivered security consultancy services across the globe.
+
+He has provided close protection for senior members of the Abu Dhabi and Brunei Royal Families, served as a media high-risk advisor for major news networks covering the Israel–Hamas war, and worked as a crisis management consultant for Google in Ukraine, supporting personnel safety in complex environments.
+
+Ben has also operated as a diplomatic close protection operator for the UK's Foreign Commonwealth & Development Office (FCDO), the Australian Department of Foreign Affairs and Trade (DFAT), British Petroleum, and NATO, with deployments in Iraq and Ukraine.
+
+Today, Ben draws on this extensive experience to deliver practical, mission-focused training tailored to the realities of modern security operations.`}
+            />
+
+            <TeamMemberCard
+              name="Darren Clacher"
+              position="Instructor"
+              arabicName="دارين كلاشر"
+              arabicPosition="مدرب"
+              arabicBio="دارين كلاشر، مدرب تدريب مخصص، ينمو باستمرار في الخبرة والمهارة كل يوم. شغفه بالتعلم والتطوير يدفعه لتحسين أساليبه وتعزيز برامجه التدريبية. مع اكتساب دارين المزيد من الخبرة، يبقى ملتزمًا بتقديم تعليم فعال وجذاب ومؤثر يدعم نمو ونجاح متدربيه."
+              imageUrl={darrenImage}
+              className="animate-fade-in"
+              style={{ animationDelay: "0.3s" }}
+              bio={`Darren Clacher, a dedicated Training Instructor, is continually growing in expertise and skill each day. His passion for learning and development drives him to refine his methods and enhance his training programs. As Darren gains more experience, he remains committed to delivering effective, engaging, and impactful instruction that supports the growth and success of his trainees.`}
             />
           </div>
         </div>
