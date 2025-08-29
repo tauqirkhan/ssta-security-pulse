@@ -5,9 +5,7 @@ import TeamMemberCard from "@/components/TeamMemberCard";
 import CallToAction from "@/components/CallToAction";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { translations } from "@/translations/translations";
-import andrewImage from "@/assets/training/andrew.jpg";
-import benImage from "@/assets/training/ben.jpg";
-import darrenImage from "@/assets/training/darren.jpg";
+
 
 const Leadership = () => {
   const { language } = useLanguage();
