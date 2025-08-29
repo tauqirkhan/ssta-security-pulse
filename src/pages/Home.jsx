@@ -196,36 +196,121 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Who is RAAY Section */}
+      {/* Who is SSTA, RAY, BOA Section */}
       <section className="py-16 bg-ssta-navy text-white">
         <div className={`container mx-auto px-4 ${isArabic ? "rtl" : ""}`}>
           <SectionTitle
-            title={t.whoIsRaay.title}
-            subtitle={t.whoIsRaay.subtitle}
+            title={isArabic ? "من نحن؟" : "Who We Are"}
+            subtitle={isArabic ? "شراكة استراتيجية لتحويل قطاع الأمن المدني في المملكة" : "A Strategic Partnership Transforming Saudi Arabia's Civilian Security Sector"}
           />
           
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-12">
-            <div>
-              <ul className={`space-y-4 ${isArabic ? "font-arabic" : ""}`}>
-                {t.whoIsRaay.points.map((point, index) => (
-                  <li key={index} className="flex items-start gap-3">
-                    <CheckCircle className="text-ssta-gold w-5 h-5 mt-1 flex-shrink-0" />
-                    <span className="text-white/80">{point}</span>
-                  </li>
-                ))}
-              </ul>
-              <p className={`mt-6 text-white/80 font-semibold ${isArabic ? "font-arabic" : ""}`}>
-                {t.whoIsRaay.conclusion}
-              </p>
-            </div>
-            <div className="relative">
-              <div className="rounded-lg shadow-lg w-full h-80 overflow-hidden relative bg-white">
-                <img
-                  src="/section_images/ray.png"
-                  alt="RAY Training Center"
-                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
-                />
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-12">
+            {/* SSTA Card */}
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fade-in" style={{ animationDelay: "0.1s" }}>
+              <div className="bg-ssta-gold/10 p-4 rounded-full w-20 h-20 flex items-center justify-center mb-6 mx-auto">
+                <Shield className="text-ssta-gold w-10 h-10" />
               </div>
+              <h3 className={`text-xl font-bold mb-4 text-ssta-dark text-center ${isArabic ? "font-arabic" : ""}`}>
+                {isArabic ? "من هي SSTA؟" : "Who is SSTA?"}
+              </h3>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-ssta-gold w-4 h-4 mt-1 flex-shrink-0" />
+                  <span className={`text-gray-700 text-sm leading-relaxed ${isArabic ? "font-arabic" : ""}`}>
+                    {isArabic ? "مبادرة وطنية بقيادة اللواء متقاعد ماجد الشهري كرئيس تنفيذي" : "National initiative led by Major General R. Maeed Alshehri (Ret.) as CEO"}
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-ssta-gold w-4 h-4 mt-1 flex-shrink-0" />
+                  <span className={`text-gray-700 text-sm leading-relaxed ${isArabic ? "font-arabic" : ""}`}>
+                    {isArabic ? "تحويل قطاع الأمن المدني السعودي ليصبح من أكثر القطاعات احتراماً في العالم" : "Transform Saudi Arabia's civilian security sector into one of the most respected globally"}
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-ssta-gold w-4 h-4 mt-1 flex-shrink-0" />
+                  <span className={`text-gray-700 text-sm leading-relaxed ${isArabic ? "font-arabic" : ""}`}>
+                    {isArabic ? "الجسر بين الخبرة الدولية والمتطلبات السعودية" : "Bridge between international expertise and Saudi requirements"}
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-ssta-gold w-4 h-4 mt-1 flex-shrink-0" />
+                  <span className={`text-gray-700 text-sm leading-relaxed ${isArabic ? "font-arabic" : ""}`}>
+                    {isArabic ? "تدريب بقيادة سعودية بمكانة عالمية" : "Saudi-led training with global prestige"}
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            {/* RAY Card */}
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fade-in" style={{ animationDelay: "0.2s" }}>
+              <div className="bg-ssta-gold/10 p-4 rounded-full w-20 h-20 flex items-center justify-center mb-6 mx-auto">
+                <GraduationCap className="text-ssta-gold w-10 h-10" />
+              </div>
+              <h3 className={`text-xl font-bold mb-4 text-ssta-dark text-center ${isArabic ? "font-arabic" : ""}`}>
+                {isArabic ? "من هي RAY؟" : "Who is RAY?"}
+              </h3>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-ssta-gold w-4 h-4 mt-1 flex-shrink-0" />
+                  <span className={`text-gray-700 text-sm leading-relaxed ${isArabic ? "font-arabic" : ""}`}>
+                    {isArabic ? "أكاديمية سعودية مرخصة من المؤسسة العامة للتدريب التقني والمهني" : "Saudi TVTC-licensed academy led by Dr. Abdullah Alyousyl"}
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-ssta-gold w-4 h-4 mt-1 flex-shrink-0" />
+                  <span className={`text-gray-700 text-sm leading-relaxed ${isArabic ? "font-arabic" : ""}`}>
+                    {isArabic ? "تحمل التراخيص والاعتمادات الرسمية لتقديم البرامج الدولية" : "Holds official licenses to deliver international programs like Highfield"}
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-ssta-gold w-4 h-4 mt-1 flex-shrink-0" />
+                  <span className={`text-gray-700 text-sm leading-relaxed ${isArabic ? "font-arabic" : ""}`}>
+                    {isArabic ? "خبرة في الأمن السيبراني والذكاء الاصطناعي وإدارة المخاطر" : "Expertise in cybersecurity, AI, risk management, and digital transformation"}
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-ssta-gold w-4 h-4 mt-1 flex-shrink-0" />
+                  <span className={`text-gray-700 text-sm leading-relaxed ${isArabic ? "font-arabic" : ""}`}>
+                    {isArabic ? "يوفر الإطار القانوني والمرافق والمصداقية الوطنية" : "Provides legal framework, facilities, and national credibility"}
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+            {/* BOA Card */}
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fade-in" style={{ animationDelay: "0.3s" }}>
+              <div className="bg-ssta-gold/10 p-4 rounded-full w-20 h-20 flex items-center justify-center mb-6 mx-auto">
+                <Award className="text-ssta-gold w-10 h-10" />
+              </div>
+              <h3 className={`text-xl font-bold mb-4 text-ssta-dark text-center ${isArabic ? "font-arabic" : ""}`}>
+                {isArabic ? "من هي BOA؟" : "Who is BOA?"}
+              </h3>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-ssta-gold w-4 h-4 mt-1 flex-shrink-0" />
+                  <span className={`text-gray-700 text-sm leading-relaxed ${isArabic ? "font-arabic" : ""}`}>
+                    {isArabic ? "أكاديمية معتمدة من Highfield تقدم مؤهلات أمنية معترف بها دولياً" : "Highfield-accredited training provider delivering internationally recognised qualifications"}
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-ssta-gold w-4 h-4 mt-1 flex-shrink-0" />
+                  <span className={`text-gray-700 text-sm leading-relaxed ${isArabic ? "font-arabic" : ""}`}>
+                    {isArabic ? "مدربون معتمدون من هيئة صناعة الأمن البريطانية SIA" : "Instructors approved by UK's Security Industry Authority (SIA)"}
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-ssta-gold w-4 h-4 mt-1 flex-shrink-0" />
+                  <span className={`text-gray-700 text-sm leading-relaxed ${isArabic ? "font-arabic" : ""}`}>
+                    {isArabic ? "خبرة في تدريب محترفين للملاعب والمطارات والأحداث الدولية الكبرى" : "Trained professionals for stadiums, airports, and major international events"}
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-ssta-gold w-4 h-4 mt-1 flex-shrink-0" />
+                  <span className={`text-gray-700 text-sm leading-relaxed ${isArabic ? "font-arabic" : ""}`}>
+                    {isArabic ? "توفر المدربين والاعتماد مع ضمان شهادة محترمة عالمياً" : "Provides instructors and accreditation ensuring globally respected certificates"}
+                  </span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
