@@ -26,9 +26,11 @@ export const translations = {
     en: {
       hero: {
         brand: "SSTA | RAY | BOA",
-        title: "From Guard to Elite. From Firm to National Champion.",
+        title: "World‑Class Security Training for Saudi Firms and Guards.",
+        // subtitle:
+        //   "RAY | SSTA | BOA bring Saudi Arabia the world's most prestigious civilian security qualifications — Highfield International. This is the same standard trusted in the UK for stadiums, airports, malls, VIP protection, and global events. Now it is here in the Kingdom.",
         subtitle:
-          "RAY | SSTA | BOA bring Saudi Arabia the world's most prestigious civilian security qualifications — Highfield International. This is the same standard trusted in the UK for stadiums, airports, malls, VIP protection, and global events. Now it is here in the Kingdom.",
+          "SSTA in partnership with RAY Security Training Center and Black Onyx Academy brings Highfield International to Saudi Arabia. Highfield is the UK’s most respected security qualification and that certificates earned in Riyadh carry international prestige.",
         description:
           "We train your leaders, strengthen your team, and position your company to represent Saudi excellence nationwide.",
         exploreCourses: "Explore Courses",
@@ -77,12 +79,12 @@ export const translations = {
       whyNow: {
         title: "Why Now",
         regulation: {
-          title: "Regulation is coming",
+          title: "Prepare for higher national standards",
           description: "By law, 250,000+ guards must be qualified before 2030. If your company acts first, you lead the market."
         },
         events: {
           title: "Mega events are here",
-          description: "FIFA 2034, Expo 2030, giga-projects — they demand trained professionals, not unskilled guards."
+          description: "Saudi Arabia is welcoming the world – our guards must be ready for Expo 2030, FIFA 2034 and other global events."
         },
         leadership: {
           title: "Saudi leadership",
@@ -127,7 +129,7 @@ export const translations = {
         forCompanies: {
           title: "For Companies & Firms",
           points: [
-            "Win contracts. Trained guards = stronger tender scores.",
+            "Win contracts. Trained guards = stronger your bids on contracts.",
             "Client trust. \"Our guards are trained to UK Highfield standards.\"",
             "Reputation. Become known as one of the best firms in the Kingdom.",
             "Retention. Guards stay loyal when they feel respected and qualified."
@@ -188,20 +190,20 @@ export const translations = {
     ar: {
       hero: {
         brand: "SSTA | RAY | BOA",
-        title: "من الحارس إلى النخبة. من الشركة إلى البطل الوطني.",
-        subtitle: "RAY | SSTA | BOA تجلب للمملكة العربية السعودية أرقى المؤهلات الأمنية المدنية في العالم — هايفيلد الدولية. هذا هو نفس المعيار الموثوق به في المملكة المتحدة للملاعب والمطارات والمولات وحماية الشخصيات المهمة والأحداث العالمية. الآن هو هنا في المملكة.",
+        title: "تدريب أمني على مستوى عالمي للشركات والحراس السعوديين.",
+        subtitle: "بالتعاون مع مركز راي للتدريب الأمني ​​وأكاديمية بلاك أونيكس، تُقدّم شركة SSTA برنامج هايفيلد الدولي في المملكة العربية السعودية. يُعدّ برنامج هايفيلد من أكثر المؤهلات الأمنية احترامًا في المملكة المتحدة، وتتمتع شهاداته في الرياض بمكانة دولية مرموقة.",
         exploreCourses: "استكشف الدورات",
         getStarted: "ابدأ اليوم",
       },
       whyNow: {
         title: "لماذا الآن",
         regulation: {
-          title: "اللوائح قادمة",
+          title: "الاستعداد للمعايير الوطنية الأعلى",
           description: "بموجب القانون، يجب أن يكون أكثر من 250,000 حارس مؤهلين قبل 2030. إذا تصرفت شركتك أولاً، فستقود السوق."
         },
         events: {
           title: "الأحداث الضخمة هنا",
-          description: "فيفا 2034، إكسبو 2030، المشاريع العملاقة — تتطلب محترفين مدربين، وليس حراس غير مهرة."
+          description: "السعودية ترحب بالعالم – يجب أن يكون حراسنا مستعدين لمعرض إكسبو 2030، وكأس العالم 2034، وغيرها من الأحداث العالمية."
         },
         leadership: {
           title: "القيادة السعودية",
@@ -246,7 +248,7 @@ export const translations = {
         forCompanies: {
           title: "للشركات والمؤسسات",
           points: [
-            "كسب العقود. الحراس المدربون = نقاط عطاء أقوى.",
+            "اربح العقود. حراس مدربون = عروض أقوى على العقود.",
             "ثقة العملاء. \"حراسنا مدربون على معايير هايفيلد في المملكة المتحدة.\"",
             "السمعة. كن معروفًا كواحدة من أفضل الشركات في المملكة.",
             "الاحتفاظ. يبقى الحراس مخلصين عندما يشعرون بالاحترام والتأهيل."
