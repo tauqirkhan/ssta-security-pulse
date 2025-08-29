@@ -214,7 +214,7 @@ Samraj prepares teams for moments where failure is not an option.
               arabicName="أندرو فوستر"
               arabicPosition="مدير التدريب"
               arabicBio="يجلب أندرو فوستر أكثر من 25 عامًا من الخبرة في الخطوط الأمامية في الجيش والأمن الخاص، بما في ذلك 13 عامًا مع كتيبة المظلات الأولى (SFSG)، ويواصل الخدمة كاحتياطي نشط في الجيش. مدرب بدني مؤهل في الجيش، يلعب أيضًا الرجبي ويدربه، ويجلب نفس التركيز على العمل الجماعي والانضباط والقيادة إلى نهجه التدريبي."
-              imageUrl={andrewImage}
+              imageUrl="/training_leadership/andrew_boa.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.1s" }}
               bio={`Andrew Foster brings over 25 years of frontline experience in military and private security, including 13 years with the 1st Battalion Parachute Regiment (SFSG), and continues to serve as an active Army Reservist. A qualified Army Physical Training Instructor, he also plays and coaches rugby, bringing the same focus on teamwork, discipline, and leadership into his training approach.
@@ -228,7 +228,7 @@ He has trained and led teams in high-risk environments across Iraq, Afghanistan,
               arabicName="بن ويلموت"
               arabicPosition="مدير تطوير الفريق"
               arabicBio="بخلفية متميزة كعضو سابق في كوماندوز البحرية الملكية، يجلب بن أكثر من 22 عامًا من الخبرة التشغيلية إلى دوره كمدير تطوير الفرق. تمتد مسيرته المهنية عبر مجموعة واسعة من البيئات عالية المخاطر، حيث قدم خدمات استشارات أمنية حول العالم."
-              imageUrl={benImage}
+              imageUrl="/training_leadership/ben_boa.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.2s" }}
               bio={`With a distinguished background as a former Royal Marines Commando, Ben brings over 22 years of operational experience to his role as Teams Development Manager. His career spans a wide range of high-risk environments, where he has delivered security consultancy services across the globe.
@@ -246,7 +246,7 @@ Today, Ben draws on this extensive experience to deliver practical, mission-focu
               arabicName="دارين كلاشر"
               arabicPosition="مدرب"
               arabicBio="دارين كلاشر، مدرب تدريب مخصص، ينمو باستمرار في الخبرة والمهارة كل يوم. شغفه بالتعلم والتطوير يدفعه لتحسين أساليبه وتعزيز برامجه التدريبية. مع اكتساب دارين المزيد من الخبرة، يبقى ملتزمًا بتقديم تعليم فعال وجذاب ومؤثر يدعم نمو ونجاح متدربيه."
-              imageUrl={darrenImage}
+              imageUrl="/training_leadership/darren_boa.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.3s" }}
               bio={`Darren Clacher, a dedicated Training Instructor, is continually growing in expertise and skill each day. His passion for learning and development drives him to refine his methods and enhance his training programs. As Darren gains more experience, he remains committed to delivering effective, engaging, and impactful instruction that supports the growth and success of his trainees.`}
