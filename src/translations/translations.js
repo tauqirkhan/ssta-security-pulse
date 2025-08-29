@@ -80,7 +80,7 @@ export const translations = {
         title: "Why Now",
         regulation: {
           title: "Prepare for higher national standards",
-          description: "By law, 250,000+ guards must be qualified before 2030. If your company acts first, you lead the market."
+          description: "250,000+ guards must be qualified before 2030. If your company acts first, you lead the market."
         },
         events: {
           title: "Mega events are here",
@@ -199,7 +199,7 @@ export const translations = {
         title: "لماذا الآن",
         regulation: {
           title: "الاستعداد للمعايير الوطنية الأعلى",
-          description: "بموجب القانون، يجب أن يكون أكثر من 250,000 حارس مؤهلين قبل 2030. إذا تصرفت شركتك أولاً، فستقود السوق."
+          description: "يجب تأهيل أكثر من 250 ألف حارس قبل عام 2030. إذا تحركت شركتك أولاً، فستقود السوق."
         },
         events: {
           title: "الأحداث الضخمة هنا",
