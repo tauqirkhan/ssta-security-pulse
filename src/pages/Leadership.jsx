@@ -59,13 +59,13 @@ const Leadership = () => {
       يجمع توقير خان بين مزيج فريد من الخبرة التقنية والفطنة التسويقية، ويتمتع بخبرة تزيد عن أربع سنوات في البرمجة إلى جانب خلفية قوية في المبيعات والتسويق. بصفته المسؤول التنفيذي للتسويق في سعودي سيكيوريتي ترينينغ آند أدفانسمنت، يستفيد من عقليته التحليلية واستراتيجيته الإبداعية لتعزيز ظهور العلامة التجارية، ودفع المشاركة، ودعم أهداف نمو الأكاديمية في صناعة التدريب الأمني.
       `,
     },
-    andy: {
-      name: " آندي ناغرا",
+    indy: {
+      name: "إندي ناغرا",
       position: "رئيس الحماية المرافقة في",
       bio: `
-        يُعد آندي ناغرا خبيراً أمنياً متمرساً وذو سمعة رفيعة، وُلد ويقيم في لندن، ويتمتع بخبرة دولية تزيد على عشرين عاماً في مجال الحماية الأمنية. شملت مسيرته عمليات ميدانية في العراق وأفغانستان مع فوج المظلات السابع التابع للجيش البريطاني، إضافة إلى عمله مع وزارة الدفاع الأمريكية في الشرق الأوسط، وقطاع النفط والغاز، وكذلك مع العائلات الملكية في دولة الإمارات، والمشاهير، والرؤساء التنفيذيين للشركات.
+      إندي ناغرا خبير أمنيّ ذو خبرة واسعة ومرموق، وُلد في لندن، يتمتع بخبرة دولية تزيد عن 20 عامًا في مجال الأمن الوقائي. تشمل مسيرته المهنية عمليات انتشار في العراق وأفغانستان مع فوج المظلات السابع التابع للجيش البريطاني، بالإضافة إلى عمله مع وزارة الدفاع الأمريكية في الشرق الأوسط، وقطاع النفط والغاز، وأفراد من العائلة المالكة الإماراتية، ومشاهير، ورؤساء تنفيذيين لشركات.
 
-يمتلك آندي خبرة واسعة ومثبتة في مجال الحماية المرافقة، والتدريب، ودمج القوى العاملة. ومؤخراً تولى قيادة الحماية المرافقة لنجوم الصف الأول خلال مهرجان البحر الأحمر السينمائي، كما قدم خدمات أمنية خاصة لشخصيات بارزة وأصحاب الثروات الكبيرة في المملكة العربية السعودية.
+يتمتع إندي بخبرة مثبتة في مجال الحماية الشخصية والتدريب وتكامل القوى العاملة. ومؤخرًا، قاد خدمات الحماية الشخصية لنجوم من الصف الأول في مهرجان البحر الأحمر السينمائي، كما قدّم خدمات أمن خاص لكبار الشخصيات وعملاء من أصحاب الثروات الكبيرة في المملكة العربية السعودية.
       `
     }
   };
@@ -153,18 +153,18 @@ With a deep commitment to Saudi Arabia's transformation, Sukh Gill represents a 
             />
 
             <TeamMemberCard
-              name="Andy Nagra"
+              name="Indy Nagra"
               position="Head Of Close Protection"
-              arabicName={teamMemberTranslations.andy.name}
-              arabicPosition={teamMemberTranslations.andy.position}
-              arabicBio={teamMemberTranslations.andy.bio}
-              imageUrl="/leadership/andy.jpg"
+              arabicName={teamMemberTranslations.indy.name}
+              arabicPosition={teamMemberTranslations.indy.position}
+              arabicBio={teamMemberTranslations.indy.bio}
+              imageUrl="/leadership/indy.jpg"
               className="animate-fade-in"
               style={{ animationDelay: "0.3s" }}
               bio={`
-                    Andy Nagra is a highly experienced and respected London-born security professional with over 20 years of international expertise in protective security. His career includes operational deployments in Iraq and Afghanistan with the British Army’s 7th Parachute Regiment RHA, as well as work with the US Department of Defense in the Middle East, the oil and gas sector, UAE Royalty, celebrities, and corporate CEOs.
+                    Indy Nagra is a highly experienced and respected London-born security professional with over 20 years of international expertise in protective security. His career includes operational deployments in Iraq and Afghanistan with the British Army’s 7th Parachute Regiment RHA, as well as work with the US Department of Defense in the Middle East, the oil and gas sector, UAE Royalty, celebrities, and corporate CEOs.
 
-Andy has a proven background in close protection, training, and workforce integration. Most recently, he led close protection for A-list stars at the Red Sea Film Festival and has also provided private security for VIP and high-net-worth clients in Saudi Arabia.
+Indy has a proven background in close protection, training, and workforce integration. Most recently, he led close protection for A-list stars at the Red Sea Film Festival and has also provided private security for VIP and high-net-worth clients in Saudi Arabia.
                   `}
             />
 
