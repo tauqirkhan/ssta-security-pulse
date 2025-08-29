@@ -485,6 +485,8 @@ export const translations = {
         "Saudi Security Training & Advancement - The new standard in Saudi security training.",
       quickLinks: "Quick Links",
       contactUs: "Contact Us",
+      crNumber: "CR Number",
+      address: "Address",
       partnerWithUs: {
         title: "Partner With Us",
         description:
@@ -499,6 +501,8 @@ export const translations = {
         "سعودي سيكيوريتي ترينينغ آند أدفانسمنت - المعيار الجديد في التدريب الأمني السعودي.",
       quickLinks: "روابط سريعة",
       contactUs: "اتصل بنا",
+      crNumber: "رقم السجل التجاري",
+      address: "العنوان",
       partnerWithUs: {
         title: "تعاون معنا",
         description: "هل تتطلع إلى تقديم تدريب معتمد عبر مؤسستك؟ دعنا نتحدث.",
