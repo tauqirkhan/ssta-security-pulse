@@ -627,7 +627,7 @@ export const translations = {
           "Have questions about our training programs? Contact us today.",
         location: {
           title: "Our Location",
-          address: "Office No. 310, 3rd Floor, City Plaza Building, Al-Ihsa Street, Al-Malaz District, Riyadh, Saudi Arabia",
+          address: "47, 3rd Floor, Office 2085, Imam Abdullah Bin Saud Road, Riyadh, Saudi Arabia, 13225",
         },
         email: {
           title: "Email Us",
@@ -659,7 +659,7 @@ export const translations = {
         subtitle:
           "Our training academy is conveniently located in Riyadh's business district",
         office: "SSTA Office Location",
-        address: "Office No. 310, 3rd Floor, City Plaza Building, Al-Ihsa Street, Al-Malaz District, Riyadh, Saudi Arabia",
+        address: "47, 3rd Floor, Office 2085, Imam Abdullah Bin Saud Road, Riyadh, Saudi Arabia, 13225",
         map: "Location Map",
       },
     },
@@ -673,7 +673,7 @@ export const translations = {
         subtitle: "هل لديك أسئلة حول برامجنا التدريبية؟ اتصل بنا اليوم.",
         location: {
           title: "موقعنا",
-          address: "المكتب رقم ٣١٠، الطابق الثالث، مبنى سيتي بلازا، شارع الإحساء، حي الملز، الرياض، المملكة العربية السعودية",
+          address: "٤٧، الطابق الثالث، مكتب ٢٠٨٥، طريق الإمام عبد الله بن سعود، الرياض، المملكة العربية السعودية، ١٣٢٢٥",
         },
         email: {
           title: "البريد الإلكتروني",
@@ -703,8 +703,8 @@ export const translations = {
       visit: {
         title: "قم بزيارتنا",
         subtitle: "تقع أكاديمية التدريب الخاصة بنا في منطقة الأعمال بالرياض",
-        office: "المكتب رقم ٣١٠، الطابق الثالث، مبنى سيتي بلازا، شارع الإحساء، حي الملز، الرياض، المملكة العربية السعودية",
-        address: "الرياض، المملكة العربية السعودية",
+        office: "موقع مكتب SSTA",
+        address: "47، الطابق الثالث، مكتب 2085، طريق الإمام عبد الله بن سعود، الرياض، المملكة العربية السعودية، 13225",
         map: "خريطة الموقع",
       },
     },

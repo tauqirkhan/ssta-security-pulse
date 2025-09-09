@@ -405,8 +405,7 @@ const Contact = () => {
               </h3>
               <div className="w-full h-[300px]">
                 <iframe
-                  // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.291244581539!2d46.7134375!3d24.7135831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2sRiyadh%2C%20Saudi%20Arabia!5e0!3m2!1sen!2sus!4v1709901234567!5m2!1sen!2sus"
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8622.59838297195!2d46.735636177571266!3d24.680284842118997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1756377456096!5m2!1sen!2sin" 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.128653572055!2d46.764648375149726!3d24.791047777974644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2efe3df7e68cff%3A0x685bad8ff87f2f9!2zMjA4NSBJbWFtIEFiZHVsbGFoIElibiBTYXVkIElibiBBYmR1bGF6aXogUmQsINit2Yog2KfYtNio2YrZhNmK2KnYjCBSaXlhZGggMTMyMjUsIFNhdWRpIEFyYWJpYQ!5e0!3m2!1sen!2sin!4v1757430111624!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

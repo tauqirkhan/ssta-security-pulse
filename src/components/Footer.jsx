@@ -107,8 +107,8 @@ const Footer = () => {
                   <div className="font-medium mb-1">{t.address}</div>
                   <div className="text-sm leading-relaxed">
                     {isArabic 
-                      ? "مكتب رقم 310، الطابق الثالث، مبنى سيتي بلازا، شارع الأحساء، حي الملز، الرياض، المملكة العربية السعودية"
-                      : "Office No. 310, 3rd Floor, City Plaza Building, Al-Ihsa Street, Al-Malaz District, Riyadh, Saudi Arabia"
+                      ? "47، الطابق الثالث، مكتب 2085، طريق الإمام عبد الله بن سعود، الرياض، المملكة العربية السعودية، 13225"
+                      : "47, 3rd Floor, Office 2085, Imam Abdullah Bin Saud Road, Riyadh, Saudi Arabia, 13225"
                     }
                   </div>
                 </div>
