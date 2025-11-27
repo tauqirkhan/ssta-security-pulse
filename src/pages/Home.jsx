@@ -204,7 +204,7 @@ const Home = () => {
             subtitle={isArabic ? "شراكة استراتيجية لتحويل قطاع الأمن المدني في المملكة" : "A Strategic Partnership Transforming Saudi Arabia's Civilian Security Sector"}
           />
           
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-12">
             {/* SSTA Card */}
             <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fade-in" style={{ animationDelay: "0.1s" }}>
               <div className="bg-ssta-gold/10 p-4 rounded-full w-20 h-20 flex items-center justify-center mb-6 mx-auto">
@@ -278,7 +278,7 @@ const Home = () => {
             </div>
 
             {/* BOA Card */}
-            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fade-in" style={{ animationDelay: "0.3s" }}>
+            {/* <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fade-in" style={{ animationDelay: "0.3s" }}>
               <div className="bg-ssta-gold/10 p-4 rounded-full w-20 h-20 flex items-center justify-center mb-6 mx-auto">
                 <Award className="text-ssta-gold w-10 h-10" />
               </div>
@@ -311,7 +311,7 @@ const Home = () => {
                   </span>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

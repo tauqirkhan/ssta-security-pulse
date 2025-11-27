@@ -25,12 +25,13 @@ export const translations = {
   home: {
     en: {
       hero: {
-        brand: "SSTA | RAY | BOA",
+        // brand: "SSTA | RAY | BOA",
+        brand: "SSTA | RAY",
         title: "World‑Class Security Training for Saudi Firms and Guards.",
         // subtitle:
         //   "RAY | SSTA | BOA bring Saudi Arabia the world's most prestigious civilian security qualifications — Highfield International. This is the same standard trusted in the UK for stadiums, airports, malls, VIP protection, and global events. Now it is here in the Kingdom.",
         subtitle:
-          "SSTA in partnership with RAY Security Training Center and Black Onyx Academy brings Highfield International to Saudi Arabia. Highfield is the UK’s most respected security qualification and that certificates earned in Riyadh carry international prestige.",
+          "SSTA in partnership with RAY Security Training Center brings Highfield International to Saudi Arabia. Highfield is the UK’s most respected security qualification and that certificates earned in Riyadh carry international prestige.",
         description:
           "We train your leaders, strengthen your team, and position your company to represent Saudi excellence nationwide.",
         exploreCourses: "Explore Courses",
@@ -189,9 +190,10 @@ export const translations = {
     },
     ar: {
       hero: {
-        brand: "SSTA | RAY | BOA",
+        // brand: "SSTA | RAY | BOA",
+        brand: "SSTA | RAY",
         title: "تدريب أمني على مستوى عالمي للشركات والحراس السعوديين.",
-        subtitle: "بالتعاون مع مركز راي للتدريب الأمني ​​وأكاديمية بلاك أونيكس، تُقدّم شركة SSTA برنامج هايفيلد الدولي في المملكة العربية السعودية. يُعدّ برنامج هايفيلد من أكثر المؤهلات الأمنية احترامًا في المملكة المتحدة، وتتمتع شهاداته في الرياض بمكانة دولية مرموقة.",
+        subtitle: "بالتعاون مع مركز راي للتدريب الأمني، تُقدّم شركة SSTA شهادة هايفيلد الدولية إلى المملكة العربية السعودية. تُعدّ هايفيلد من أرقى شهادات الأمن في المملكة المتحدة، وتتمتع شهاداتها في الرياض بمكانة دولية مرموقة.",
         exploreCourses: "استكشف الدورات",
         getStarted: "ابدأ اليوم",
       },
