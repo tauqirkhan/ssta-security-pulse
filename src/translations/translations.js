@@ -25,13 +25,10 @@ export const translations = {
   home: {
     en: {
       hero: {
-        // brand: "SSTA | RAY | BOA",
-        brand: "SSTA | RAY",
-        title: "World‑Class Security Training for Saudi Firms and Guards.",
-        // subtitle:
-        //   "RAY | SSTA | BOA bring Saudi Arabia the world's most prestigious civilian security qualifications — Highfield International. This is the same standard trusted in the UK for stadiums, airports, malls, VIP protection, and global events. Now it is here in the Kingdom.",
+        brand: "SSTA",
+        title: "World-Class Security Training for Saudi Firms and Guards.",
         subtitle:
-          "SSTA in partnership with RAY Security Training Center brings Highfield International to Saudi Arabia. Highfield is the UK’s most respected security qualification and that certificates earned in Riyadh carry international prestige.",
+          "SSTA brings Highfield International to Saudi Arabia. Highfield is the UK's most respected security qualification and certificates earned in Riyadh carry international prestige.",
         description:
           "We train your leaders, strengthen your team, and position your company to represent Saudi excellence nationwide.",
         exploreCourses: "Explore Courses",
@@ -41,13 +38,13 @@ export const translations = {
       about: {
         title: "About SSTA",
         subtitle:
-          "The Saudi Security Training & Advancement (SSTA) is more than a training provider — we are the Kingdom’s benchmark for security excellence.",
+          "The Saudi Security Training & Advancement (SSTA) is more than a training provider — we are the Kingdom's benchmark for security excellence.",
         paragraph1:
-          "Saudi-led and globally aligned, SSTA delivers world-class training and certification for the Kingdom’s private security sector.",
+          "Saudi-led and globally aligned, SSTA delivers world-class training and certification for the Kingdom's private security sector.",
         paragraph2:
-          "We don’t compete with Saudi firms — we partner with them. With local leadership and British expertise, we strengthen the industry from within.",
+          "We don't compete with Saudi firms — we partner with them. With local leadership and British expertise, we strengthen the industry from within.",
         paragraph3:
-          "We don’t sell to the public or supply manpower — we build leaders. From training your team to helping you launch your own academy, we work behind the scenes so you can lead from the front.",
+          "We don't sell to the public or supply manpower — we build leaders. From training your team to helping you launch your own academy, we work behind the scenes so you can lead from the front.",
         learnMore: "Learn More",
         programs: "Elite Programs",
       },
@@ -89,19 +86,8 @@ export const translations = {
         },
         leadership: {
           title: "Saudi leadership",
-          description: "RAY + SSTA run the programs inside KSA. BOA brings Highfield-accredited trainers. Together, we combine Saudi pride with international credibility."
+          description: "SSTA runs the programs inside KSA. BOA brings Highfield-accredited trainers. Together, we combine Saudi pride with international credibility."
         }
-      },
-      whoIsRaay: {
-        title: "Who is RAY?",
-        subtitle: "RAY Training & Consulting Center, led by Dr. Abdullah Alyousyl, is a TVTC-certified Saudi academy.",
-        points: [
-          "Specialises in security training, cybersecurity, artificial intelligence, data science, and risk management.",
-          "Operates licensed academy facilities and the Ray.sa e-learning platform, combining modern digital training with in-person delivery.",
-          "Staffed by experienced consultants with military and security backgrounds, delivering strategic security planning, crisis management, and risk management solutions.",
-          "Recognised as one of Saudi Arabia's leading institutions for human capital development and digital transformation, aligned with Vision 2030."
-        ],
-        conclusion: "With RAY’s licences and national authority, SSTA’s market strategy, and BOA’s Highfield certification, our partnership delivers the perfect blend of Saudi sovereignty and global credibility."
       },
       highfieldPrestige: {
         title: "The Prestige of Highfield",
@@ -190,10 +176,9 @@ export const translations = {
     },
     ar: {
       hero: {
-        // brand: "SSTA | RAY | BOA",
-        brand: "SSTA | RAY",
+        brand: "SSTA",
         title: "تدريب أمني على مستوى عالمي للشركات والحراس السعوديين.",
-        subtitle: "بالتعاون مع مركز راي للتدريب الأمني، تُقدّم شركة SSTA شهادة هايفيلد الدولية إلى المملكة العربية السعودية. تُعدّ هايفيلد من أرقى شهادات الأمن في المملكة المتحدة، وتتمتع شهاداتها في الرياض بمكانة دولية مرموقة.",
+        subtitle: "تُقدّم شركة SSTA شهادة هايفيلد الدولية إلى المملكة العربية السعودية. تُعدّ هايفيلد من أرقى شهادات الأمن في المملكة المتحدة، وتتمتع شهاداتها في الرياض بمكانة دولية مرموقة.",
         exploreCourses: "استكشف الدورات",
         getStarted: "ابدأ اليوم",
       },
@@ -209,19 +194,8 @@ export const translations = {
         },
         leadership: {
           title: "القيادة السعودية",
-          description: "RAY + SSTA تدير البرامج داخل المملكة العربية السعودية. BOA تجلب مدربين معتمدين من هايفيلد. معًا، نجمع بين الفخر السعودي والمصداقية الدولية."
+          description: "SSTA تدير البرامج داخل المملكة العربية السعودية. BOA تجلب مدربين معتمدين من هايفيلد. معًا، نجمع بين الفخر السعودي والمصداقية الدولية."
         }
-      },
-      whoIsRaay: {
-        title: "من هو RAY",
-        subtitle: "مركز RAY للتدريب والاستشارات، بقيادة الدكتور عبد الله اليوسيل، هو أكاديمية سعودية معتمدة من TVTC.",
-        points: [
-          "متخصص في التدريب الأمني والأمن السيبراني والذكاء الاصطناعي وعلوم البيانات وإدارة المخاطر.",
-          "يدير مرافق الأكاديمية المرخصة ومنصة RAY.sa للتعلم الإلكتروني، والتي تجمع بين التدريب الرقمي الحديث والتوصيل الشخصي.",
-          "يعمل به مستشارون ذوو خبرة في الخلفيات العسكرية والأمنية، ويقدمون التخطيط الأمني الاستراتيجي وإدارة الأزمات وحلول إدارة المخاطر.",
-          "معترف بها كواحدة من المؤسسات الرائدة في المملكة العربية السعودية لتنمية رأس المال البشري والتحول الرقمي، بما يتماشى مع رؤية 2030."
-        ],
-        conclusion: "مع تراخيص RAY والسلطة الوطنية، واستراتيجية السوق لـ SSTA، وشهادة BOA من هايفيلد، تقدم شراكتنا المزيج المثالي من السيادة السعودية والمصداقية العالمية."
       },
       highfieldPrestige: {
         title: "هيبة هايفيلد",
