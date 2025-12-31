@@ -204,9 +204,9 @@ const Home = () => {
             subtitle={isArabic ? "شراكة استراتيجية لتحويل قطاع الأمن المدني في المملكة" : "A Strategic Partnership Transforming Saudi Arabia's Civilian Security Sector"}
           />
           
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-12">
+          <div className="flex justify-center mt-12">
             {/* SSTA Card */}
-            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fade-in" style={{ animationDelay: "0.1s" }}>
+            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fade-in max-w-2xl w-full" style={{ animationDelay: "0.1s" }}>
               <div className="bg-ssta-gold/10 p-4 rounded-full w-20 h-20 flex items-center justify-center mb-6 mx-auto">
                 <Shield className="text-ssta-gold w-10 h-10" />
               </div>
@@ -240,78 +240,6 @@ const Home = () => {
                 </li>
               </ul>
             </div>
-
-            {/* RAY Card */}
-            <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-              <div className="bg-ssta-gold/10 p-4 rounded-full w-20 h-20 flex items-center justify-center mb-6 mx-auto">
-                <GraduationCap className="text-ssta-gold w-10 h-10" />
-              </div>
-              <h3 className={`text-xl font-bold mb-4 text-ssta-dark text-center ${isArabic ? "font-arabic" : ""}`}>
-                {isArabic ? "من هي RAY؟" : "Who is RAY?"}
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="text-ssta-gold w-4 h-4 mt-1 flex-shrink-0" />
-                  <span className={`text-gray-700 text-sm leading-relaxed ${isArabic ? "font-arabic" : ""}`}>
-                    {isArabic ? "أكاديمية سعودية مرخصة من المؤسسة العامة للتدريب التقني والمهني" : "Saudi TVTC-licensed academy led by Dr. Abdullah Alyousyl"}
-                  </span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="text-ssta-gold w-4 h-4 mt-1 flex-shrink-0" />
-                  <span className={`text-gray-700 text-sm leading-relaxed ${isArabic ? "font-arabic" : ""}`}>
-                    {isArabic ? "تحمل التراخيص والاعتمادات الرسمية لتقديم البرامج الدولية" : "Holds official licenses to deliver international programs like Highfield"}
-                  </span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="text-ssta-gold w-4 h-4 mt-1 flex-shrink-0" />
-                  <span className={`text-gray-700 text-sm leading-relaxed ${isArabic ? "font-arabic" : ""}`}>
-                    {isArabic ? "خبرة في الأمن السيبراني والذكاء الاصطناعي وإدارة المخاطر" : "Expertise in cybersecurity, AI, risk management, and digital transformation"}
-                  </span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="text-ssta-gold w-4 h-4 mt-1 flex-shrink-0" />
-                  <span className={`text-gray-700 text-sm leading-relaxed ${isArabic ? "font-arabic" : ""}`}>
-                    {isArabic ? "يوفر الإطار القانوني والمرافق والمصداقية الوطنية" : "Provides legal framework, facilities, and national credibility"}
-                  </span>
-                </li>
-              </ul>
-            </div>
-
-            {/* BOA Card */}
-            {/* <div className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fade-in" style={{ animationDelay: "0.3s" }}>
-              <div className="bg-ssta-gold/10 p-4 rounded-full w-20 h-20 flex items-center justify-center mb-6 mx-auto">
-                <Award className="text-ssta-gold w-10 h-10" />
-              </div>
-              <h3 className={`text-xl font-bold mb-4 text-ssta-dark text-center ${isArabic ? "font-arabic" : ""}`}>
-                {isArabic ? "من هي BOA؟" : "Who is BOA?"}
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="text-ssta-gold w-4 h-4 mt-1 flex-shrink-0" />
-                  <span className={`text-gray-700 text-sm leading-relaxed ${isArabic ? "font-arabic" : ""}`}>
-                    {isArabic ? "أكاديمية معتمدة من Highfield تقدم مؤهلات أمنية معترف بها دولياً" : "Highfield-accredited training provider delivering internationally recognised qualifications"}
-                  </span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="text-ssta-gold w-4 h-4 mt-1 flex-shrink-0" />
-                  <span className={`text-gray-700 text-sm leading-relaxed ${isArabic ? "font-arabic" : ""}`}>
-                    {isArabic ? "مدربون معتمدون من هيئة صناعة الأمن البريطانية SIA" : "Instructors approved by UK's Security Industry Authority (SIA)"}
-                  </span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="text-ssta-gold w-4 h-4 mt-1 flex-shrink-0" />
-                  <span className={`text-gray-700 text-sm leading-relaxed ${isArabic ? "font-arabic" : ""}`}>
-                    {isArabic ? "خبرة في تدريب محترفين للملاعب والمطارات والأحداث الدولية الكبرى" : "Trained professionals for stadiums, airports, and major international events"}
-                  </span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="text-ssta-gold w-4 h-4 mt-1 flex-shrink-0" />
-                  <span className={`text-gray-700 text-sm leading-relaxed ${isArabic ? "font-arabic" : ""}`}>
-                    {isArabic ? "توفر المدربين والاعتماد مع ضمان شهادة محترمة عالمياً" : "Provides instructors and accreditation ensuring globally respected certificates"}
-                  </span>
-                </li>
-              </ul>
-            </div> */}
           </div>
         </div>
       </section>
