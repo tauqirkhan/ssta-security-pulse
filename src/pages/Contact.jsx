@@ -97,31 +97,6 @@ const Contact = () => {
               />
 
               <div className="mt-8 space-y-6">
-                <div
-                  className={`flex items-start ${
-                    isArabic ? "flex-row-reverse" : ""
-                  }`}
-                >
-                  <div className="bg-ssta-gold/10 p-3 rounded-full flex-shrink-0 mx-4">
-                    <MapPin className="text-ssta-gold" />
-                  </div>
-                  <div className={isArabic ? "text-right" : ""}>
-                    <h3
-                      className={`text-lg font-bold mb-1 text-ssta-dark ${
-                        isArabic ? "font-arabic" : ""
-                      }`}
-                    >
-                      {t.contactInfo.location.title}
-                    </h3>
-                    <p
-                      className={`text-gray-600 ${
-                        isArabic ? "font-arabic" : ""
-                      }`}
-                    >
-                      {t.contactInfo.location.address}
-                    </p>
-                  </div>
-                </div>
 
                 <div
                   className={`flex items-start ${
@@ -362,62 +337,6 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="py-12 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <SectionTitle title={t.visit.title} subtitle={t.visit.subtitle} />
-
-          <div
-            className={`grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 ${
-              isArabic ? "rtl" : ""
-            }`}
-          >
-            {/* SSTA Office Location */}
-            <div
-              className={`bg-white rounded-lg shadow-md p-6 ${
-                isArabic ? "text-right" : ""
-              }`}
-            >
-              <h3
-                className={`text-xl font-bold text-ssta-dark mb-4 ${
-                  isArabic ? "font-arabic" : ""
-                }`}
-              >
-                {t.visit.office}
-              </h3>
-              <div
-                className={`prose text-gray-600 ${
-                  isArabic ? "font-arabic" : ""
-                }`}
-              >
-                <p className="mb-2">{t.visit.address}</p>
-              </div>
-            </div>
-
-            {/* Location Map */}
-            <div className="bg-white rounded-lg shadow-md p-6 h-full">
-              <h3
-                className={`text-xl font-bold text-ssta-dark mb-4 ${
-                  isArabic ? "font-arabic text-right" : ""
-                }`}
-              >
-                {t.visit.map}
-              </h3>
-              <div className="w-full h-[300px]">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.128653572055!2d46.764648375149726!3d24.791047777974644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2efe3df7e68cff%3A0x685bad8ff87f2f9!2zMjA4NSBJbWFtIEFiZHVsbGFoIElibiBTYXVkIElibiBBYmR1bGF6aXogUmQsINit2Yog2KfYtNio2YrZhNmK2KnYjCBSaXlhZGggMTMyMjUsIFNhdWRpIEFyYWJpYQ!5e0!3m2!1sen!2sin!4v1757430111624!5m2!1sen!2sin"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen=""
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </>
   );
 };
