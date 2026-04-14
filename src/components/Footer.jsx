@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {
-  MapPin,
   Phone,
   Mail,
   Facebook,
@@ -101,18 +100,6 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">{t.contactUs}</h3>
             <ul className="space-y-3">
-              <li className="flex items-start gap-3">
-                <MapPin size={20} className="text-ssta-gold mt-0.5 flex-shrink-0" />
-                <div className="text-gray-300">
-                  <div className="font-medium mb-1">{t.address}</div>
-                  <div className="text-sm leading-relaxed">
-                    {isArabic 
-                      ? "47، الطابق الثالث، مكتب 2085، طريق الإمام عبد الله بن سعود، الرياض، المملكة العربية السعودية، 13225"
-                      : "47, 3rd Floor, Office 2085, Imam Abdullah Bin Saud Road, Riyadh, Saudi Arabia, 13225"
-                    }
-                  </div>
-                </div>
-              </li>
               <li className="flex items-center gap-3">
                 <Mail size={20} className="text-ssta-gold" />
                 <a
@@ -130,14 +117,6 @@ const Footer = () => {
                 >
                   {isArabic ? "٩٦٦٥٠٥٧٥٣٧١٧+" : "+966 50 575 3717"}
                 </a>
-              </li>
-              <li className="flex items-center gap-3">
-                <div className="w-5 h-5 bg-ssta-gold rounded-sm flex items-center justify-center">
-                  <span className="text-ssta-dark text-xs font-bold">CR</span>
-                </div>
-                <div className="text-gray-300">
-                  <span className="font-medium">{t.crNumber}:</span> 1010975714
-                </div>
               </li>
             </ul>
           </div>
