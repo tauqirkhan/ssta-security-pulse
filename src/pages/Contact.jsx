@@ -166,7 +166,7 @@ const Contact = () => {
                         isArabic ? "font-arabic" : ""
                       }`}
                     >
-                      {isArabic ? "٩٦٦٥٠٥٧٥٣٧١٧+" : "+966 50 575 3717"}
+                      {isArabic ? "٩٦٦٥٨٣٤٠٠٠١٠+" : "+966 58 340 0010"}
                     </p>
                   </div>
                 </div>

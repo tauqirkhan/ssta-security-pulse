@@ -480,7 +480,7 @@ export const translations = {
         buttonText: "Get in Touch",
       },
       copyright:
-        "© 2025 Saudi Security Training & Advancement. All rights reserved.",
+        "© 2026 Saudi Security Training & Advancement. All rights reserved.",
     },
     ar: {
       about:
@@ -495,7 +495,7 @@ export const translations = {
         buttonText: "تواصل معنا",
       },
       copyright:
-        "© ۲۰۲٥ سعودي سيكيوريتي ترينينغ آند أدفانسمنت. جميع الحقوق محفوظة.",
+        "© ۲۰۲٦ سعودي سيكيوريتي ترينينغ آند أدفانسمنت. جميع الحقوق محفوظة.",
     },
   },
 
@@ -611,7 +611,7 @@ export const translations = {
         },
         phone: {
           title: "Call Us",
-          number: "+966 50 575 3717",
+          number: "+966 58 340 0010",
         },
       },
       form: {
@@ -657,7 +657,7 @@ export const translations = {
         },
         phone: {
           title: "اتصل بنا",
-          number: "+966 50 575 3717",
+          number: "+966 58 340 0010",
         },
       },
       form: {
